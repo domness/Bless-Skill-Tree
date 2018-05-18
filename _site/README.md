@@ -1,3 +1,0 @@
-# Bless Skill Tree
-
-Coming soon...
