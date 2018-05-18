@@ -15,9 +15,15 @@ permalink: paladin.html
 
 <h2>Stances</h2>
 
+<ul>
+{% for stance in site.data.paladin.stances %}
+  <li><a href="#{{stance.slug}}">{{stance.name}}</a></li>
+{% endfor %}
+</ul>
+
 {% for stance in site.data.paladin.stances %}
   <div class='stance'>
-    <div class='stance-name'>
+    <div class='stance-name' id='{{ stance.slug }}'>
       <h3>{{ stance.name }}</h3>
     </div>
 
