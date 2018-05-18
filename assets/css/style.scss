@@ -42,6 +42,18 @@
   float: left;
 }
 
+.rotation {
+  display: inline-block;
+
+  .skill {
+    width: auto;
+
+    .skill-title {
+      display: none;
+    }
+  }
+}
+
 .skill-tooltip {
   text-align: left;
   vertical-align: top;
@@ -82,32 +94,37 @@
 
 .stance {
   margin: 15px;
-  width: 100%;
   clear: both;
   margin-top: 15px;
   text-align: center;
-  display: inline-block;
+  min-width: 400px;
 
   .combo.initial {
     text-align: center;
-    display: inline-table;
-    width: 200px;
+    display: block;
     vertical-align: top;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #222;
+
+    .skill {
+      min-height: 85px;
+    }
   }
 
   .combo {
     text-align: center;
     display: inline-block;
-    margin: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     vertical-align: top;
+    min-width: 100px;
 
     .skill {
       vertical-align: top;
       text-align: center;
       display: block;
-      margin: 5px;
-      width: 100%;
+      margin: auto;
+      padding: 5px;
     }
   }
 }

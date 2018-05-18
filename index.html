@@ -17,15 +17,21 @@ title: Bless Skill Tree
   {% endfor %}
 </ul>
 
-<h2>Examples</h2>
+<h2>Skill icons and tooltips</h2>
 
-<h3>Paladin non-stance skills</h3>
+<div class='skills'>
+  {% for skill in site.data.paladin.non_stance_skills %}
+    {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+    {% include skill.html skill=skill_data %}
+  {% endfor %}
+</div>
 
-{% for skill in site.data.paladin.non_stance_skills %}
-  {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
-  {% include skill.html skill=skill_data %}
-{% endfor %}
+<h2>Rotations</h2>
 
-<h3>Combo Tree</h3>
-
-Coming soon...
+<div class='rotation'>
+  {% assign rotation = site.data.paladin.rotations | where: "name", 'Example combo' | first %}
+  {% for skill in rotation.skills %}
+    {% assign skill_data = site.data.paladin.skills | where: "slug", skill | first %}
+    {% include skill.html skill=skill_data %}
+  {% endfor %}
+</div>
