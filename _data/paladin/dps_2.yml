@@ -1,0 +1,23 @@
+- slug: verdict
+  followed:
+    - slug: judgement
+      followed:
+        - slug: sacred-verdict
+    - slug: conviction
+      followed:
+        - slug: execute
+
+- slug: chastisement-chain
+  followed:
+    - slug: judgement
+      followed:
+        - slug: execute
+    - slug: fierce-strike
+      followed:
+        - slug: chastise
+
+- slug: branded
+  followed:
+    - slug: celestial-armor
+    - slug: crusaders-will
+    - slug: fanaticism

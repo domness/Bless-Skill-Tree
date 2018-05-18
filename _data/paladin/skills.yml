@@ -208,3 +208,61 @@
     - time until can be used again 10.00 seconds
   skill-descriptions:
     - Temporarily increases Paladin's Fighting Power.
+
+- slug: judgement
+  name: Judgement
+  image: paladin/judgement.png
+  skill-details:
+    - targeting skill
+    - effective distance 25.00m
+    - maximum mana 12.00% + 60 consumption
+  skill-descriptions:
+    - Deals 548 damage to the enemy. Applies the [Divine Punishment] effect for 10 seconds to enemies affected by the [Branded] or [Verdict] effects. [Divine Punishment] effect can be stacked up to 3 times.
+
+- slug: chastisement-chain
+  name: Chastisement Chain
+  image: paladin/chastisement-chain.png
+  skill-details:
+    - targeting skill
+    - effective distance 15.00m
+    - maximum mana 20.00%
+    - time until can be used again 7.00 seconds
+  skill-descriptions:
+    - Blocks enemies' skill casting. Also applies the [Chastisement Chain] effect, which prevents the enemy from moving for 5 seconds. The [Chastisement Chain] gradually constricts the enemy and explodes, inflicting damage when dismissed.
+
+- slug: fierce-strike
+  name: Fierce Strike
+  image: paladin/fierce-strike.png
+  skill-details:
+    - targeting skill
+    - effective distance 4.00m
+    - maximum mana 4.50% consumption
+  skill-descriptions:
+    - Deals 162 damage to the enemy. Restores 5% of max Mana.
+
+- slug: celestial-armor
+  name: Celestial Armor
+  image: paladin/celestial-armor.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 15.00 seconds
+  skill-descriptions:
+    - Increases Physical Defense by 50% and provides immunity to ensnare, root, and position control effects for 6 seconds.
+
+- slug: crusaders-will
+  name: Crusader's Will
+  image: paladin/crusaders-will.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 10.00 seconds
+  skill-descriptions:
+    - Increases Paladin's Mana recovery for 5 seconds.
+
+- slug: fanaticism
+  name: Fanaticism
+  image: paladin/fanaticism.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 10.00 seconds
+  skill-descriptions:
+    - Increases Paladin's Critical Hit by 50% for 5 seconds.

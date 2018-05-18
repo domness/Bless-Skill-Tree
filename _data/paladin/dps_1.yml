@@ -5,7 +5,7 @@
         - slug: chastise
     - slug: verdict
       followed:
-          - slug: conviction
+        - slug: conviction
 
 - slug: retribution
   followed:
@@ -14,7 +14,7 @@
         - slug: sacred-verdict
     - slug: execute
       followed:
-          - slug: penalize
+        - slug: penalize
 
 - slug: branded
   followed:
