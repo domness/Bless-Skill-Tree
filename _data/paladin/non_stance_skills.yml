@@ -1,0 +1,76 @@
+- slug: holy-explosion
+  name: Holy Explosion
+  image: paladin/holy-explosion.png
+  skill-details:
+    - non targeting skill
+    - maximum mana 10.00% + 100 consumption
+    - time until can be used again 30.00 seconds
+  skill-descriptions:
+    - Deals 429 damage to enemies within a 5m radius, knocking them back.
+
+- slug: purify
+  name: Purify
+  image: paladin/purify.png
+  skill-details:
+    - targeting skill
+    - effective distance 25.00m
+    - maximium mana 5.00% + 50 consumption
+    - time until can be used again 20.00 seconds
+  skill-descriptions:
+    - Removes all Poison, Curse and Wound effects from allies. Continues to remove all Poison, Curse, and Wound effects from allies at regular intervals.
+    - Stacks up to 3 times.
+
+- slug: transcend
+  name: Transcend
+  image: paladin/transcend.png
+  skill-details:
+    - non targeting skill
+    - maximium mana 5.00% + 50 consumption
+    - time until can be used again 90.00 seconds
+  skill-descriptions:
+    - Able to cast spells while moving for 7 seconds. Grants immunity to all Crowd Control and Position Control effects and increases Movement Speed by 20%.
+    - 'Skills effected: [Retribution], [Beacon of Healing], [Healing Light], [Healing Grace], [Resurrection]'
+
+- slug: sacred-ground
+  name: Sacred Ground
+  image: paladin/sacred-ground.png
+  skill-details:
+    - non targeting skill
+    - maximium mana 10.00% + 100 consumption
+    - time until can be used again 90.00 seconds
+  skill-descriptions:
+    - Covers the caster's surroundings with divine power for 10 seconds. Reduces damage dealt to allies in the sacred ground by 30% and Movement Speed of hostile targets by 20%.
+
+- slug: endure
+  name: Endure
+  image: paladin/endure.png
+  skill-details:
+    - non targeting skill
+    - maximium mana 10.00% + 100 consumption
+    - time until can be used again 30.00 seconds
+  skill-descriptions:
+    - Removes all detrimental timed effects. For the duration of the effect, grants immunity to all effects, including Position Control effects such as Floating.
+    - Heals the caster during the skill effect duration.
+
+- slug: resurrection
+  name: Resurrection
+  image: paladin/resurrection.png
+  skill-details:
+    - targeting skill
+    - effective distance 15.00m
+    - casting time 4.00 seconds
+    - maximium mana 25.00% consumption
+    - time until can be used again 15.00 seconds
+  skill-descriptions:
+    - Resurrects a dead ally into a state of 30% Vitality and Mana.
+    - Cannot be used in the Certanon Arena.
+
+- slug: concentration
+  name: Concentration
+  image: paladin/concentration.png
+  skill-details:
+    - non targeting skill
+    - maximium mana 5.00% + 50 consumption
+    - time until can be used again 20.00 seconds
+  skill-descriptions:
+    - Reduces cooldown time of [Crusader's Will], [Fanaticism], [Prayer], [Seeker's Devotion] and [Benevolence] skills by 30%.
