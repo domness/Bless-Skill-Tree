@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Bless Skill Tree
 ---
 
 ## Classes
