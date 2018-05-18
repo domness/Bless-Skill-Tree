@@ -98,7 +98,7 @@
   clear: both;
   margin-top: 15px;
   text-align: center;
-  min-width: 400px;
+  min-width: 350px;
 
   .combo.initial {
     text-align: center;
@@ -109,7 +109,12 @@
     background: #222;
 
     .skill {
-      min-height: 85px;
+      width: 45px;
+      height: 45px;
+
+      .skill-title {
+        display: none;
+      }
     }
   }
 
