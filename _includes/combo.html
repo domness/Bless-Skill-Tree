@@ -1,0 +1,6 @@
+{% assign combos = include.comboskill.followed %}
+<ul>
+{% for combo in combos %}
+  <li>{% include combos.html %}</li>
+{% endfor %}
+</ul>

@@ -1,0 +1,52 @@
+- slug: strike
+  name: Strike
+  image: paladin/strike.png
+  skill-details:
+    - targeting skill
+    - effective distance 4.00m
+    - time until can be used again 1.50 seconds
+  skill-descriptions:
+    - Deals 129 damage to the enemy.
+  followed:
+    - rapid-strike
+    - verdict
+
+- slug: verdict
+  name: Verdict
+  image: paladin/rapid-strike.png
+  skill-details:
+    - targeting skill
+    - effective distance 4.00m
+    - maximum mana 15.00% + 50 consumption
+  skill-descriptions:
+    - Deals 476 damage to the enemy and knocks them down.
+
+- slug: rapid-strike
+  name: Rapid Strike
+  image: paladin/rapid-strike.png
+  skill-details:
+    - targeting skill
+    - effective distance 4.00m
+  skill-descriptions:
+    - Deals 143 damage to the enemy.
+
+- slug: chastise
+  name: Chastise
+  image: paladin/chastise.png
+  skill-details:
+    - targeting skill
+    - effective distance 4.00m
+    - maximum mana 10.00% + 45 consumption
+  skill-descriptions:
+    - Deals 235 damage to the enemy.
+    - If the enemy is already affected by the [Divine Punishment] or [Smash] effects, other nearby enemies will gain this effect.
+
+- slug: conviction
+  name: Conviction
+  image: paladin/conviction.png
+  skill-details:
+    - targeting skill
+    - effective distance 11.00m
+    - maximum mana 11.00% + 50 consumption
+  skill-descriptions:
+    - You fly at the fallen enemy, dealing 645 damage and reducing its Movement Speed by 20%

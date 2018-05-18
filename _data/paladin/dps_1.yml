@@ -1,0 +1,23 @@
+- slug: strike
+  followed:
+    - slug: rapid-strike
+      followed:
+        - slug: chastise
+    - slug: verdict
+      followed:
+          - slug: conviction
+
+- slug: retribution
+  followed:
+    - slug: verdict
+      followed:
+        - slug: sacred-verdict
+    - slug: execute
+      followed:
+          - slug: penalize
+
+- slug: branded
+  followed:
+    - slug: armor-of-insight
+    - slug: prayer
+    - slug: seekers-devotion
