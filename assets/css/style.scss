@@ -5,13 +5,16 @@
 
 // Skill Tooltips
 
+.skills {
+  margin: 15px;
+}
+
 .skill {
   width: 120px;
-  height: 90px;
   display: inline-block;
   margin: 5px;
-  clear: both;
   text-align: center;
+  vertical-align: top;
 
   img {
     max-width: 36px;
@@ -27,6 +30,9 @@
 
   .skill-title {
     clear: both;
+    text-align: center;
+    max-width: 80px;
+    margin: auto;
   }
 }
 
@@ -75,10 +81,33 @@
 }
 
 .stance {
-  margin: auto;
+  margin: 15px;
   width: 100%;
   clear: both;
   margin-top: 15px;
   text-align: center;
   display: inline-block;
+
+  .combo.initial {
+    text-align: center;
+    display: inline-table;
+    width: 200px;
+    vertical-align: top;
+  }
+
+  .combo {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    margin-top: 15px;
+    vertical-align: top;
+
+    .skill {
+      vertical-align: top;
+      text-align: center;
+      display: block;
+      margin: 5px;
+      width: 100%;
+    }
+  }
 }

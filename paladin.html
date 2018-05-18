@@ -6,10 +6,12 @@ permalink: paladin.html
 
 <h2>Paladin non-stance skills</h2>
 
-{% for skill in site.data.paladin.non_stance_skills %}
-  {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
-  {% include skill.html skill=skill_data %}
-{% endfor %}
+<div class='skills'>
+  {% for skill in site.data.paladin.non_stance_skills %}
+    {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+    {% include skill.html skill=skill_data %}
+  {% endfor %}
+</div>
 
 <h2>Stances</h2>
 
@@ -21,11 +23,11 @@ permalink: paladin.html
 
     {% assign skills = site.data.paladin[stance.slug] %}
     {% for skill in skills %}
-      {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
-      {% include skill.html skill=skill_data %}
-      <br/>
-      {% include combo.html skill=skill %}
-      <br/>
+      <div class='combo initial'>
+        {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+        {% include skill.html skill=skill_data %}
+        {% include combo.html skill=skill %}
+      </div>
     {% endfor %}
   </div>
 {% endfor %}

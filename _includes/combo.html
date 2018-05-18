@@ -1,8 +1,9 @@
 {% assign combos = include.skill.followed %}
 {% for combo in combos %}
-  {% assign skill_data = site.data.paladin.skills | where: "slug", combo.slug | first %}
-  {% include skill.html skill=skill_data %}
+  <div class='combo'>
+    {% assign skill_data = site.data.paladin.skills | where: "slug", combo.slug | first %}
+    {% include skill.html skill=skill_data %}
 
-  {% include combo.html skill=combo %}
+    {% include combo.html skill=combo %}
+  </div>
 {% endfor %}
-<br/>
