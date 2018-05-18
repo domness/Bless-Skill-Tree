@@ -1,0 +1,75 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Skill Tooltips
+
+.skill {
+  width: 120px;
+  height: 90px;
+  display: inline-block;
+  margin: 5px;
+  clear: both;
+  text-align: center;
+
+  img {
+    max-width: 36px;
+    max-height: 36px;
+    width: auto;
+    height: auto;
+    border: 1px solid #E6E6E6;
+  }
+
+  .skill-tooltip {
+    display: none;
+  }
+
+  .skill-title {
+    clear: both;
+  }
+}
+
+.skill img:hover + .skill-tooltip {
+  display: inline;
+  position: absolute;
+  float: left;
+}
+
+.skill-tooltip {
+  text-align: left;
+  vertical-align: top;
+  display: inline-block;
+  font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFF;
+  width: 235px;
+  margin: 5px;
+  padding: 10px;
+  background: rgba(25,25,25,0.8);
+  border: 1px solid #E6E6E6;
+
+  img {
+    float: left;
+    display: block;
+    max-width: 36px;
+    max-height: 36px;
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .skill-name {
+    font-size: 16px;
+  }
+
+  .skill-detail {
+    display: block;
+    color: #E6DF0B;
+    clear: both;
+  }
+
+  .skill-description {
+    margin-top: 10px;
+  }
+}
