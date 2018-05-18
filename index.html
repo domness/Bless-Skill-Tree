@@ -35,3 +35,20 @@ title: Bless Skill Tree
     {% include skill.html skill=skill_data %}
   {% endfor %}
 </div>
+
+<h2>Skill Trees</h2>
+{% assign stance = site.data.paladin.stances | first %}
+<div class='stance'>
+  <div class='stance-name'>
+    <h3>{{ stance.name }}</h3>
+  </div>
+
+  {% assign skills = site.data.paladin[stance.slug] %}
+  {% for skill in skills %}
+    <div class='combo initial'>
+      {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+      {% include skill.html skill=skill_data %}
+      {% include combo.html skill=skill %}
+    </div>
+  {% endfor %}
+</div>
