@@ -1,6 +1,8 @@
-{% assign combos = include.comboskill.followed %}
-<ul>
+{% assign combos = include.skill.followed %}
 {% for combo in combos %}
-  <li>{% include combos.html %}</li>
+  {% assign skill_data = site.data.paladin.skills | where: "slug", combo.slug | first %}
+  {% include skill.html skill=skill_data %}
+
+  {% include combo.html skill=combo %}
 {% endfor %}
-</ul>
+<br/>

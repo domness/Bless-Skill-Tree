@@ -3,7 +3,7 @@ layout: default
 title: Bless Skill Tree
 ---
 
-## Classes
+<h2>Classes</h2>
 
 <ul>
   {% for class in site.data.classes %}
@@ -12,19 +12,20 @@ title: Bless Skill Tree
         <a href='{{ class.page }}.html'>{{ class.name }}</a>
       {% else %}
         {{ class.name }}
-      {% endif %}    
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
 
-## Examples
+<h2>Examples</h2>
 
-### Paladin non-stance skills
+<h3>Paladin non-stance skills</h3>
 
 {% for skill in site.data.paladin.non_stance_skills %}
-  {% include skill.html %}
+  {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+  {% include skill.html skill=skill_data %}
 {% endfor %}
 
-### Combo Tree
+<h3>Combo Tree</h3>
 
 Coming soon...

@@ -1,3 +1,80 @@
+- slug: holy-explosion
+  name: Holy Explosion
+  image: paladin/holy-explosion.png
+  skill-details:
+    - non targeting skill
+    - maximum mana 10.00% + 100 consumption
+    - time until can be used again 30.00 seconds
+  skill-descriptions:
+    - Deals 429 damage to enemies within a 5m radius, knocking them back.
+
+- slug: purify
+  name: Purify
+  image: paladin/purify.png
+  skill-details:
+    - targeting skill
+    - effective distance 25.00m
+    - maximium mana 5.00% + 50 consumption
+    - time until can be used again 20.00 seconds
+  skill-descriptions:
+    - Removes all Poison, Curse and Wound effects from allies. Continues to remove all Poison, Curse, and Wound effects from allies at regular intervals.
+    - Stacks up to 3 times.
+
+- slug: transcend
+  name: Transcend
+  image: paladin/transcend.png
+  skill-details:
+    - non targeting skill
+    - maximium mana 5.00% + 50 consumption
+    - time until can be used again 90.00 seconds
+  skill-descriptions:
+    - Able to cast spells while moving for 7 seconds. Grants immunity to all Crowd Control and Position Control effects and increases Movement Speed by 20%.
+    - 'Skills effected: [Retribution], [Beacon of Healing], [Healing Light], [Healing Grace], [Resurrection]'
+
+- slug: sacred-ground
+  name: Sacred Ground
+  image: paladin/sacred-ground.png
+  skill-details:
+    - non targeting skill
+    - maximium mana 10.00% + 100 consumption
+    - time until can be used again 90.00 seconds
+  skill-descriptions:
+    - Covers the caster's surroundings with divine power for 10 seconds. Reduces damage dealt to allies in the sacred ground by 30% and Movement Speed of hostile targets by 20%.
+
+- slug: endure
+  name: Endure
+  image: paladin/endure.png
+  skill-details:
+    - non targeting skill
+    - maximium mana 10.00% + 100 consumption
+    - time until can be used again 30.00 seconds
+  skill-descriptions:
+    - Removes all detrimental timed effects. For the duration of the effect, grants immunity to all effects, including Position Control effects such as Floating.
+    - Heals the caster during the skill effect duration.
+
+- slug: resurrection
+  name: Resurrection
+  image: paladin/resurrection.png
+  skill-details:
+    - targeting skill
+    - effective distance 15.00m
+    - casting time 4.00 seconds
+    - maximium mana 25.00% consumption
+    - time until can be used again 15.00 seconds
+  skill-descriptions:
+    - Resurrects a dead ally into a state of 30% Vitality and Mana.
+    - Cannot be used in the Certanon Arena.
+
+- slug: concentration
+  name: Concentration
+  image: paladin/concentration.png
+  skill-details:
+    - non targeting skill
+    - maximium mana 5.00% + 50 consumption
+    - time until can be used again 20.00 seconds
+  skill-descriptions:
+    - Reduces cooldown time of [Crusader's Will], [Fanaticism], [Prayer], [Seeker's Devotion] and [Benevolence] skills by 30%.
+
 - slug: strike
   name: Strike
   image: paladin/strike.png
@@ -13,7 +90,7 @@
 
 - slug: verdict
   name: Verdict
-  image: paladin/rapid-strike.png
+  image: paladin/verdict.png
   skill-details:
     - targeting skill
     - effective distance 4.00m
@@ -50,3 +127,84 @@
     - maximum mana 11.00% + 50 consumption
   skill-descriptions:
     - You fly at the fallen enemy, dealing 645 damage and reducing its Movement Speed by 20%
+
+- slug: retribution
+  name: Retribution
+  image: paladin/retribution.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - Casting Time 1.00 seconds
+    - maximum mana 2.00% + 0 consumption
+    - time until can be used again 7.00 seconds
+  skill-descriptions:
+    - When used on allies, heals the ally.
+
+- slug: sacred-verdict
+  name: Sacred Verdict
+  image: paladin/sacred-verdict.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - maximum mana 18.00% + 100 consumption
+    - time until can be used again 10.00 seconds
+  skill-descriptions:
+    - Deals 407 damage to the enemy and immediately applies 3 stacks of [Divine Punishment] and 5 stacks of [Smash].
+    - The damage will be increased to enemies with [Divine Punishment] and [Smash] applied.
+
+- slug: execute
+  name: Execute
+  image: paladin/execute.png
+  skill-details:
+    - targeting skill
+    - effective distance 5.00m
+    - maximum mana 20.00% + 65 consumption
+  skill-descriptions:
+    - Attacks the enemy, dealing 1058 damage. Additionaly, if the enemy has the [Branded] or [Verdict] effect, the [Smash] effect will also be applied, dealing damage over time for 10 seconds. The [Smash] effect can be stacked up to 5 times to deal continuous physical damage.
+
+- slug: penalize
+  name: Penalize
+  image: paladin/penalize.png
+  skill-details:
+    - non targeting skill
+    - maximum mana 18.00% + 15 consumption
+  skill-descriptions:
+    - Deals 210 damage to enemies within a 5m radius. Damage is increased by 10% against enemies with the [Divine Punishment] effect.
+
+- slug: branded
+  name: Branded
+  image: paladin/branded.png
+  skill-details:
+    - targeting skill
+    - effective distance 25.00m
+    - maximum mana 8.00% + 20 consumption
+    - time until can be used again 7.00 seconds
+  skill-descriptions:
+    - Inflicts the [Branded] effect on the enemy. Increases damage dealt to the [Branded] target by 20%.
+
+- slug: armor-of-insight
+  name: Armor of Insight
+  image: paladin/armor-of-insight.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 15.00 seconds
+  skill-descriptions:
+    - Reduces Magic damage take by 50% and provides immunity to ensnare, root, and position control effects for 6 seconds.
+
+- slug: prayer
+  name: Prayer
+  image: paladin/prayer.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 10.00 seconds
+  skill-descriptions:
+    - Immediately restores 50 Mana.
+
+- slug: seekers-devotion
+  name: Seeker's Devotion
+  image: paladin/seekers-devotion.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 10.00 seconds
+  skill-descriptions:
+    - Temporarily increases Paladin's Fighting Power.

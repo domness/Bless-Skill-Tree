@@ -1,8 +1,0 @@
-{% assign comboskills = site.data.paladin[stance.slug] | where: "slug", combo %}
-<ul>
-{% for comboskill in comboskills %}
-<li>{% include combo_skill.html %}
-{% include combo.html comboskill=comboskill %}
-</li>
-{% endfor %}
-</ul>

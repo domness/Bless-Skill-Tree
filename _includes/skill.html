@@ -1,16 +1,16 @@
 <div class='skill'>
-  <img src='images/{{ skill.image }}' />
+  <img src='images/{{ include.skill.image }}' />
 
-  <div id='skill-{{ skill.slug }}' class='skill-tooltip'>
-    <img src='images/{{ skill.image }}' />
-    <div class='skill-name'>{{ skill.name }}</div>
-    {% for detail in skill.skill-details %}
+  <div id='skill-{{ include.skill.slug }}' class='skill-tooltip'>
+    <img src='images/{{ include.skill.image }}' />
+    <div class='skill-name'>{{ include.skill.name }}</div>
+    {% for detail in include.skill.skill-details %}
       <div class='skill-detail'>{{ detail }}</div>
     {% endfor %}
-    {% for detail in skill.skill-descriptions %}
+    {% for detail in include.skill.skill-descriptions %}
       <div class='skill-description'>{{ detail }}</div>
     {% endfor %}
   </div>
 
-  <div class='skill-title'>{{ skill.name }}</div>
+  <div class='skill-title'>{{ include.skill.name }}</div>
 </div>

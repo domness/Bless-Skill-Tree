@@ -1,0 +1,31 @@
+---
+layout: class
+title: Paladin
+permalink: paladin.html
+---
+
+<h2>Paladin non-stance skills</h2>
+
+{% for skill in site.data.paladin.non_stance_skills %}
+  {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+  {% include skill.html skill=skill_data %}
+{% endfor %}
+
+<h2>Stances</h2>
+
+{% for stance in site.data.paladin.stances %}
+  <div class='stance'>
+    <div class='stance-name'>
+      <h3>{{ stance.name }}</h3>
+    </div>
+
+    {% assign skills = site.data.paladin[stance.slug] %}
+    {% for skill in skills %}
+      {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
+      {% include skill.html skill=skill_data %}
+      <br/>
+      {% include combo.html skill=skill %}
+      <br/>
+    {% endfor %}
+  </div>
+{% endfor %}
