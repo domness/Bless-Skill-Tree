@@ -1,0 +1,25 @@
+- slug: healing-beacon
+  followed:
+    - slug: healing-brilliance
+      followed:
+        - slug: healing-grace
+    - slug: healing-grace
+      followed:
+        - slug: sacrificial-plea
+
+- slug: healing-grace
+  followed:
+    - slug: healing-light
+      followed:
+        - slug: awareness
+          followed:
+            - slug: healing-light
+    - slug: healing-brilliance
+      followed:
+        - slug: awareness
+
+- slug: blessing
+  followed:
+    - slug: oracle
+    - slug: prayer
+    - slug: fanaticism

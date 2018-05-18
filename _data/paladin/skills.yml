@@ -266,3 +266,104 @@
     - time until can be used again 10.00 seconds
   skill-descriptions:
     - Increases Paladin's Critical Hit by 50% for 5 seconds.
+
+- slug: healing-beacon
+  name: Healing Beacon
+  image: paladin/healing-beacon.png
+  skill-details:
+    - non targeting skill
+    - Casting Time 2.00 seconds
+    - maximum mana 11.00% + 50 consumption
+    - time until can be used again 7.00 seconds
+  skill-descriptions:
+    - Heals up to 10 allies' Health Points within a 7m radius by 785 + (MP consumption x 1.6).
+
+- slug: healing-brilliance
+  name: Healing Brilliance
+  image: paladin/healing-brilliance.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - Casting Time 2.50 seconds
+    - maximum mana 20.00% + 75 consumption
+  skill-descriptions:
+    - Heals an ally's Health Points by 1961 + (MP consumption x 3.3).
+
+- slug: healing-grace
+  name: Healing Grace
+  image: paladin/healing-grace.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - maximum mana 6.00% consumption
+  skill-descriptions:
+    - Heals the target's Health Points every 2 seconds for 10 seconds.
+
+- slug: sacrificial-plea
+  name: Sacrificial Plea
+  image: paladin/sacrificial-plea.png
+  skill-details:
+    - non targeting skill
+    - consumes maximum vitality by 10% each period
+  skill-descriptions:
+    - For 7 seconds, sacrifice Health Points to restore the Vitality of party members within a 20m radius. If there is a movement after the spell has been cast, the effect vanishes.
+    - While casting the spell, the Paladin cannot be healed and may die due to its effect.
+
+- slug: healing-light
+  name: Healing Light
+  image: paladin/healing-light.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - Casting Time 1.50 seconds
+    - maximum mana 9.00% + 100 consumption
+  skill-descriptions:
+    - Heals an ally's Health Points by 1373 + (MP consumption x3)
+
+- slug: awareness
+  name: Awareness
+  image: paladin/awareness.png
+  skill-details:
+    - non targeting skill
+    - maximum mana 7.00% + 0 consumption
+    - time until can be used again 10.00 seconds
+  skill-descriptions:
+    - You have a 40% chance of using [Healing Light], the next skill in the chain, immediately.
+
+- slug: blessing
+  name: Blessing
+  image: paladin/blessing.png
+  skill-details:
+    - targeting skill
+    - effective distance 25.00m
+    - time until can be used again 7.00 seconds
+  skill-descriptions:
+    - Applies [Blessing] effect to allies. Increasing Healing output by 15% when a Paladin heals a target under the [Blessing] effect.
+
+- slug: oracle
+  name: Oracle
+  image: paladin/oracle.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 15.00 seconds
+  skill-descriptions:
+    - For a certain duration, reduces the damages Paladin takes by 20%. This effect does not stack, and its duration will be increase by 2 seconds with successful shield block or resist. The duration-increasing effect will be activated only once in every 3 seconds.
+
+- slug: celestial-protection
+  name: Celestial Protection
+  image: paladin/celestial-protection.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - time until can be used again 15.00 seconds
+  skill-descriptions:
+    - Applies a Protective Shield that absorbs damage on an ally.
+
+- slug: benevolence
+  name: Benevolence
+  image: paladin/benevolence.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 10.00 seconds
+  skill-descriptions:
+    - Temporarily increase Paladin's Ability Power.

@@ -1,0 +1,23 @@
+- slug: sacrificial-plea
+  followed:
+    - slug: healing-brilliance
+      followed:
+        - slug: healing-brilliance
+    - slug: healing-light
+      followed:
+        - slug: healing-brilliance
+
+- slug: retribution
+  followed:
+    - slug: healing-light
+      followed:
+        - slug: healing-light
+    - slug: fierce-strike
+      followed:
+        - slug: verdict
+
+- slug: blessing
+  followed:
+    - slug: celestial-protection
+    - slug: crusaders-will
+    - slug: benevolence
