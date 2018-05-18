@@ -1,9 +1,14 @@
 - name: Example combo
   skills:
-    - holy-explosion
-    - purify
-    - concentration
-    - concentration
-    - concentration
-    - endure
-    - holy-explosion
+    - branded
+    - seekers-devotion
+    - retribution
+    - verdict
+    - sacred-verdict
+    - retribution
+    - execute
+    - strike
+    - rapid-strike
+    - chastise
+    - retribution
+    - execute
