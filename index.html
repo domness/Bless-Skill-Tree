@@ -17,7 +17,7 @@ title: Bless Skill Tree
   {% endfor %}
 </ul>
 
-<h2>Skill icons and tooltips</h2>
+<h2>Example skill icons and tooltips</h2>
 
 <div class='skills'>
   {% for skill in site.data.paladin.non_stance_skills %}
@@ -26,7 +26,9 @@ title: Bless Skill Tree
   {% endfor %}
 </div>
 
-<h2>Rotations</h2>
+<h2>Example rotations</h2>
+
+<p>Skill rotations could be provided in a similar format to the below to help people learn the order and priority of skills for a class.</p>
 
 <div class='rotation'>
   {% assign rotation = site.data.paladin.rotations | where: "name", 'Example combo' | first %}
@@ -36,7 +38,10 @@ title: Bless Skill Tree
   {% endfor %}
 </div>
 
-<h2>Skill Trees</h2>
+<h2>Example skill tree</h2>
+
+<p>Skill/stance trees can be put together to show the available skills in the rhythmic combat system of Bless Online.</p>
+
 {% assign stance = site.data.paladin.stances | first %}
 <div class='stance'>
   <div class='stance-name'>
