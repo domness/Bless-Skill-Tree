@@ -1,0 +1,37 @@
+- slug: charge
+  followed:
+    - slug: shield-upper-swing
+      followed:
+        - slug: punish
+          followed:
+            - slug: suppress
+    - slug: destroy
+      followed:
+        - slug: destroy
+    - slug: shield-attack
+      followed:
+        - slug: sever
+
+- slug: sword-draw
+  followed:
+    - slug: shoulder-block
+      followed:
+        - slug: dominate
+    - slug: suppress
+      followed:
+        - slug: low-slash
+    - slug: destroy
+      followed:
+        - slug: desperate-strike
+
+- slug: breach
+  followed:
+    - slug: continuous-slash
+      followed:
+        - slug: shout
+    - slug: continuous-slash
+      followed:
+        - slug: gladiator
+    - slug: shield-attack
+      followed:
+        - slug: challenge

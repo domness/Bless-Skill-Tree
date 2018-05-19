@@ -249,3 +249,94 @@
   skill-descriptions:
     - You threaten the enemy and gain a high threat level. When used on a player, this will force the player to attack the skill caster. The attack-forcing effect does not work on targets with immunity to Crowd Control effects.
     - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
+
+- slug: breach
+  name: Breach
+  image: guardian/breach.png
+  skill-details:
+    - non targeting skill
+    - time until can be used again 7.00 second
+  skill-descriptions:
+    - Increases Movement Speed by 20% for 5 seconds. For the duration of the skill effect, damage taken from ranged attacks is reduced by 50%. However, damage from magic attacks does not decrease.
+    - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
+
+- slug: gladiator
+  name: Gladiator
+  image: guardian/gladiator.png
+  skill-details:
+    - non targeting skill
+    - Bravery 2 obtain
+  skill-descriptions:
+    - Deals 0 damage to the enemy. Increases Block rate by 15%.
+
+- slug: charge
+  name: Charge
+  image: guardian/charge.png
+  skill-details:
+    - targeting skill
+    - effective distance 17.00m
+    - time until can be used again 7.00 seconds
+  skill-descriptions:
+    - You fly at the enemy, dealing 477 damage and gaining a high thread level. Inflicts the [Root] effect, which makes the enemy unable to move for 0.3 seconds.
+    - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
+
+- slug: shield-upper-swing
+  name: Shield Upper Swing
+  image: guardian/shield-upper-swing.png
+  skill-details:
+    - targeting skill
+    - effective distance 4.00m
+  skill-descriptions:
+    - Deals 335 damage, lifting the enemy into the air. Even if the enemy is not lifted into the air, you can block the enemy's skill casting.
+
+- slug: suppress
+  name: Suppress
+  image: guardian/suppress.png
+  skill-details:
+    - targeting skill
+    - effective distance 4.00m
+    - Bravery 2 obtain
+  skill-descriptions:
+    - Deals 1596 damage to the enemy. When used on an enemy affected by the [Hemorrhage] effect from the [Destruction] skill, damage is increased.
+
+- slug: sever
+  name: Sever
+  image: guardian/sever.png
+  skill-details:
+    - targeting skill
+    - effective distance 4.00m
+    - Bravery 2 obtain
+  skill-descriptions:
+    - Deals 465 damage to the enemy, and reduces Healing received by 50% for 10 seconds. Applies the [Silence] effect, which disables magic attack skills, for 1 second.
+
+- slug: dominate
+  name: Dominate
+  image: guardian/dominate.png
+  skill-details:
+    - non targeting skill
+    - Bravery 2 obtain
+  skill-descriptions:
+    - Deals 348 damage to enemies within a 5.5m radius and inflicts the [Stun] effect, which makes them unable to move for 1 second.
+    - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
+
+- slug: low-slash
+  name: Low Slash
+  image: guardian/low-slash.png
+  skill-details:
+    - non targeting skill
+    - effective distance 4.00m
+    - Bravery 2 obtain
+  skill-descriptions:
+    - Deals 446 damage to enemies in front of you by cutting their legs, knocking them down.
+    - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
+
+- slug: desperate-strike
+  name: Desperate Strike
+  image: guardian/desperate-strike.png
+  skill-details:
+    - non targeting skill
+    - effective distance 4.00m
+    - Bravery 2 obtain
+  skill-descriptions:
+    - Deals 525 damage to the enemy and inflicts the [Stun] effect, which makes the enemy unable to move for 1 second.
+    - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.

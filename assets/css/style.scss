@@ -17,10 +17,8 @@
   vertical-align: top;
 
   img {
-    max-width: 36px;
-    max-height: 36px;
-    width: auto;
-    height: auto;
+    width: 36px;
+    height: 36px;
     border: 1px solid #E6E6E6;
   }
 
@@ -128,8 +126,8 @@
     img.starter  {
       padding: 0px;
       margin-top: 22px;
-      width: 42px;
-      height: 42px;
+      width: 36px;
+      height: 36px;
     }
 
     // .skill:not(.starter) {
