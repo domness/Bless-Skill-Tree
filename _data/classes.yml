@@ -3,5 +3,6 @@
 - name: Guardian
   page: guardian
 - name: Mage
+  page: mage
 - name: Berserker
 - name: Ranger
