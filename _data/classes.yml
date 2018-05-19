@@ -1,6 +1,7 @@
 - name: Paladin
   page: paladin
 - name: Guardian
+  page: guardian
 - name: Mage
 - name: Berserker
 - name: Ranger
