@@ -1,5 +1,5 @@
 - slug: counter
-  name: counter
+  name: Counter
   image: guardian/counter.png
   skill-details:
     - targeting skill
