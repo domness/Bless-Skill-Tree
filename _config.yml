@@ -1,5 +1,5 @@
 title: Bless Skill Tree
-description: HTML/CSS allowing Bless-styled skill tooltips and skill trees
+description: Bless Online stances, rotations and skills
 theme: jekyll-theme-midnight
 root: 'Bless-Skill-Tree'
 # include: ['_pages']
