@@ -1,16 +1,34 @@
 <div class='skill{% if include.starter == true %} starter{% endif %}'>
-  <img src='images/{{ include.skill.image }}' class='{% if include.starter == true %}starter{% endif %}'/>
+  <img src='images/{{ include.skill.image }}' class='skill-icon {% if include.starter == true %}starter{% endif %}'/>
 
   <div id='skill-{{ include.skill.slug }}' class='skill-tooltip'>
-    <img src='images/{{ include.skill.image }}' />
-    <div class='skill-name'>{{ include.skill.name }}</div>
+    <img class='skill-image' src='images/{{ include.skill.image }}' />
+
+    {% if include.skill.cooldown %}
+      <div class='skill-cooldown'>
+        <img src='images/cooldown.png'/>
+        {{ include.skill.cooldown }}
+      </div>
+    {% endif %}
+
+    <div class='skill-name'>
+      {{ include.skill.name }}
+    </div>
+
     {% for detail in include.skill.skill-details %}
-      <div class='skill-detail'>{{ detail }}</div>
+      <div class='skill-detail'>
+        {{ detail }}
+      </div>
     {% endfor %}
+
     {% for detail in include.skill.skill-descriptions %}
-      <div class='skill-description'>{{ detail }}</div>
+      <div class='skill-description'>
+        {{ detail }}
+      </div>
     {% endfor %}
   </div>
 
-  <div class='skill-title'>{{ include.skill.name }}</div>
+  <div class='skill-title'>
+    {{ include.skill.name }}
+  </div>
 </div>

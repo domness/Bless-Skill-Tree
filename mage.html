@@ -2,38 +2,8 @@
 layout: class
 title: Mage
 permalink: mage.html
+slug: mage
 ---
 
-<h2>Mage non-stance skills</h2>
-
-<div class='skills'>
-  {% for skill in site.data.mage.non_stance_skills %}
-    {% assign skill_data = site.data.mage.skills | where: "slug", skill.slug | first %}
-    {% include skill.html skill=skill_data %}
-  {% endfor %}
-</div>
-
-<h2>Stances</h2>
-
-<ul>
-{% for stance in site.data.mage.stances %}
-  <li><a href="#{{stance.slug}}">{{stance.name}}</a></li>
-{% endfor %}
-</ul>
-
-{% for stance in site.data.mage.stances %}
-  <div class='stance'>
-    <div class='stance-name' id='{{ stance.slug }}'>
-      <h3>{{ stance.name }}</h3>
-    </div>
-
-    {% assign skills = site.data.mage[stance.slug] %}
-    {% for skill in skills %}
-      <div class='combo initial'>
-        {% assign skill_data = site.data.mage.skills | where: "slug", skill.slug | first %}
-        {% include skill.html skill=skill_data starter=true %}
-        {% include combo.html skill=skill class=site.data.mage %}
-      </div>
-    {% endfor %}
-  </div>
-{% endfor %}
+{% include non_stance_skills.html %}
+{% include stances.html %}

@@ -1,21 +1,21 @@
 - slug: holy-explosion
   name: Holy Explosion
   image: paladin/holy-explosion.png
+  cooldown: 30.00
   skill-details:
     - non targeting skill
     - maximum mana 10.00% + 100 consumption
-    - time until can be used again 30.00 seconds
   skill-descriptions:
     - Deals 429 damage to enemies within a 5m radius, knocking them back.
 
 - slug: purify
   name: Purify
   image: paladin/purify.png
+  cooldown: 20.00
   skill-details:
     - targeting skill
     - effective distance 25.00m
     - maximium mana 5.00% + 50 consumption
-    - time until can be used again 20.00 seconds
   skill-descriptions:
     - Removes all Poison, Curse and Wound effects from allies. Continues to remove all Poison, Curse, and Wound effects from allies at regular intervals.
     - Stacks up to 3 times.
@@ -23,10 +23,10 @@
 - slug: transcend
   name: Transcend
   image: paladin/transcend.png
+  cooldown: 90.00
   skill-details:
     - non targeting skill
     - maximium mana 5.00% + 50 consumption
-    - time until can be used again 90.00 seconds
   skill-descriptions:
     - Able to cast spells while moving for 7 seconds. Grants immunity to all Crowd Control and Position Control effects and increases Movement Speed by 20%.
     - 'Skills effected: [Retribution], [Beacon of Healing], [Healing Light], [Healing Grace], [Resurrection]'
@@ -34,20 +34,20 @@
 - slug: sacred-ground
   name: Sacred Ground
   image: paladin/sacred-ground.png
+  cooldown: 90.00
   skill-details:
     - non targeting skill
     - maximium mana 10.00% + 100 consumption
-    - time until can be used again 90.00 seconds
   skill-descriptions:
     - Covers the caster's surroundings with divine power for 10 seconds. Reduces damage dealt to allies in the sacred ground by 30% and Movement Speed of hostile targets by 20%.
 
 - slug: endure
   name: Endure
   image: paladin/endure.png
+  cooldown: 30.00
   skill-details:
     - non targeting skill
     - maximium mana 10.00% + 100 consumption
-    - time until can be used again 30.00 seconds
   skill-descriptions:
     - Removes all detrimental timed effects. For the duration of the effect, grants immunity to all effects, including Position Control effects such as Floating.
     - Heals the caster during the skill effect duration.
@@ -55,12 +55,12 @@
 - slug: resurrection
   name: Resurrection
   image: paladin/resurrection.png
+  cooldown: 15.00
   skill-details:
     - targeting skill
     - effective distance 15.00m
     - casting time 4.00 seconds
     - maximium mana 25.00% consumption
-    - time until can be used again 15.00 seconds
   skill-descriptions:
     - Resurrects a dead ally into a state of 30% Vitality and Mana.
     - Cannot be used in the Certanon Arena.
@@ -68,20 +68,20 @@
 - slug: concentration
   name: Concentration
   image: paladin/concentration.png
+  cooldown: 20.00
   skill-details:
     - non targeting skill
     - maximium mana 5.00% + 50 consumption
-    - time until can be used again 20.00 seconds
   skill-descriptions:
     - Reduces cooldown time of [Crusader's Will], [Fanaticism], [Prayer], [Seeker's Devotion] and [Benevolence] skills by 30%.
 
 - slug: strike
   name: Strike
   image: paladin/strike.png
+  cooldown: 1.5
   skill-details:
     - targeting skill
     - effective distance 4.00m
-    - time until can be used again 1.50 seconds
   skill-descriptions:
     - Deals 129 damage to the enemy.
   followed:
@@ -131,23 +131,23 @@
 - slug: retribution
   name: Retribution
   image: paladin/retribution.png
+  cooldown: 7.00
   skill-details:
     - targeting skill
     - effective distance 20.00m
     - Casting Time 1.00 seconds
     - maximum mana 2.00% + 0 consumption
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - When used on allies, heals the ally.
 
 - slug: sacred-verdict
   name: Sacred Verdict
   image: paladin/sacred-verdict.png
+  cooldown: 10.00
   skill-details:
     - targeting skill
     - effective distance 20.00m
     - maximum mana 18.00% + 100 consumption
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - Deals 407 damage to the enemy and immediately applies 3 stacks of [Divine Punishment] and 5 stacks of [Smash].
     - The damage will be increased to enemies with [Divine Punishment] and [Smash] applied.
@@ -174,38 +174,38 @@
 - slug: branded
   name: Branded
   image: paladin/branded.png
+  cooldown: 7.00
   skill-details:
     - targeting skill
     - effective distance 25.00m
     - maximum mana 8.00% + 20 consumption
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - Inflicts the [Branded] effect on the enemy. Increases damage dealt to the [Branded] target by 20%.
 
 - slug: armor-of-insight
   name: Armor of Insight
   image: paladin/armor-of-insight.png
+  cooldown: 15.00
   skill-details:
     - non targeting skill
-    - time until can be used again 15.00 seconds
   skill-descriptions:
     - Reduces Magic damage take by 50% and provides immunity to ensnare, root, and position control effects for 6 seconds.
 
 - slug: prayer
   name: Prayer
   image: paladin/prayer.png
+  cooldown: 10.00
   skill-details:
     - non targeting skill
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - Immediately restores 50 Mana.
 
 - slug: seekers-devotion
   name: Seeker's Devotion
   image: paladin/seekers-devotion.png
+  cooldown: 10.00
   skill-details:
     - non targeting skill
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - Temporarily increases Paladin's Fighting Power.
 
@@ -222,11 +222,11 @@
 - slug: chastisement-chain
   name: Chastisement Chain
   image: paladin/chastisement-chain.png
+  cooldown: 7.00
   skill-details:
     - targeting skill
     - effective distance 15.00m
     - maximum mana 20.00%
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - Blocks enemies' skill casting. Also applies the [Chastisement Chain] effect, which prevents the enemy from moving for 5 seconds. The [Chastisement Chain] gradually constricts the enemy and explodes, inflicting damage when dismissed.
 
@@ -243,38 +243,38 @@
 - slug: celestial-armor
   name: Celestial Armor
   image: paladin/celestial-armor.png
+  cooldown: 15.00
   skill-details:
     - non targeting skill
-    - time until can be used again 15.00 seconds
   skill-descriptions:
     - Increases Physical Defense by 50% and provides immunity to ensnare, root, and position control effects for 6 seconds.
 
 - slug: crusaders-will
   name: Crusader's Will
   image: paladin/crusaders-will.png
+  cooldown: 10.00
   skill-details:
     - non targeting skill
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - Increases Paladin's Mana recovery for 5 seconds.
 
 - slug: fanaticism
   name: Fanaticism
   image: paladin/fanaticism.png
+  cooldown: 10.00
   skill-details:
     - non targeting skill
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - Increases Paladin's Critical Hit by 50% for 5 seconds.
 
 - slug: healing-beacon
   name: Healing Beacon
   image: paladin/healing-beacon.png
+  cooldown: 7.00
   skill-details:
     - non targeting skill
     - Casting Time 2.00 seconds
     - maximum mana 11.00% + 50 consumption
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - Heals up to 10 allies' Health Points within a 7m radius by 785 + (MP consumption x 1.6).
 
@@ -323,47 +323,47 @@
 - slug: awareness
   name: Awareness
   image: paladin/awareness.png
+  cooldown: 10.00
   skill-details:
     - non targeting skill
     - maximum mana 7.00% + 0 consumption
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - You have a 40% chance of using [Healing Light], the next skill in the chain, immediately.
 
 - slug: blessing
   name: Blessing
   image: paladin/blessing.png
+  cooldown: 7.00
   skill-details:
     - targeting skill
     - effective distance 25.00m
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - Applies [Blessing] effect to allies. Increasing Healing output by 15% when a Paladin heals a target under the [Blessing] effect.
 
 - slug: oracle
   name: Oracle
   image: paladin/oracle.png
+  cooldown: 15.00
   skill-details:
     - non targeting skill
-    - time until can be used again 15.00 seconds
   skill-descriptions:
     - For a certain duration, reduces the damages Paladin takes by 20%. This effect does not stack, and its duration will be increase by 2 seconds with successful shield block or resist. The duration-increasing effect will be activated only once in every 3 seconds.
 
 - slug: celestial-protection
   name: Celestial Protection
   image: paladin/celestial-protection.png
+  cooldown: 15.00
   skill-details:
     - targeting skill
     - effective distance 20.00m
-    - time until can be used again 15.00 seconds
   skill-descriptions:
     - Applies a Protective Shield that absorbs damage on an ally.
 
 - slug: benevolence
   name: Benevolence
   image: paladin/benevolence.png
+  cooldown: 10.00
   skill-details:
     - non targeting skill
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - Temporarily increase Paladin's Ability Power.

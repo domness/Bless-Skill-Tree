@@ -1,0 +1,8 @@
+<h2>{{ page.title }} non-stance skills</h2>
+
+<div class='skills'>
+  {% for skill in site.data[page.slug].non_stance_skills %}
+    {% assign skill_data = site.data[page.slug].skills | where: "slug", skill.slug | first %}
+    {% include skill.html skill=skill_data %}
+  {% endfor %}
+</div>

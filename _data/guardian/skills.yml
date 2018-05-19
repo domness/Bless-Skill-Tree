@@ -1,92 +1,92 @@
 - slug: counter
   name: Counter
   image: guardian/counter.png
+  cooldown: 9.00
   skill-details:
     - targeting skill
     - effective distance 4.00m
     - Bravery 1 consumption
-    - time until can be used again 9.00 seconds
   skill-descriptions:
     - Deals 594 damage to the enemy and obtains Physical Defense. Can only be used after defending against the enemy's attack.
 
 - slug: obtain-bravery
   name: Obtain Bravery
   image: guardian/obtain-bravery.png
+  cooldown: 15.00
   skill-details:
     - non targeting skill
     - Bravery 2 obtain
-    - time until can be used again 15.00 seconds
   skill-descriptions:
     - Gain 2 Bravery immediately.
 
 - slug: guardians-faith
   name: Guardians Faith
   image: guardian/guardians-faith.png
+  cooldown: 30.00
   skill-details:
     - non targeting skill
     - Bravery 3 consumption
-    - time until can be used again 30.00 seconds
   skill-descriptions:
     - Grants immunity to all damage for 2 seconds. The caster cannot move, but will absorb 70% of all damage dealth to party members behind the caster.
 
 - slug: solid-will
   name: Solid Will
   image: guardian/solid-will.png
+  cooldown: 60.00
   skill-details:
     - non targeting skill
     - Bravery 1 consumption
-    - time until can be used again 60.00 seconds
   skill-descriptions:
     - Grants immunity to Position Control effects for 10 seconds, and applies the [Solid Will] effect which absorbs damage taken. Dismissed when the effective duration is over or you are damaged over a certain degree.
 
 - slug: leap
   name: Leap
   image: guardian/leap.png
+  cooldown: 16.00
   skill-details:
     - targeting skill
     - effective distance 14.00m
     - Bravery 2 consumption
-    - time until can be used again 16.00 seconds
   skill-descriptions:
     - You fly at the selected target and inflict damage to enemies near the landing point, applying the [Stun] effect which makes them unable to move.
 
 - slug: potential
   name: Potential
   image: guardian/potential.png
+  cooldown: 45.00
   skill-details:
     - non targeting skill
     - Bravery 2 consumption
-    - time until can be used again 45.00 seconds
   skill-descriptions:
     - When Health Points reach 15% or less, Attack Power increases slightly.
 
 - slug: iron-will
   name: Iron Will
   image: guardian/iron-will.png
+  cooldown: 60.00
   skill-details:
     - non targeting skill
     - Bravery 2 consumption
-    - time until can be used again 60.00 seconds
   skill-descriptions:
     - Increases Maximum Health Points and current Health Points by 30% for 5 seconds.
 
 - slug: vanguard
   name: Vanguard
   image: guardian/vanguard.png
+  cooldown: 40.00
   skill-details:
     - non targeting skill
     - Bravery 2 consumption
-    - time until can be used again 40.00 seconds
   skill-descriptions:
     - When used, reduces the cooldown time for all starting skills by 4 seconds.
 
 - slug: sword-draw
   name: Sword Draw
   image: guardian/sword-draw.png
+  cooldown: 1.50
   skill-details:
     - targeting skill
     - effective distance 4.00m
-    - time until can be used again 1.50 seconds
   skill-descriptions:
     - Deals 171 damage to the enemy.
     - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.

@@ -1,0 +1,25 @@
+<h2>Stances</h2>
+
+<ul>
+{% for stance in site.data[page.slug].stances %}
+  <li><a href="#{{stance.slug}}">{{stance.name}}</a></li>
+{% endfor %}
+</ul>
+
+{% for stance in site.data[page.slug].stances %}
+  <div class='stance'>
+    <div class='stance-name' id='{{ stance.slug }}'>
+      <h3>{{ stance.name }}</h3>
+    </div>
+
+    {% assign class = site.data[page.slug] %}
+    {% assign skills = site.data[page.slug][stance.slug] %}
+    {% for skill in skills %}
+      <div class='combo initial'>
+        {% assign skill_data = site.data[page.slug].skills | where: "slug", skill.slug | first %}
+        {% include skill.html skill=skill_data starter=true %}
+        {% include combo.html skill=skill class=class %}
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
