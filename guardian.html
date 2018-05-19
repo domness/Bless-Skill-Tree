@@ -32,7 +32,7 @@ permalink: guardian.html
       <div class='combo initial'>
         {% assign skill_data = site.data.guardian.skills | where: "slug", skill.slug | first %}
         {% include skill.html skill=skill_data starter=true %}
-        {% include combo.html skill=skill %}
+        {% include combo.html skill=skill class=site.data.guardian %}
       </div>
     {% endfor %}
   </div>

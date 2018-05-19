@@ -1,0 +1,39 @@
+- slug: sword-draw
+  followed:
+    - slug: destroy
+      followed:
+        - slug: dauntless-strike
+          followed:
+            - slug: dauntless-strike
+    - slug: punish
+      followed:
+        - slug: defend-the-line
+    - slug: continuous-slash
+      followed:
+        - slug: stab
+
+- slug: shield-attack
+  followed:
+    - slug: destroy
+      followed:
+        - slug: concentrated-strike
+    - slug: shield-attack
+      followed:
+        - slug: shoulder-block
+    - slug: crush
+      followed:
+        - slug: break
+          followed:
+            - slug: shred
+
+- slug: shout
+  followed:
+    - slug: sword-draw
+      followed:
+        - slug: encouraging-shout
+    - slug: shield-attack
+      followed:
+        - slug: overpower
+    - slug: continuous-slash
+      followed:
+        - slug: challenge
