@@ -1,0 +1,35 @@
+- slug: shield-blast
+  followed:
+    - slug: destroy
+      followed:
+        - slug: sever
+    - slug: continuous-slash
+      followed:
+        - slug: desperate-strike
+    - slug: shield-upper-swing
+      followed:
+        - slug: punish
+
+- slug: challenge
+  followed:
+    - slug: destroy
+      followed:
+        - slug: defend-the-line
+    - slug: shield-attack
+      followed:
+        - slug: low-slash
+    - slug: shield-blast
+      followed:
+        - slug: dominate
+
+- slug: overpower
+  followed:
+    - slug: continuous-slash
+      followed:
+        - slug: shout
+    - slug: defend-the-line
+      followed:
+        - slug: encouraging-shout
+    - slug: shield-attack
+      followed:
+        - slug: challenge

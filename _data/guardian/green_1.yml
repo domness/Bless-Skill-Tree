@@ -1,0 +1,35 @@
+- slug: destroy
+  followed:
+    - slug: swift-defense
+      followed:
+        - slug: defend-the-line
+    - slug: destroy
+      followed:
+        - slug: destroy
+    - slug: shield-counter
+      followed:
+        - slug: swift-defense
+
+- slug: sword-draw
+  followed:
+    - slug: swift-defense
+      followed:
+        - slug: shield-counter
+    - slug: continuous-slash
+      followed:
+        - slug: stab
+    - slug: shield-attack
+      followed:
+        - slug: shield-counter
+
+- slug: encouraging-shout
+  followed:
+    - slug: destroy
+      followed:
+        - slug: challenge
+    - slug: swift-defense
+      followed:
+        - slug: protector
+    - slug: continuous-slash
+      followed:
+        - slug: overpower
