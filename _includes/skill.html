@@ -1,5 +1,5 @@
-<div class='skill'>
-  <img src='images/{{ include.skill.image }}' />
+<div class='skill{% if include.starter == true %} starter{% endif %}'>
+  <img src='images/{{ include.skill.image }}' class='{% if include.starter == true %}starter{% endif %}'/>
 
   <div id='skill-{{ include.skill.slug }}' class='skill-tooltip'>
     <img src='images/{{ include.skill.image }}' />
