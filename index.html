@@ -52,7 +52,7 @@ title: Bless Skill Tree
   {% for skill in skills %}
     <div class='combo initial'>
       {% assign skill_data = site.data.paladin.skills | where: "slug", skill.slug | first %}
-      {% include skill.html skill=skill_data %}
+      {% include skill.html skill=skill_data starter=true %}
       {% include combo.html skill=skill %}
     </div>
   {% endfor %}
