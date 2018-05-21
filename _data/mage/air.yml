@@ -1,0 +1,37 @@
+- slug: magic-shot
+  followed:
+    - slug: electric-shot
+      followed:
+        - slug: magic-absorption
+    - slug: lightning-arrow
+      followed:
+        - slug: lightning-arrow
+    - slug: magic-absorption
+      followed:
+        - slug: chain-lightning
+
+- slug: thunderbolt
+  followed:
+    - slug: electric-shot
+      followed:
+        - slug: bladestorm
+    - slug: lightning-arrow
+      followed:
+        - slug: thunder-and-lightning
+    - slug: along-the-wind
+      followed:
+        - slug: chain-lightning
+          followed:
+            - slug: along-the-wind-2
+
+- slug: lightning-explosion
+  followed:
+    - slug: lightning-arrow
+      followed:
+        - slug: piercing-wind
+    - slug: lightning-explosion
+      followed:
+        - slug: lightning-explosion
+    - slug: typhoon
+      followed:
+        - slug: gust

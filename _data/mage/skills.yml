@@ -459,3 +459,83 @@
   skill-descriptions:
     - For 7.5 seconds, deals 210 damage to the targeted area periodically.
     - Any move command cancels the skill casting.
+
+- slug: electric-shot
+  name: Electric Shot
+  image: mage/electric-shot.png
+  skill-details:
+    - targeting skill
+    - effective distance 18.00m
+    - air element 50 obtain
+  skill-descriptions:
+    - Deals 319 damage to the enemy.
+
+- slug: chain-lightning
+  name: Chain Lightning
+  image: mage/chain-lightning.png
+  skill-details:
+    - targeting skill
+    - effective distance 18.00m
+    - Casting Time 2.00 seconds
+    - adds air element 30 obtain
+    - maximum mana 8.00% + 150 consumption
+  skill-descriptions:
+    - Deals 1220 damage to the enemy and arcs to another nearby enemy. The spell affects up to 5 targets, inflicting 10% less damage to each successive target.
+
+- slug: along-the-wind
+  name: Along the wind
+  image: mage/along-the-wind.png
+  cooldown: 15.00
+  skill-details:
+    - non targeting skill
+    - air element 60 obtain
+    - maximum mana 4.00% + 100 consumption
+  skill-descriptions:
+    - After generating a magical glyph in the current location, you fly forward quickly, dealing 2122 damage to the targeted area.
+    - Grants immunity to all Crowd Control and Position Control effects while moving.
+    - It is not affected by other skills that increase damage.
+
+- slug: along-the-wind-2
+  name: Along the wind
+  image: mage/along-the-wind-2.png
+  skill-details:
+    - targeting skill
+    - air element 60 obtain
+    - effective distance 20.00m
+  skill-descriptions:
+    - Returns to the placed magical glyph. However, the magical glyph must be located within your sight.
+    - Grants immunity to all Crowd Control and Position Control effects while moving.
+
+- slug: lightning-explosion
+  name: Lightning Explosion
+  image: mage/lightning-explosion.png
+  skill-details:
+    - non targeting skill
+    - air element 50 obtain
+    - maximum mana 2.00% + 100 consumption
+  skill-descriptions:
+    - Deals 335 damage to the enemies within a 4m radius.
+
+- slug: piercing-wind
+  name: Piercing Wind
+  image: mage/piercing-wind.png
+  skill-details:
+    - targeting skill
+    - effective distance 18.00m
+    - air element 30 obtain
+    - maximum mana 35% consumption
+  skill-descriptions:
+    - For 6.5 seconds, deals 369 damage to the targeted area periodically.
+
+- slug: typhoon
+  name: Typhoon
+  image: mage/typhoon.png
+  cooldown: 40.00
+  crowd_control: true
+  skill-details:
+    - non targeting skill
+    - effective distance 18.00m
+    - air element 10 obtain
+    - maximum mana 5.00% + 150 consumption
+  skill-descriptions:
+    - Inflicts 201 periodic damage to enemies within 5m. Drags enemies into the range of the skill at the start, middle, and end.
