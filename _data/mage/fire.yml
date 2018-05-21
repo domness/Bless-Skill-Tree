@@ -1,0 +1,35 @@
+- slug: magic-shot
+  followed:
+    - slug: flame-shot
+      followed:
+        - slug: magic-absorption
+    - slug: fireball
+      followed:
+        - slug: area-of-effect-fireball
+    - slug: incineration
+      followed:
+        - slug: fiery-meteor
+
+- slug: kindle
+  followed:
+    - slug: area-of-effect-fireball
+      followed:
+        - slug: ignition
+    - slug: incineration
+      followed:
+        - slug: fiery-explosion
+    - slug: fiery-meteor
+      followed:
+        - slug: incandescence
+
+- slug: fiery-eruption
+  followed:
+    - slug: fireball
+      followed:
+        - slug: fiery-explosion
+    - slug: flame-shot
+      followed:
+        - slug: fiery-meteor
+    - slug: ignition
+      followed:
+        - slug: flamestrike

@@ -89,3 +89,146 @@
     - Summons armor which absorbs 15% of damage taken for 30 seconds.
     - The Armor transforms into [Phantasmal Armor] when more than 25% of Vitality is consumed by a single attack. Phantasmal Armor absorbs 30% of damage taken from the next attack within 5 seconds.
     - When hit by a melee attack, inflicts the [Stun] effect, making the target unable to move for 3 seconds.
+
+- slug: magic-shot
+  name: Magic Shot
+  image: mage/magic-shot.png
+  skill-details:
+    - targeting skill
+    - effective distance 18.00m
+  skill-descriptions:
+    - Deals 319 damage to the enemy.
+
+- slug: flame-shot
+  name: Flame Shot
+  image: mage/flame-shot.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - fire element 50 obtain
+  skill-descriptions:
+    - Deals 319 damage to the enemy.
+
+- slug: magic-absorption
+  name: Magic Absorption
+  image: mage/magic-absorption.png
+  skill-details:
+    - targeting skill
+    - effective distance 18.00m
+  skill-descriptions:
+    - Deals 373 damage to the enemy.
+
+- slug: fireball
+  name: Fireball
+  image: mage/fireball.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - Casting Time 1.60 seconds
+    - fire element 90 obtain
+    - maximum mana 6.00% + 100 consumption
+  skill-descriptions:
+    - Deals 1156 damage to the enemy.
+
+- slug: area-of-effect-fireball
+  name: Area of Effect Fireball
+  image: mage/area-of-effect-fireball.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - Casting Time 1.60 seconds
+    - fire element 90 obtain
+    - maximum mana 6.00% + 100 consumption
+  skill-descriptions:
+    - Deals 1156 damage to the enemy and its surroundings.
+    - Not affected by other skills that increase damage or add damage effects.
+
+- slug: incineration
+  name: Incineration
+  image: mage/incineration.png
+  cooldown: 10.00
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - fire element 40 obtain
+    - maximum mana 3.00% + 40 consumption
+  skill-descriptions:
+    - Deals 963 damage to the enemy.
+
+- slug: fiery-meteor
+  name: Fiery Meteor
+  image: mage/fiery-meteor.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - fire element 50 obtain
+    - maximum mana 4.00% + 100 consumption
+  skill-descriptions:
+    - Deals 781 damage to the enemy and its surroundings.
+
+- slug: kindle
+  name: Kindle
+  image: mage/kindle.png
+  skill-details:
+    - targeting skill
+    - fire element 100 obtain
+    - maximum mana 6.00% + 200 consumption
+  skill-descriptions:
+    - Deals 419 damage to the enemy, inflicting the [Burn] effect.
+
+- slug: ignition
+  name: Ignition
+  image: mage/ignition.png
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - fire element 40 obtain
+    - maximum mana 2.00% + 100 consumption
+  skill-descriptions:
+    - Deals 336 damage to the enemy. If the [Burn] effect is applied to the target, it affects additional nearby targets within 6m. Resets the duration of the [Burn] effect affecting the target.
+
+- slug: fiery-explosion
+  name: Fiery Explosion
+  image: mage/fiery-explosion.png
+  skill-details:
+    - targeting skill
+    - fire element 120 obtain
+    - maximum mana 8.00% + 200 consumption
+  skill-descriptions:
+    - Deals 2867 damage to the enemy.
+
+- slug: incandescence
+  name: Incandescence
+  image: mage/incandescence.png
+  crowd_control: true
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - fire element 60 obtain
+    - maximum mana 2.00% + 100 consumption
+  skill-descriptions:
+    - Deals 586 damage to the enemy and applies the [Stun] effect, which makes the enemy unable to move for 2 seconds.
+
+- slug: fiery-eruption
+  name: Fiery Eruption
+  image: mage/fiery-eruption.png
+  cooldown: 15.00
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - fire element 40 obtain
+    - maximum mana 2.00% + 100 consumption
+  skill-descriptions:
+    - Deals 433 damage to the enemy.
+
+- slug: flamestrike
+  name: Flamestrike
+  image: mage/flamestrike.png
+  skill-details:
+    - specific area skill
+    - effective distance 20.00m
+    - Casting Time 2.00 seconds
+    - fire element 120 obtain
+    - maximum mana 15.00% + 200 consumption
+  skill-descriptions:
+    - For N seconds, deals 1150 damage to the targeted area and additional periodic damage to enemies in the area.
