@@ -35,6 +35,7 @@ Skills are the entire set of available skills for a certain class. Anything that
 - slug: distortion
   name: Distortion
   image: mage/distortion.png
+  cooldown: 15.00
   skill-details:
     - non targeting skill
     - maximum mana 2.00% + 100 consumption
