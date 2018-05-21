@@ -2,6 +2,7 @@
   name: Holy Explosion
   image: paladin/holy-explosion.png
   cooldown: 30.00
+  crowd_control: true
   skill-details:
     - non targeting skill
     - maximum mana 10.00% + 100 consumption
@@ -91,6 +92,7 @@
 - slug: verdict
   name: Verdict
   image: paladin/verdict.png
+  crowd_control: true
   skill-details:
     - targeting skill
     - effective distance 4.00m
@@ -223,6 +225,7 @@
   name: Chastisement Chain
   image: paladin/chastisement-chain.png
   cooldown: 7.00
+  crowd_control: true
   skill-details:
     - targeting skill
     - effective distance 15.00m

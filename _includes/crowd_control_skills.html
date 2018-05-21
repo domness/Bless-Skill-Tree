@@ -1,0 +1,8 @@
+<h2>{{ page.title }} crowd control skills</h2>
+
+<div class='skills'>
+  {% assign cc_skills = site.data[page.slug].skills | where: "crowd_control", true %}
+  {% for skill in cc_skills %}
+    {% include skill.html skill=skill %}
+  {% endfor %}
+</div>
