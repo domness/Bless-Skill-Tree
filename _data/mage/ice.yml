@@ -1,0 +1,35 @@
+- slug: magic-shot
+  followed:
+    - slug: chill-shot
+      followed:
+        - slug: magic-absorption
+    - slug: ice-arrow
+      followed:
+        - slug: ice-arrow
+    - slug: frostbite
+      followed:
+        - slug: ice-blast
+
+- slug: biting-cold
+  followed:
+    - slug: chill-shot
+      followed:
+        - slug: icy-wave
+    - slug: frostbite
+      followed:
+        - slug: freezing
+    - slug: ice-arrow
+      followed:
+        - slug: frostbite
+
+- slug: frozen-ground
+  followed:
+    - slug: ice-blast
+      followed:
+        - slug: frigid-spear
+    - slug: frostbite
+      followed:
+        - slug: biting-cold
+    - slug: chill-shot
+      followed:
+        - slug: blizzard

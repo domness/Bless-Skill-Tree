@@ -1,0 +1,35 @@
+- slug: ice-flame
+  followed:
+    - slug: fireball
+      followed:
+        - slug: fiery-explosion
+    - slug: ice-arrow
+      followed:
+        - slug: ice-blast
+    - slug: lightning-arrow
+      followed:
+        - slug: bladestorm
+
+- slug: static-charge
+  followed:
+    - slug: incineration
+      followed:
+        - slug: fiery-meteor
+    - slug: frostbite
+      followed:
+        - slug: frigid-spear
+    - slug: static-strike
+      followed:
+        - slug: thunder-and-lightning
+
+- slug: chilling-wind
+  followed:
+    - slug: area-of-effect-fireball
+      followed:
+        - slug: flamestrike
+    - slug: chill-shot
+      followed:
+        - slug: icy-wave
+    - slug: thunderbolt
+      followed:
+        - slug: gust
