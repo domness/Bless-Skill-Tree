@@ -2,4 +2,5 @@ title: Bless Skill Tree
 description: Bless Online stances, rotations and skills
 theme: jekyll-theme-midnight
 root: 'Bless-Skill-Tree'
+google_analytics: UA-40498224-2
 # include: ['_pages']
