@@ -424,7 +424,7 @@
 
 - slug: freezing
   name: Freezing
-  image: mage/Freezing.png
+  image: mage/freezing.png
   crowd_control: true
   skill-details:
     - targeting skill
