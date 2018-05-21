@@ -27,7 +27,7 @@
     - effective distance 18.00m
     - maximum mana 3.00% + 100 consumption
   skill-descriptions:
-    - Removes on of the [Burn], [Curse], and [Wound] effects affecting each ally.
+    - Removes one of the [Burn], [Curse], and [Wound] effects affecting each ally.
 
 - slug: elemental-discharge
   name: Elemental Discharge
@@ -67,6 +67,7 @@
   name: Sleep
   image: mage/sleep.png
   cooldown: 30.00
+  crowd_control: true
   skill-details:
     - targeting skill
     - effective distance 18.00m

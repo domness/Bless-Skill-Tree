@@ -43,6 +43,7 @@
   name: Leap
   image: guardian/leap.png
   cooldown: 16.00
+  crowd_control: true
   skill-details:
     - targeting skill
     - effective distance 14.00m
@@ -164,6 +165,7 @@
 - slug: concentrated-strike
   name: Concentrated Strike
   image: guardian/concentrated-strike.png
+  crowd_control: true
   skill-details:
     - non targeting skill
     - effective distance 4.00m
@@ -242,6 +244,7 @@
 - slug: challenge
   name: Challenge
   image: guardian/challenge.png
+  crowd_control: true
   skill-details:
     - targeting skill
     - effective distance 21.00m
@@ -273,6 +276,7 @@
   name: Charge
   image: guardian/charge.png
   cooldown: 7.00
+  crowd_control: true
   skill-details:
     - targeting skill
     - effective distance 17.00m
@@ -283,6 +287,7 @@
 - slug: shield-upper-swing
   name: Shield Upper Swing
   image: guardian/shield-upper-swing.png
+  crowd_control: true
   skill-details:
     - targeting skill
     - effective distance 4.00m
@@ -312,6 +317,7 @@
 - slug: dominate
   name: Dominate
   image: guardian/dominate.png
+  crowd_control: true
   skill-details:
     - non targeting skill
     - Bravery 2 obtain
@@ -322,6 +328,7 @@
 - slug: low-slash
   name: Low Slash
   image: guardian/low-slash.png
+  crowd_control: true
   skill-details:
     - non targeting skill
     - effective distance 4.00m
@@ -333,6 +340,7 @@
 - slug: desperate-strike
   name: Desperate Strike
   image: guardian/desperate-strike.png
+  crowd_control: true
   skill-details:
     - non targeting skill
     - effective distance 4.00m
