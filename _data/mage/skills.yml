@@ -1,53 +1,53 @@
 - slug: distortion
   name: Distortion
   image: mage/distortion.png
+  cooldown: 30.00
   skill-details:
     - non targeting skill
     - maximum mana 2.00% + 100 consumption
-    - time until can be used again 30.00 seconds
   skill-descriptions:
     - Reduces Threat by 30% for 5 seconds.
 
 - slug: blink
   name: Blink
   image: mage/blink.png
+  cooldown: 20.00
   skill-details:
     - non targeting skill
     - maximum mana 10.00% + 100 consumption
-    - time until can be used again 20.00 seconds
   skill-descriptions:
     - Teleports you forward. Grants immunity to all Crowd Control and Position Control effects while teleporting.
 
 - slug: disenchant
   name: Disenchant
   image: mage/disenchant.png
+  cooldown: 10.00
   skill-details:
     - targeting skill
     - effective distance 18.00m
     - maximum mana 3.00% + 100 consumption
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - Removes on of the [Burn], [Curse], and [Wound] effects affecting each ally.
 
 - slug: elemental-discharge
   name: Elemental Discharge
   image: mage/elemental-discharge.png
+  cooldown: 45.00
   skill-details:
     - non targeting skill
     - fire element 200 obtain
     - ice element 200 obtain
     - air element 200 obtain
     - maximum mana 2.00% + 100 consumption
-    - time until can be used again 45.00 seconds
   skill-descriptions:
     - Obtain 20 fire, Ice, and Air Elements.
 
 - slug: mana-shield
   name: Mana Shield
   image: mage/mana-shield.png
+  cooldown: 10.00
   skill-details:
     - non targeting skill
-    - time until can be used again 10.00 seconds
   skill-descriptions:
     - Creates a Protective Shield that absorbs damage by consuming Mana. Press the skill once again to deactivate it.
     - You can activate it when you have 10% or more of maximum Mana.
@@ -55,23 +55,23 @@
 - slug: counterspell
   name: Counterspell
   image: mage/counterspell.png
+  cooldown: 20.00
   skill-details:
     - targeting skill
     - effective distance 18.00m
     - maximum mana 2.00% + 100 consumption
-    - time until can be used again 20.00 seconds
   skill-descriptions:
     - Interrupts spells being cast and makes the target unable to cast magic skills for 4 seconds.
 
 - slug: sleep
   name: Sleep
   image: mage/sleep.png
+  cooldown: 30.00
   skill-details:
     - targeting skill
     - effective distance 18.00m
     - Casting Time 1.50 seconds
     - maximum mana 5.00% + 200 consumption
-    - time until can be used again 30.00 seconds
   skill-descriptions:
     - The enemy falls asleep and becomes unable to move for 30 seconds. The target quickly recovers Health Points for the duration of the effect. The target wakes up when attacked.
     - The skill does not trigger Resistance calculation.
@@ -80,10 +80,10 @@
 - slug: elemental-armor
   name: Elemental Armor
   image: mage/elemental-armor.png
+  cooldown: 45.00
   skill-details:
     - non targeting skill
     - maximum mana 15.00% + 300 consumption
-    - time until can be used again 45.00 seconds
   skill-descriptions:
     - Summons armor which absorbs 15% of damage taken for 30 seconds.
     - The Armor transforms into [Phantasmal Armor] when more than 25% of Vitality is consumed by a single attack. Phantasmal Armor absorbs 30% of damage taken from the next attack within 5 seconds.

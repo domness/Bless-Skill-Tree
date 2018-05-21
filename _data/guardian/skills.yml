@@ -152,10 +152,10 @@
 - slug: shield-attack
   name: Shield Attack
   image: guardian/shield-attack.png
+  cooldown: 7.00
   skill-details:
     - targeting skill
     - effective distance 4.00m
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - Deals 453 damage to the enemy.
     - The [Increased Defense] effect will be applied for a while after the skill is finished.
@@ -213,9 +213,9 @@
 - slug: shout
   name: Shout
   image: guardian/shout.png
+  cooldown: 7.00
   skill-details:
     - non targeting skill
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - Physical Attack Power inreases by 50% for 10 seconds.
 
@@ -253,9 +253,9 @@
 - slug: breach
   name: Breach
   image: guardian/breach.png
+  cooldown: 7.00
   skill-details:
     - non targeting skill
-    - time until can be used again 7.00 second
   skill-descriptions:
     - Increases Movement Speed by 20% for 5 seconds. For the duration of the skill effect, damage taken from ranged attacks is reduced by 50%. However, damage from magic attacks does not decrease.
     - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
@@ -272,10 +272,10 @@
 - slug: charge
   name: Charge
   image: guardian/charge.png
+  cooldown: 7.00
   skill-details:
     - targeting skill
     - effective distance 17.00m
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - You fly at the enemy, dealing 477 damage and gaining a high thread level. Inflicts the [Root] effect, which makes the enemy unable to move for 0.3 seconds.
     - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
@@ -344,10 +344,10 @@
 - slug: shield-blast
   name: Shield Blast
   image: guardian/shield-blast.png
+  cooldown: 7.00
   skill-details:
     - targeting skill
     - effective distance 21.00m
-    - time until can be used again 7.00 seconds
   skill-descriptions:
     - Deals 174 damage to a ranged enemy, gaining a high threat level.
     - When you use the skill in the [Enhanced] state, Physical and Magic Defense will additional increase for 5 seconds.
