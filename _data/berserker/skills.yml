@@ -1,0 +1,81 @@
+- slug: game-changer
+  name: Game Changer
+  image: berserker/game-changer.png
+  cooldown: 40.00
+  skill-details:
+    - non targeting skill
+    - Anger 30 consumption
+  skill-descriptions:
+    - Increases Fighting Power in proportion to the number of enemies in combat. Increases Fighting Power by 2% per enemy in combat (up to 30%).
+
+- slug: forestall
+  name: Forestall
+  image: berserker/forestall.png
+  cooldown: 30.00
+  crowd_control: true
+  skill-details:
+    - targeting skill
+    - effective distance 6.00m
+    - Anger 20 consumption
+  skill-descriptions:
+    - Approaches an enemy within a 6m radius, dealing 700 damage and rooting the target for 1 second.
+
+- slug: murderous-intent
+  name: Murderous Intent
+  image: berserker/murderous-intent.png
+  cooldown: 30.00
+  skill-details:
+    - non targeting skill
+    - Anger 30 consumption
+  skill-descriptions:
+    - Applies [Mark] effect which decreases Physical Defense of all enemies within a 5m radius by 20%.
+
+- slug: dodge-move
+  name: Dodge Move
+  image: berserker/dodge-move.png
+  cooldown: 30.00
+  skill-details:
+    - non targeting skill
+    - Anger 20 consumption
+  skill-descriptions:
+    - The Crowd Control state is dismissed, and you can move by rolling in 8 directions.
+
+- slug: fighting-like-kilkenny-cats
+  name: Fighting Like Kilkenny Cats
+  image: berserker/fighting-like-kilkenny-cats.png
+  cooldown: 40.00
+  skill-details:
+    - non targeting skill
+    - Anger 30 consumption
+  skill-descriptions:
+    - Increases Berserker's Fighting Power by 40% for 3 seconds when used at less than 10% Vitality. If Vitality is at 10% or more, the Berserker will simply gain a 5% increase in Fighting Power.
+
+- slug: fighting-spirit
+  name: Fighting Spirit
+  image: berserker/fighting-spirit.png
+  cooldown: 40.00
+  skill-details:
+    - non targeting skill
+    - Anger 40 obtain
+  skill-descriptions:
+    - Gain 40 Anger.
+
+- slug: fighters-will
+  name: Fighter's Will
+  image: berserker/fighters-will.png
+  cooldown: 40.00
+  skill-details:
+    - non targeting skill
+    - Anger 20 consumption
+  skill-descriptions:
+    - Increases Berserker's Fighting Power by 10% for 5 seconds.
+    - Decreases all Defense by 10%.
+
+- slug: enraged-warrior
+  name: Enraged Warrior
+  image: berserker/enraged-warrior.png
+  cooldown: 40.00
+  skill-details:
+    - non targeting skill
+  skill-descriptions:
+    - Consumes Anger slowly when used. Increases Parry rate by 30%.

@@ -31,6 +31,7 @@
     text-align: center;
     max-width: 80px;
     margin: auto;
+    font-size: 12px;
   }
 }
 
@@ -77,7 +78,8 @@
   }
 
   .skill-name {
-    font-size: 16px;
+    margin-top: -2px;
+    font-size: 13px;
   }
 
   .skill-cooldown {
@@ -96,10 +98,12 @@
     display: block;
     color: #E6DF0B;
     clear: both;
+    font-size: 13px;
   }
 
   .skill-description {
     margin-top: 10px;
+    font-size: 13px;
   }
 }
 
