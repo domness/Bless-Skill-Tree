@@ -39,6 +39,7 @@
   display: inline;
   position: absolute;
   float: left;
+  z-index: 1;
 }
 
 .rotation {
@@ -107,12 +108,12 @@
   }
 }
 
-.stance {
-  margin: 15px;
-  clear: both;
+.stance-name {
   margin-top: 15px;
-  text-align: center;
-  min-width: 350px;
+}
+
+.stance {
+  margin-bottom: 15px;
 
   .combo.initial {
     text-align: center;
@@ -145,14 +146,12 @@
       width: 36px;
       height: 36px;
     }
+  }
 
-    // .skill:not(.starter) {
-    //   width: 46px;
-    //   height: 36px;
-    //   padding: 0;
-    //   background-image: url('../../images/skill-border.svg');
-    //   background-repeat: no-repeat;
-    // }
+  .line {
+    border-bottom: 1px solid white;
+    width: 90px;
+    margin: auto;
   }
 
   .combo {
@@ -160,10 +159,6 @@
     display: inline-block;
     margin-top: 0px;
     vertical-align: top;
-    min-width: 100px;
-    background-image: url('../../images/skill-top.png');
-    background-repeat: no-repeat;
-    background-position: top;
     padding-top: 15px;
 
     .skill {
@@ -172,7 +167,6 @@
       display: block;
       margin: auto;
       padding: 5px;
-
     }
   }
 }
