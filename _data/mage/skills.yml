@@ -82,6 +82,7 @@
   name: Elemental Armor
   image: mage/elemental-armor.png
   cooldown: 45.00
+  crowd_control: true
   skill-details:
     - non targeting skill
     - maximum mana 15.00% + 300 consumption
@@ -154,6 +155,19 @@
     - maximum mana 3.00% + 40 consumption
   skill-descriptions:
     - Deals 963 damage to the enemy.
+
+- slug: fiery-meteor-1
+  name: Fiery Meteor
+  image: mage/fiery-meteor.png
+  crowd_control: true
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - fire element 50 obtain
+    - maximum mana 4.00% + 100 consumption
+  skill-descriptions:
+    - Deals 781 damage to the enemy and its surroundings
+    - Inflicts the [Stun] effect after [Flame Shot] in the Fire 1-3 combo, which makes the enemy unable to move for 2 seconds.
 
 - slug: fiery-meteor
   name: Fiery Meteor

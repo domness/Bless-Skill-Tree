@@ -29,7 +29,7 @@
         - slug: fiery-explosion
     - slug: flame-shot
       followed:
-        - slug: fiery-meteor
+        - slug: fiery-meteor-1
     - slug: ignition
       followed:
         - slug: flamestrike
