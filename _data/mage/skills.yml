@@ -169,6 +169,18 @@
     - Deals 781 damage to the enemy and its surroundings
     - Inflicts the [Stun] effect after [Flame Shot] in the Fire 1-3 combo, which makes the enemy unable to move for 2 seconds.
 
+- slug: fiery-meteor-2
+  name: Fiery Meteor
+  image: mage/fiery-meteor.png
+  cooldown: 15.00
+  skill-details:
+    - targeting skill
+    - effective distance 20.00m
+    - fire element 50 obtain
+    - maximum mana 4.00% + 100 consumption
+  skill-descriptions:
+    - Deals 781 damage to the enemy and its surroundings.
+
 - slug: fiery-meteor
   name: Fiery Meteor
   image: mage/fiery-meteor.png
