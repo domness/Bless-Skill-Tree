@@ -1,0 +1,35 @@
+- slug: brutal-smite
+  followed:
+    - slug: cleaving-attack
+      followed:
+        - slug: whirlwind-4
+    - slug: bloodlust
+      followed:
+        - slug: bloody-retribution-1
+    - slug: rapid-slash-1
+      followed:
+        - slug: decapitate
+
+- slug: pull-in
+  followed:
+    - slug: cleaving-attack
+      followed:
+        - slug: upper-swing-1
+    - slug: vengeful-strike-1
+      followed:
+        - slug: skull-crusher-1
+    - slug: prompt-decision-1
+      followed:
+        - slug: rhapsody-1
+
+- slug: vengeful-strike-2
+  followed:
+    - slug: furious-cry
+      followed:
+        - slug: furious-strike
+    - slug: charge-stance
+      followed:
+        - slug: pull-in-1
+    - slug: rapid-slash-1
+      followed:
+        - slug: furious-cry-1
