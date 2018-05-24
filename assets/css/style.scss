@@ -3,6 +3,29 @@
 
 @import "{{ site.theme }}";
 
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.class-table {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+
+  img {
+    margin-bottom: 10px;
+  }
+}
+
+#class-icon {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
 // Skill Tooltips
 
 .skills {

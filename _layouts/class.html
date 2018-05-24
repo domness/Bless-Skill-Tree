@@ -2,10 +2,12 @@
 
 <section>
   <div id="title">
+    <img id="class-icon" src="images/class_icons/{{page.slug}}.png" />
     <h1>{{ page.title | default: site.github.repository_name }}</h1>
     <p>{{ site.description | default: site.github.project_tagline }}</p>
-    <hr>
-    <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+    <div class="center">
+      <span class="credits">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> at <a href='https://github.com/domness/Bless-Skill-Tree'>GitHub</a></span>
+    </div>
   </div>
 
   <h4><a href="index.html">Home</a> > {{ page.title }}</h4>
