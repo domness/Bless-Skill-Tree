@@ -59,10 +59,10 @@ Skills are the entire set of available skills for a certain class. Anything that
   name: Distortion
   image: mage/distortion.png
   cooldown: 30.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
-    - maximum mana 2.00% + 100 consumption
+    - Non-targeting
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Reduces Threat by 30% for 5 seconds.
 ```
@@ -148,7 +148,7 @@ An example of the JSON is:
           "name": "Holy Explosion",
           "image": "paladin/holy-explosion.png",
           "cooldown": 30,
-          "crowd_control": true,
+          "crowd-control": true,
           "skill-details": [
             "non targeting skill",
             "maximum mana 10.00% + 100 consumption"

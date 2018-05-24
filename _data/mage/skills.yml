@@ -3,8 +3,8 @@
   image: mage/distortion.png
   cooldown: 30.00
   skill-details:
-    - non targeting skill
-    - maximum mana 2.00% + 100 consumption
+    - Non-targeting
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Reduces Threat by 30% for 5 seconds.
 
@@ -13,8 +13,8 @@
   image: mage/blink.png
   cooldown: 20.00
   skill-details:
-    - non targeting skill
-    - maximum mana 10.00% + 100 consumption
+    - Non-targeting
+    - Mana 10.00% + 100 consumption
   skill-descriptions:
     - Teleports you forward. Grants immunity to all Crowd Control and Position Control effects while teleporting.
 
@@ -23,9 +23,9 @@
   image: mage/disenchant.png
   cooldown: 10.00
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
-    - maximum mana 3.00% + 100 consumption
+    - Targeting
+    - Range 18.00m
+    - Mana 3.00% + 100 consumption
   skill-descriptions:
     - Removes one of the [Burn], [Curse], and [Wound] effects affecting each ally.
 
@@ -34,11 +34,11 @@
   image: mage/elemental-discharge.png
   cooldown: 45.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - fire element 200 obtain
     - ice element 200 obtain
     - air element 200 obtain
-    - maximum mana 2.00% + 100 consumption
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Obtain 20 fire, Ice, and Air Elements.
 
@@ -47,7 +47,7 @@
   image: mage/mana-shield.png
   cooldown: 10.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Creates a Protective Shield that absorbs damage by consuming Mana. Press the skill once again to deactivate it.
     - You can activate it when you have 10% or more of maximum Mana.
@@ -57,9 +57,9 @@
   image: mage/counterspell.png
   cooldown: 20.00
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
-    - maximum mana 2.00% + 100 consumption
+    - Targeting
+    - Range 18.00m
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Interrupts spells being cast and makes the target unable to cast magic skills for 4 seconds.
 
@@ -67,12 +67,12 @@
   name: Sleep
   image: mage/sleep.png
   cooldown: 30.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
-    - Casting Time 1.50 seconds
-    - maximum mana 5.00% + 200 consumption
+    - Targeting
+    - Range 18.00m
+    - Cast time 1.50 seconds
+    - Mana 5.00% + 200 consumption
   skill-descriptions:
     - The enemy falls asleep and becomes unable to move for 30 seconds. The target quickly recovers Health Points for the duration of the effect. The target wakes up when attacked.
     - The skill does not trigger Resistance calculation.
@@ -82,10 +82,10 @@
   name: Elemental Armor
   image: mage/elemental-armor.png
   cooldown: 45.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
-    - maximum mana 15.00% + 300 consumption
+    - Non-targeting
+    - Mana 15.00% + 300 consumption
   skill-descriptions:
     - Summons armor which absorbs 15% of damage taken for 30 seconds.
     - The Armor transforms into [Phantasmal Armor] when more than 25% of Vitality is consumed by a single attack. Phantasmal Armor absorbs 30% of damage taken from the next attack within 5 seconds.
@@ -95,8 +95,8 @@
   name: Magic Shot
   image: mage/magic-shot.png
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
   skill-descriptions:
     - Deals 319 damage to the enemy.
 
@@ -104,8 +104,8 @@
   name: Flame Shot
   image: mage/flame-shot.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 50 obtain
   skill-descriptions:
     - Deals 319 damage to the enemy.
@@ -114,8 +114,8 @@
   name: Magic Absorption
   image: mage/magic-absorption.png
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
   skill-descriptions:
     - Deals 373 damage to the enemy.
 
@@ -123,11 +123,11 @@
   name: Fireball
   image: mage/fireball.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
-    - Casting Time 1.60 seconds
+    - Targeting
+    - Range 20.00m
+    - Cast time 1.60 seconds
     - fire element 90 obtain
-    - maximum mana 6.00% + 100 consumption
+    - Mana 6.00% + 100 consumption
   skill-descriptions:
     - Deals 1156 damage to the enemy.
 
@@ -135,11 +135,11 @@
   name: Area of Effect Fireball
   image: mage/area-of-effect-fireball.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
-    - Casting Time 1.60 seconds
+    - Targeting
+    - Range 20.00m
+    - Cast time 1.60 seconds
     - fire element 90 obtain
-    - maximum mana 6.00% + 100 consumption
+    - Mana 6.00% + 100 consumption
   skill-descriptions:
     - Deals 1156 damage to the enemy and its surroundings.
     - Not affected by other skills that increase damage or add damage effects.
@@ -149,22 +149,22 @@
   image: mage/incineration.png
   cooldown: 10.00
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 40 obtain
-    - maximum mana 3.00% + 40 consumption
+    - Mana 3.00% + 40 consumption
   skill-descriptions:
     - Deals 963 damage to the enemy.
 
 - slug: fiery-meteor-1
   name: Fiery Meteor
   image: mage/fiery-meteor.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 50 obtain
-    - maximum mana 4.00% + 100 consumption
+    - Mana 4.00% + 100 consumption
   skill-descriptions:
     - Deals 781 damage to the enemy and its surroundings
     - Inflicts the [Stun] effect after [Flame Shot] in the Fire 3-2 combo, which makes the enemy unable to move for 2 seconds.
@@ -174,10 +174,10 @@
   image: mage/fiery-meteor.png
   cooldown: 15.00
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 50 obtain
-    - maximum mana 4.00% + 100 consumption
+    - Mana 4.00% + 100 consumption
   skill-descriptions:
     - Deals 781 damage to the enemy and its surroundings.
 
@@ -185,10 +185,10 @@
   name: Fiery Meteor
   image: mage/fiery-meteor.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 50 obtain
-    - maximum mana 4.00% + 100 consumption
+    - Mana 4.00% + 100 consumption
   skill-descriptions:
     - Deals 781 damage to the enemy and its surroundings.
 
@@ -196,9 +196,9 @@
   name: Kindle
   image: mage/kindle.png
   skill-details:
-    - targeting skill
+    - Targeting
     - fire element 100 obtain
-    - maximum mana 6.00% + 200 consumption
+    - Mana 6.00% + 200 consumption
   skill-descriptions:
     - Deals 419 damage to the enemy, inflicting the [Burn] effect.
 
@@ -206,10 +206,10 @@
   name: Ignition
   image: mage/ignition.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 40 obtain
-    - maximum mana 2.00% + 100 consumption
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Deals 336 damage to the enemy. If the [Burn] effect is applied to the target, it affects additional nearby targets within 6m. Resets the duration of the [Burn] effect affecting the target.
 
@@ -217,21 +217,21 @@
   name: Fiery Explosion
   image: mage/fiery-explosion.png
   skill-details:
-    - targeting skill
+    - Targeting
     - fire element 120 obtain
-    - maximum mana 8.00% + 200 consumption
+    - Mana 8.00% + 200 consumption
   skill-descriptions:
     - Deals 2867 damage to the enemy.
 
 - slug: incandescence
   name: Incandescence
   image: mage/incandescence.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 60 obtain
-    - maximum mana 2.00% + 100 consumption
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Deals 586 damage to the enemy and applies the [Stun] effect, which makes the enemy unable to move for 2 seconds.
 
@@ -240,10 +240,10 @@
   image: mage/fiery-eruption.png
   cooldown: 15.00
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 40 obtain
-    - maximum mana 2.00% + 100 consumption
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Deals 433 damage to the enemy.
 
@@ -252,10 +252,10 @@
   image: mage/flamestrike.png
   skill-details:
     - specific area skill
-    - effective distance 20.00m
-    - Casting Time 2.00 seconds
+    - Range 20.00m
+    - Cast time 2.00 seconds
     - fire element 120 obtain
-    - maximum mana 15.00% + 200 consumption
+    - Mana 15.00% + 200 consumption
   skill-descriptions:
     - For N seconds, deals 1150 damage to the targeted area and additional periodic damage to enemies in the area.
 
@@ -263,12 +263,12 @@
   name: Ice Flame
   image: mage/ice-flame.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
-    - Casting Time 1.50 seconds
+    - Targeting
+    - Range 20.00m
+    - Cast time 1.50 seconds
     - adds fire element 40 obtain
     - adds ice element 40 obtain
-    - maximum mana 5.00% + 100 consumption
+    - Mana 5.00% + 100 consumption
   skill-descriptions:
     - Deals 641 damage in total to the enemy over 2 attacks
 
@@ -277,11 +277,11 @@
   image: mage/ice-arrow.png
   cooldown: 10.00
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
-    - Casting Time 1.40 seconds
+    - Targeting
+    - Range 18.00m
+    - Cast time 1.40 seconds
     - ice element 80 obtain
-    - maximum mana 5.00% + 60 consumption
+    - Mana 5.00% + 60 consumption
   skill-descriptions:
     - Deals 991 damage to the enemy.
 
@@ -289,10 +289,10 @@
   name: Ice Blast
   image: mage/ice-blast.png
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
     - ice element 40 obtain
-    - maximum mana 4.00% + 100 consumption
+    - Mana 4.00% + 100 consumption
   skill-descriptions:
     - Deals 781 damage to the enemy.
 
@@ -301,11 +301,11 @@
   image: mage/lightning-arrow.png
   cooldown: 15.00
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
-    - Casting Time 1.40 seconds
+    - Targeting
+    - Range 18.00m
+    - Cast time 1.40 seconds
     - air element 70 obtain
-    - maximum mana 3.00% + 100 consumption
+    - Mana 3.00% + 100 consumption
   skill-descriptions:
     - Deals 1025 damage to the enemy.
 
@@ -314,11 +314,11 @@
   image: mage/bladestorm.png
   cooldown: 15.00
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
-    - Casting Time 1.50 seconds
+    - Targeting
+    - Range 18.00m
+    - Cast time 1.50 seconds
     - air element 80 obtain
-    - maximum mana 4.00% + 200 consumption
+    - Mana 4.00% + 200 consumption
   skill-descriptions:
     - Deals 1324 damage to the enemy.
 
@@ -327,11 +327,11 @@
   image: mage/static-charge.png
   cooldown: 15.00
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 70 obtain
     - air element 70 obtain
-    - maximum mana 6.00% + 200 consumption
+    - Mana 6.00% + 200 consumption
   skill-descriptions:
     - Inflicts the [Lightning Fire] effect on the target for 8 seconds. When used on allies, increases Movement Speed by 30%. When used on enemies, reduces Movement Speed by 30%.
 
@@ -340,10 +340,10 @@
   image: mage/frostbite.png
   cooldown: 20.00
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
     - ice element 40 obtain
-    - maximum mana 3.00% + 100 consumption
+    - Mana 3.00% + 100 consumption
   skill-descriptions:
     - Deals 676 damage to the enemy.
 
@@ -351,10 +351,10 @@
   name: Frigid Spear
   image: mage/frigid-spear.png
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
     - ice element 100 obtain
-    - maximum mana 6.00% + 200 consumption
+    - Mana 6.00% + 200 consumption
   skill-descriptions:
     - Deals 1659 damage to the enemy.
 
@@ -362,8 +362,8 @@
   name: Static Strike
   image: mage/static-strike.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
     - fire element 70 obtain
     - air element 70 obtain
   skill-descriptions:
@@ -374,9 +374,9 @@
   image: mage/thunder-and-lightning.png
   skill-details:
     - specific area skill
-    - effective distance 18.00m
+    - Range 18.00m
     - air element 40 obtain
-    - maximum mana 4.00% + 150 consumption
+    - Mana 4.00% + 150 consumption
   skill-descriptions:
     - Deals 1150 damage to the target area.
 
@@ -384,12 +384,12 @@
   name: Chilling Wind
   image: mage/chilling-wind.png
   cooldown: 15.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - ice element 50 obtain
     - air element 50 obtain
-    - maximum mana 2.00% + 100 consumption
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Deals 419 damage to enemies within 7m in front, knocking them back.
 
@@ -398,7 +398,7 @@
   image: mage/chill-shot.png
   cooldown: 20.00
   skill-details:
-    - targeting skill
+    - Targeting
     - ice element 50 obtain
   skill-descriptions:
     - Deals 319 damage to the enemy.
@@ -407,10 +407,10 @@
   name: Icy Wave
   image: mage/icy-wave.png
   skill-details:
-    - non targeting skill
-    - Casting Time 2.50 seconds
+    - Non-targeting
+    - Cast time 2.50 seconds
     - ice element 110 obtain
-    - maximum mana 6.00% + 200 consumption
+    - Mana 6.00% + 200 consumption
   skill-descriptions:
     - Deals 2021 damage to enemies in front.
 
@@ -419,21 +419,21 @@
   image: mage/thunderbolt.png
   cooldown: 20.00
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
     - air element 60 obtain
-    - maximum mana 3.00% + 100 consumption
+    - Mana 3.00% + 100 consumption
   skill-descriptions:
     - Deals 558 damage to the enemy.
 
 - slug: gust
   name: Gust
   image: mage/gust.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - air element 50 obtain
-    - maximum mana 6.00% + 100 consumption
+    - Mana 6.00% + 100 consumption
   skill-descriptions:
     - Deals 739 damage to enemies within 5m in front, knocking them back.
 
@@ -441,35 +441,35 @@
   name: Biting Cold
   image: mage/biting-cold.png
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
     - ice element 60 obtain
-    - maximum mana 3.00% + 100 consumption
+    - Mana 3.00% + 100 consumption
   skill-descriptions:
     - Deals 837 damage to the enemy.
 
 - slug: freezing
   name: Freezing
   image: mage/freezing.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
-    - Casting Time 1.10 seconds
+    - Targeting
+    - Range 18.00m
+    - Cast time 1.10 seconds
     - ice element 70 obtain
-    - maximum mana 4.00% + 150 consumption
+    - Mana 4.00% + 150 consumption
   skill-descriptions:
     - Deals damage over time to the enemy for 8 seconds and decreases the enemy's Movement Speed by 10%. The target freezes for 3 seconds when the damage over time duration finishes.
 
 - slug: frozen-ground
   name: Frozen Ground
   image: mage/frozen-ground.png
-  crowd_control: true
+  crowd-control: true
   cooldown: 15.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - ice element 50 obtain
-    - maximum mana 3.00% + 100 consumption
+    - Mana 3.00% + 100 consumption
   skill-descriptions:
     - Deals 391 damage to enemies within a 5 radius, freezing their legs for 4 seconds.
 
@@ -478,10 +478,10 @@
   image: mage/blizzard.png
   skill-details:
     - specific area skill
-    - effective distance 18.00m
+    - Range 18.00m
     - Instant Cast
     - adds ice element 20 obtain
-    - maximum mana 15.00% + 200 consumption
+    - Mana 15.00% + 200 consumption
   skill-descriptions:
     - For 7.5 seconds, deals 210 damage to the targeted area periodically.
     - Any move command cancels the skill casting.
@@ -490,8 +490,8 @@
   name: Electric Shot
   image: mage/electric-shot.png
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
     - air element 50 obtain
   skill-descriptions:
     - Deals 319 damage to the enemy.
@@ -500,11 +500,11 @@
   name: Chain Lightning
   image: mage/chain-lightning.png
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
-    - Casting Time 2.00 seconds
+    - Targeting
+    - Range 18.00m
+    - Cast time 2.00 seconds
     - adds air element 30 obtain
-    - maximum mana 8.00% + 150 consumption
+    - Mana 8.00% + 150 consumption
   skill-descriptions:
     - Deals 1220 damage to the enemy and arcs to another nearby enemy. The spell affects up to 5 targets, inflicting 10% less damage to each successive target.
 
@@ -513,9 +513,9 @@
   image: mage/along-the-wind.png
   cooldown: 15.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - air element 60 obtain
-    - maximum mana 4.00% + 100 consumption
+    - Mana 4.00% + 100 consumption
   skill-descriptions:
     - After generating a magical glyph in the current location, you fly forward quickly, dealing 2122 damage to the targeted area.
     - Grants immunity to all Crowd Control and Position Control effects while moving.
@@ -525,9 +525,9 @@
   name: Along the wind
   image: mage/along-the-wind-2.png
   skill-details:
-    - targeting skill
+    - Targeting
     - air element 60 obtain
-    - effective distance 20.00m
+    - Range 20.00m
   skill-descriptions:
     - Returns to the placed magical glyph. However, the magical glyph must be located within your sight.
     - Grants immunity to all Crowd Control and Position Control effects while moving.
@@ -536,9 +536,9 @@
   name: Lightning Explosion
   image: mage/lightning-explosion.png
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - air element 50 obtain
-    - maximum mana 2.00% + 100 consumption
+    - Mana 2.00% + 100 consumption
   skill-descriptions:
     - Deals 335 damage to the enemies within a 4m radius.
 
@@ -546,10 +546,10 @@
   name: Piercing Wind
   image: mage/piercing-wind.png
   skill-details:
-    - targeting skill
-    - effective distance 18.00m
+    - Targeting
+    - Range 18.00m
     - air element 30 obtain
-    - maximum mana 35% consumption
+    - Mana 35% consumption
   skill-descriptions:
     - For 6.5 seconds, deals 369 damage to the targeted area periodically.
 
@@ -557,11 +557,11 @@
   name: Typhoon
   image: mage/typhoon.png
   cooldown: 40.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
-    - effective distance 18.00m
+    - Non-targeting
+    - Range 18.00m
     - air element 10 obtain
-    - maximum mana 5.00% + 150 consumption
+    - Mana 5.00% + 150 consumption
   skill-descriptions:
     - Inflicts 201 periodic damage to enemies within 5m. Drags enemies into the range of the skill at the start, middle, and end.

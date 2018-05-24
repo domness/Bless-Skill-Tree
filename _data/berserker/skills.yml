@@ -3,7 +3,7 @@
   image: berserker/game-changer.png
   cooldown: 40.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Anger 30 consumption
   skill-descriptions:
     - Increases Fighting Power in proportion to the number of enemies in combat. Increases Fighting Power by 2% per enemy in combat (up to 30%).
@@ -12,10 +12,10 @@
   name: Forestall
   image: berserker/forestall.png
   cooldown: 30.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 6.00m
+    - Targeting
+    - Range 6.00m
     - Anger 20 consumption
   skill-descriptions:
     - Approaches an enemy within a 6m radius, dealing 700 damage and rooting the target for 1 second.
@@ -25,7 +25,7 @@
   image: berserker/murderous-intent.png
   cooldown: 30.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Anger 30 consumption
   skill-descriptions:
     - Applies [Mark] effect which decreases Physical Defense of all enemies within a 5m radius by 20%.
@@ -35,7 +35,7 @@
   image: berserker/dodge-move.png
   cooldown: 30.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Anger 20 consumption
   skill-descriptions:
     - The Crowd Control state is dismissed, and you can move by rolling in 8 directions.
@@ -45,7 +45,7 @@
   image: berserker/fighting-like-kilkenny-cats.png
   cooldown: 40.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Anger 30 consumption
   skill-descriptions:
     - Increases Berserker's Fighting Power by 40% for 3 seconds when used at less than 10% Vitality. If Vitality is at 10% or more, the Berserker will simply gain a 5% increase in Fighting Power.
@@ -55,7 +55,7 @@
   image: berserker/fighting-spirit.png
   cooldown: 40.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Anger 40 obtain
   skill-descriptions:
     - Gain 40 Anger.
@@ -65,7 +65,7 @@
   image: berserker/fighters-will.png
   cooldown: 40.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Anger 20 consumption
   skill-descriptions:
     - Increases Berserker's Fighting Power by 10% for 5 seconds.
@@ -76,6 +76,6 @@
   image: berserker/enraged-warrior.png
   cooldown: 40.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Consumes Anger slowly when used. Increases Parry rate by 30%.

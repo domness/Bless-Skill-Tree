@@ -2,10 +2,10 @@
   name: Holy Explosion
   image: paladin/holy-explosion.png
   cooldown: 30.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
-    - maximum mana 10.00% + 100 consumption
+    - Non-targeting
+    - Mana 10.00% + 100 consumption
   skill-descriptions:
     - Deals 429 damage to enemies within a 5m radius, knocking them back.
 
@@ -14,9 +14,9 @@
   image: paladin/purify.png
   cooldown: 20.00
   skill-details:
-    - targeting skill
-    - effective distance 25.00m
-    - maximium mana 5.00% + 50 consumption
+    - Targeting
+    - Range 25.00m
+    - Mana 5.00% + 50 consumption
   skill-descriptions:
     - Removes all Poison, Curse and Wound effects from allies. Continues to remove all Poison, Curse, and Wound effects from allies at regular intervals.
     - Stacks up to 3 times.
@@ -26,8 +26,8 @@
   image: paladin/transcend.png
   cooldown: 90.00
   skill-details:
-    - non targeting skill
-    - maximium mana 5.00% + 50 consumption
+    - Non-targeting
+    - Mana 5.00% + 50 consumption
   skill-descriptions:
     - Able to cast spells while moving for 7 seconds. Grants immunity to all Crowd Control and Position Control effects and increases Movement Speed by 20%.
     - 'Skills effected: [Retribution], [Beacon of Healing], [Healing Light], [Healing Grace], [Resurrection]'
@@ -37,8 +37,8 @@
   image: paladin/sacred-ground.png
   cooldown: 90.00
   skill-details:
-    - non targeting skill
-    - maximium mana 10.00% + 100 consumption
+    - Non-targeting
+    - Mana 10.00% + 100 consumption
   skill-descriptions:
     - Covers the caster's surroundings with divine power for 10 seconds. Reduces damage dealt to allies in the sacred ground by 30% and Movement Speed of hostile targets by 20%.
 
@@ -47,8 +47,8 @@
   image: paladin/endure.png
   cooldown: 30.00
   skill-details:
-    - non targeting skill
-    - maximium mana 10.00% + 100 consumption
+    - Non-targeting
+    - Mana 10.00% + 100 consumption
   skill-descriptions:
     - Removes all detrimental timed effects. For the duration of the effect, grants immunity to all effects, including Position Control effects such as Floating.
     - Heals the caster during the skill effect duration.
@@ -58,10 +58,10 @@
   image: paladin/resurrection.png
   cooldown: 15.00
   skill-details:
-    - targeting skill
-    - effective distance 15.00m
-    - casting time 4.00 seconds
-    - maximium mana 25.00% consumption
+    - Targeting
+    - Range 15.00m
+    - Cast time 4.00 seconds
+    - Mana 25.00% consumption
   skill-descriptions:
     - Resurrects a dead ally into a state of 30% Vitality and Mana.
     - Cannot be used in the Certanon Arena.
@@ -71,8 +71,8 @@
   image: paladin/concentration.png
   cooldown: 20.00
   skill-details:
-    - non targeting skill
-    - maximium mana 5.00% + 50 consumption
+    - Non-targeting
+    - Mana 5.00% + 50 consumption
   skill-descriptions:
     - Reduces cooldown time of [Crusader's Will], [Fanaticism], [Prayer], [Seeker's Devotion] and [Benevolence] skills by 30%.
 
@@ -81,8 +81,8 @@
   image: paladin/strike.png
   cooldown: 1.5
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
   skill-descriptions:
     - Deals 129 damage to the enemy.
   followed:
@@ -92,11 +92,11 @@
 - slug: verdict
   name: Verdict
   image: paladin/verdict.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
-    - maximum mana 15.00% + 50 consumption
+    - Targeting
+    - Range 4.00m
+    - Mana 15.00% + 50 consumption
   skill-descriptions:
     - Deals 476 damage to the enemy and knocks them down.
 
@@ -104,8 +104,8 @@
   name: Rapid Strike
   image: paladin/rapid-strike.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
   skill-descriptions:
     - Deals 143 damage to the enemy.
 
@@ -113,9 +113,9 @@
   name: Chastise
   image: paladin/chastise.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
-    - maximum mana 10.00% + 45 consumption
+    - Targeting
+    - Range 4.00m
+    - Mana 10.00% + 45 consumption
   skill-descriptions:
     - Deals 235 damage to the enemy.
     - If the enemy is already affected by the [Divine Punishment] or [Smash] effects, other nearby enemies will gain this effect.
@@ -124,9 +124,9 @@
   name: Conviction
   image: paladin/conviction.png
   skill-details:
-    - targeting skill
-    - effective distance 11.00m
-    - maximum mana 11.00% + 50 consumption
+    - Targeting
+    - Range 11.00m
+    - Mana 11.00% + 50 consumption
   skill-descriptions:
     - You fly at the fallen enemy, dealing 645 damage and reducing its Movement Speed by 20%
 
@@ -135,10 +135,10 @@
   image: paladin/retribution.png
   cooldown: 7.00
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
-    - Casting Time 1.00 seconds
-    - maximum mana 2.00% + 0 consumption
+    - Targeting
+    - Range 20.00m
+    - Cast time 1.00 seconds
+    - Mana 2.00% + 0 consumption
   skill-descriptions:
     - When used on allies, heals the ally.
 
@@ -147,9 +147,9 @@
   image: paladin/sacred-verdict.png
   cooldown: 10.00
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
-    - maximum mana 18.00% + 100 consumption
+    - Targeting
+    - Range 20.00m
+    - Mana 18.00% + 100 consumption
   skill-descriptions:
     - Deals 407 damage to the enemy and immediately applies 3 stacks of [Divine Punishment] and 5 stacks of [Smash].
     - The damage will be increased to enemies with [Divine Punishment] and [Smash] applied.
@@ -158,9 +158,9 @@
   name: Execute
   image: paladin/execute.png
   skill-details:
-    - targeting skill
-    - effective distance 5.00m
-    - maximum mana 20.00% + 65 consumption
+    - Targeting
+    - Range 5.00m
+    - Mana 20.00% + 65 consumption
   skill-descriptions:
     - Attacks the enemy, dealing 1058 damage. Additionaly, if the enemy has the [Branded] or [Verdict] effect, the [Smash] effect will also be applied, dealing damage over time for 10 seconds. The [Smash] effect can be stacked up to 5 times to deal continuous physical damage.
 
@@ -168,8 +168,8 @@
   name: Penalize
   image: paladin/penalize.png
   skill-details:
-    - non targeting skill
-    - maximum mana 18.00% + 15 consumption
+    - Non-targeting
+    - Mana 18.00% + 15 consumption
   skill-descriptions:
     - Deals 210 damage to enemies within a 5m radius. Damage is increased by 10% against enemies with the [Divine Punishment] effect.
 
@@ -178,9 +178,9 @@
   image: paladin/branded.png
   cooldown: 7.00
   skill-details:
-    - targeting skill
-    - effective distance 25.00m
-    - maximum mana 8.00% + 20 consumption
+    - Targeting
+    - Range 25.00m
+    - Mana 8.00% + 20 consumption
   skill-descriptions:
     - Inflicts the [Branded] effect on the enemy. Increases damage dealt to the [Branded] target by 20%.
 
@@ -189,7 +189,7 @@
   image: paladin/armor-of-insight.png
   cooldown: 15.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Reduces Magic damage take by 50% and provides immunity to ensnare, root, and position control effects for 6 seconds.
 
@@ -198,7 +198,7 @@
   image: paladin/prayer.png
   cooldown: 10.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Immediately restores 50 Mana.
 
@@ -207,7 +207,7 @@
   image: paladin/seekers-devotion.png
   cooldown: 10.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Temporarily increases Paladin's Fighting Power.
 
@@ -215,9 +215,9 @@
   name: Judgement
   image: paladin/judgement.png
   skill-details:
-    - targeting skill
-    - effective distance 25.00m
-    - maximum mana 12.00% + 60 consumption
+    - Targeting
+    - Range 25.00m
+    - Mana 12.00% + 60 consumption
   skill-descriptions:
     - Deals 548 damage to the enemy. Applies the [Divine Punishment] effect for 10 seconds to enemies affected by the [Branded] or [Verdict] effects. [Divine Punishment] effect can be stacked up to 3 times.
 
@@ -225,11 +225,11 @@
   name: Chastisement Chain
   image: paladin/chastisement-chain.png
   cooldown: 7.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 15.00m
-    - maximum mana 20.00%
+    - Targeting
+    - Range 15.00m
+    - Mana 20.00%
   skill-descriptions:
     - Blocks enemies' skill casting. Also applies the [Chastisement Chain] effect, which prevents the enemy from moving for 5 seconds. The [Chastisement Chain] gradually constricts the enemy and explodes, inflicting damage when dismissed.
 
@@ -237,9 +237,9 @@
   name: Fierce Strike
   image: paladin/fierce-strike.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
-    - maximum mana 4.50% consumption
+    - Targeting
+    - Range 4.00m
+    - Mana 4.50% consumption
   skill-descriptions:
     - Deals 162 damage to the enemy. Restores 5% of max Mana.
 
@@ -248,7 +248,7 @@
   image: paladin/celestial-armor.png
   cooldown: 15.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Increases Physical Defense by 50% and provides immunity to ensnare, root, and position control effects for 6 seconds.
 
@@ -257,7 +257,7 @@
   image: paladin/crusaders-will.png
   cooldown: 10.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Increases Paladin's Mana recovery for 5 seconds.
 
@@ -266,7 +266,7 @@
   image: paladin/fanaticism.png
   cooldown: 10.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Increases Paladin's Critical Hit by 50% for 5 seconds.
 
@@ -275,9 +275,9 @@
   image: paladin/healing-beacon.png
   cooldown: 7.00
   skill-details:
-    - non targeting skill
-    - Casting Time 2.00 seconds
-    - maximum mana 11.00% + 50 consumption
+    - Non-targeting
+    - Cast time 2.00 seconds
+    - Mana 11.00% + 50 consumption
   skill-descriptions:
     - Heals up to 10 allies' Health Points within a 7m radius by 785 + (MP consumption x 1.6).
 
@@ -285,10 +285,10 @@
   name: Healing Brilliance
   image: paladin/healing-brilliance.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
-    - Casting Time 2.50 seconds
-    - maximum mana 20.00% + 75 consumption
+    - Targeting
+    - Range 20.00m
+    - Cast time 2.50 seconds
+    - Mana 20.00% + 75 consumption
   skill-descriptions:
     - Heals an ally's Health Points by 1961 + (MP consumption x 3.3).
 
@@ -296,9 +296,9 @@
   name: Healing Grace
   image: paladin/healing-grace.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
-    - maximum mana 6.00% consumption
+    - Targeting
+    - Range 20.00m
+    - Mana 6.00% consumption
   skill-descriptions:
     - Heals the target's Health Points every 2 seconds for 10 seconds.
 
@@ -306,7 +306,7 @@
   name: Sacrificial Plea
   image: paladin/sacrificial-plea.png
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - consumes maximum vitality by 10% each period
   skill-descriptions:
     - For 7 seconds, sacrifice Health Points to restore the Vitality of party members within a 20m radius. If there is a movement after the spell has been cast, the effect vanishes.
@@ -316,10 +316,10 @@
   name: Healing Light
   image: paladin/healing-light.png
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
-    - Casting Time 1.50 seconds
-    - maximum mana 9.00% + 100 consumption
+    - Targeting
+    - Range 20.00m
+    - Cast time 1.50 seconds
+    - Mana 9.00% + 100 consumption
   skill-descriptions:
     - Heals an ally's Health Points by 1373 + (MP consumption x3)
 
@@ -328,8 +328,8 @@
   image: paladin/awareness.png
   cooldown: 10.00
   skill-details:
-    - non targeting skill
-    - maximum mana 7.00% + 0 consumption
+    - Non-targeting
+    - Mana 7.00% + 0 consumption
   skill-descriptions:
     - You have a 40% chance of using [Healing Light], the next skill in the chain, immediately.
 
@@ -338,8 +338,8 @@
   image: paladin/blessing.png
   cooldown: 7.00
   skill-details:
-    - targeting skill
-    - effective distance 25.00m
+    - Targeting
+    - Range 25.00m
   skill-descriptions:
     - Applies [Blessing] effect to allies. Increasing Healing output by 15% when a Paladin heals a target under the [Blessing] effect.
 
@@ -348,7 +348,7 @@
   image: paladin/oracle.png
   cooldown: 15.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - For a certain duration, reduces the damages Paladin takes by 20%. This effect does not stack, and its duration will be increase by 2 seconds with successful shield block or resist. The duration-increasing effect will be activated only once in every 3 seconds.
 
@@ -357,8 +357,8 @@
   image: paladin/celestial-protection.png
   cooldown: 15.00
   skill-details:
-    - targeting skill
-    - effective distance 20.00m
+    - Targeting
+    - Range 20.00m
   skill-descriptions:
     - Applies a Protective Shield that absorbs damage on an ally.
 
@@ -367,6 +367,6 @@
   image: paladin/benevolence.png
   cooldown: 10.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Temporarily increase Paladin's Ability Power.

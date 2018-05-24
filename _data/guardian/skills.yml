@@ -3,8 +3,8 @@
   image: guardian/counter.png
   cooldown: 9.00
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 1 consumption
   skill-descriptions:
     - Deals 594 damage to the enemy and obtains Physical Defense. Can only be used after defending against the enemy's attack.
@@ -14,7 +14,7 @@
   image: guardian/obtain-bravery.png
   cooldown: 15.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 obtain
   skill-descriptions:
     - Gain 2 Bravery immediately.
@@ -24,7 +24,7 @@
   image: guardian/guardians-faith.png
   cooldown: 30.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 3 consumption
   skill-descriptions:
     - Grants immunity to all damage for 2 seconds. The caster cannot move, but will absorb 70% of all damage dealth to party members behind the caster.
@@ -34,7 +34,7 @@
   image: guardian/solid-will.png
   cooldown: 60.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 1 consumption
   skill-descriptions:
     - Grants immunity to Position Control effects for 10 seconds, and applies the [Solid Will] effect which absorbs damage taken. Dismissed when the effective duration is over or you are damaged over a certain degree.
@@ -43,10 +43,10 @@
   name: Leap
   image: guardian/leap.png
   cooldown: 16.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 14.00m
+    - Targeting
+    - Range 14.00m
     - Bravery 2 consumption
   skill-descriptions:
     - You fly at the selected target and inflict damage to enemies near the landing point, applying the [Stun] effect which makes them unable to move.
@@ -56,7 +56,7 @@
   image: guardian/potential.png
   cooldown: 45.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 consumption
   skill-descriptions:
     - When Health Points reach 15% or less, Attack Power increases slightly.
@@ -66,7 +66,7 @@
   image: guardian/iron-will.png
   cooldown: 60.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 consumption
   skill-descriptions:
     - Increases Maximum Health Points and current Health Points by 30% for 5 seconds.
@@ -76,7 +76,7 @@
   image: guardian/vanguard.png
   cooldown: 40.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 consumption
   skill-descriptions:
     - When used, reduces the cooldown time for all starting skills by 4 seconds.
@@ -86,8 +86,8 @@
   image: guardian/sword-draw.png
   cooldown: 1.50
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
   skill-descriptions:
     - Deals 171 damage to the enemy.
     - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
@@ -96,8 +96,8 @@
   name: Destroy
   image: guardian/destroy.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
   skill-descriptions:
     - Deals 790 damage to the enemy and applies the [Armor Break] effect, which reduces Physical Defense by 10% for 30 seconds. [Armor Break] effect can be stacked up to 3 times.
 
@@ -105,8 +105,8 @@
   name: Punish
   image: guardian/punish.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 1 obtain
   skill-descriptions:
     - Deals 766 damage to the enemy.
@@ -115,8 +115,8 @@
   name: Continuous Slash
   image: guardian/continuous-slash.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 202 damage to the enemy.
@@ -125,8 +125,8 @@
   name: Dauntless Strike
   image: guardian/dauntless-strike.png
   skill-details:
-    - non targeting skill
-    - effective distance 4.00m
+    - Non-targeting
+    - Range 4.00m
     - Bravery 1 obtain
   skill-descriptions:
     - Deals up to 943 damage to the enemy. The lower the current Health Points, the more damage is dealt. Cooldown time is reset when a Critical Hit is made.
@@ -135,7 +135,7 @@
   name: Defend the Line
   image: guardian/defend-the-line.png
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 obtain
   skill-descriptions:
     - Deals up to 943 damage to enemies with a 5m radius, and reduces Movement Speed by 50% for 10 seconds.
@@ -144,8 +144,8 @@
   name: Stab
   image: guardian/stab.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 3 obtain
   skill-descriptions:
     - Deals 418 damage to the enemy.
@@ -155,8 +155,8 @@
   image: guardian/shield-attack.png
   cooldown: 7.00
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
   skill-descriptions:
     - Deals 453 damage to the enemy.
     - The [Increased Defense] effect will be applied for a while after the skill is finished.
@@ -165,10 +165,10 @@
 - slug: concentrated-strike
   name: Concentrated Strike
   image: guardian/concentrated-strike.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
-    - effective distance 4.00m
+    - Non-targeting
+    - Range 4.00m
     - Bravery 2 obtain
   skill-descriptions:
     - Deals maximum 1252 damage, knocking the enemy back.
@@ -177,8 +177,8 @@
   name: Shoulder Block
   image: guardian/shoulder-block.png
   skill-details:
-    - non targeting skill
-    - effective distance 6.00m
+    - Non-targeting
+    - Range 6.00m
     - Bravery 2 obtain
   skill-descriptions:
     - Strikes the enemy with your left shoulder, dealing maximum 603 damage and increasing Physical and Magic Defense by 10%.
@@ -187,8 +187,8 @@
   name: Crush
   image: guardian/crush.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
   skill-descriptions:
     - Deals 415 damage to the enemy.
 
@@ -196,8 +196,8 @@
   name: Break
   image: guardian/break.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 1 obtain
   skill-descriptions:
     - Deals 391 damage to the enemy.
@@ -206,8 +206,8 @@
   name: Shred
   image: guardian/shred.png
   skill-details:
-    - non targeting skill
-    - effective distance 4.00m
+    - Non-targeting
+    - Range 4.00m
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 1234 damage to the enemy, applying the [Hemorrhage] effect.
@@ -217,7 +217,7 @@
   image: guardian/shout.png
   cooldown: 7.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Physical Attack Power inreases by 50% for 10 seconds.
 
@@ -225,7 +225,7 @@
   name: Encouraging Shout
   image: guardian/encouraging-shout.png
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 obtain
   skill-descriptions:
     - The Health Points of party members within a 20m radius increase by 20% of the skill caster's Maximum Health Points for 10 seconds.
@@ -235,7 +235,7 @@
   name: Overpower
   image: guardian/overpower.png
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 435 damage to enemies within a 6m radius, and reduces their Attack Power by 15% for 10 seconds.
@@ -244,10 +244,10 @@
 - slug: challenge
   name: Challenge
   image: guardian/challenge.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 21.00m
+    - Targeting
+    - Range 21.00m
     - Bravery 2 obtain
   skill-descriptions:
     - You threaten the enemy and gain a high threat level. When used on a player, this will force the player to attack the skill caster. The attack-forcing effect does not work on targets with immunity to Crowd Control effects.
@@ -258,7 +258,7 @@
   image: guardian/breach.png
   cooldown: 7.00
   skill-details:
-    - non targeting skill
+    - Non-targeting
   skill-descriptions:
     - Increases Movement Speed by 20% for 5 seconds. For the duration of the skill effect, damage taken from ranged attacks is reduced by 50%. However, damage from magic attacks does not decrease.
     - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
@@ -267,7 +267,7 @@
   name: Gladiator
   image: guardian/gladiator.png
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 0 damage to the enemy. Increases Block rate by 15%.
@@ -276,10 +276,10 @@
   name: Charge
   image: guardian/charge.png
   cooldown: 7.00
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 17.00m
+    - Targeting
+    - Range 17.00m
   skill-descriptions:
     - You fly at the enemy, dealing 477 damage and gaining a high thread level. Inflicts the [Root] effect, which makes the enemy unable to move for 0.3 seconds.
     - When you use the skill in the [Enhanced] state, damage will additionally increase for 5 seconds.
@@ -287,10 +287,10 @@
 - slug: shield-upper-swing
   name: Shield Upper Swing
   image: guardian/shield-upper-swing.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
   skill-descriptions:
     - Deals 335 damage, lifting the enemy into the air. Even if the enemy is not lifted into the air, you can block the enemy's skill casting.
 
@@ -298,8 +298,8 @@
   name: Suppress
   image: guardian/suppress.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 1596 damage to the enemy. When used on an enemy affected by the [Hemorrhage] effect from the [Destruction] skill, damage is increased.
@@ -308,8 +308,8 @@
   name: Sever
   image: guardian/sever.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 465 damage to the enemy, and reduces Healing received by 50% for 10 seconds. Applies the [Silence] effect, which disables magic attack skills, for 1 second.
@@ -317,9 +317,9 @@
 - slug: dominate
   name: Dominate
   image: guardian/dominate.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 348 damage to enemies within a 5.5m radius and inflicts the [Stun] effect, which makes them unable to move for 1 second.
@@ -328,10 +328,10 @@
 - slug: low-slash
   name: Low Slash
   image: guardian/low-slash.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
-    - effective distance 4.00m
+    - Non-targeting
+    - Range 4.00m
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 446 damage to enemies in front of you by cutting their legs, knocking them down.
@@ -340,10 +340,10 @@
 - slug: desperate-strike
   name: Desperate Strike
   image: guardian/desperate-strike.png
-  crowd_control: true
+  crowd-control: true
   skill-details:
-    - non targeting skill
-    - effective distance 4.00m
+    - Non-targeting
+    - Range 4.00m
     - Bravery 2 obtain
   skill-descriptions:
     - Deals 525 damage to the enemy and inflicts the [Stun] effect, which makes the enemy unable to move for 1 second.
@@ -354,8 +354,8 @@
   image: guardian/shield-blast.png
   cooldown: 7.00
   skill-details:
-    - targeting skill
-    - effective distance 21.00m
+    - Targeting
+    - Range 21.00m
   skill-descriptions:
     - Deals 174 damage to a ranged enemy, gaining a high threat level.
     - When you use the skill in the [Enhanced] state, Physical and Magic Defense will additional increase for 5 seconds.
@@ -364,8 +364,8 @@
   name: Swift Defense
   image: guardian/swift-defense.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 1 obtain
   skill-descriptions:
     - Attacks the enemy, dealing 618 damage.
@@ -375,8 +375,8 @@
   name: Shield Counter
   image: guardian/shield-counter.png
   skill-details:
-    - targeting skill
-    - effective distance 4.00m
+    - Targeting
+    - Range 4.00m
     - Bravery 1 obtain
   skill-descriptions:
     - Deals 481 damage to the enemy and increases Health Points by 10% for 10 seconds.
@@ -385,7 +385,7 @@
   name: Protector
   image: guardian/protector.png
   skill-details:
-    - non targeting skill
+    - Non-targeting
     - Bravery 2 obtain
   skill-descriptions:
     - Reduces Damage taken by 30% and Block rate by 30% for 4 seconds.
