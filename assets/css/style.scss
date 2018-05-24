@@ -20,6 +20,7 @@
     width: 36px;
     height: 36px;
     border: 1px solid #E6E6E6;
+    clear: both;
   }
 
   .skill-tooltip {
@@ -148,10 +149,36 @@
     }
   }
 
-  .line {
-    border-bottom: 1px solid white;
-    width: 90px;
-    margin: auto;
+  .b-top {
+    border-left: 2px solid white;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: -3px;
+  }
+  .b-left {
+    border-top: 2px solid white;
+    position: absolute;
+    left: 50%;
+    height: 2px;
+    top: -3px;
+    width: 30px;
+  }
+  .b-middle {
+    border-top: 2px solid white;
+    position: absolute;
+    height: 2px;
+    top: -3px;
+    width: 60px;
+  }
+  .b-right {
+    border-top: 2px solid white;
+    position: absolute;
+    right: 50%;
+    height: 2px;
+    top: -3px;
+    width: 30px;
   }
 
   .combo {
@@ -160,6 +187,7 @@
     margin-top: 0px;
     vertical-align: top;
     padding-top: 15px;
+    position: relative;
 
     .skill {
       vertical-align: top;
@@ -167,6 +195,7 @@
       display: block;
       margin: auto;
       padding: 5px;
+      position: relative;
     }
   }
 }

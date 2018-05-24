@@ -19,8 +19,8 @@
         <div class='col-sm combo initial'>
           {% assign skill_data = site.data[page.slug].skills | where: "slug", skill.slug | first %}
           {% include skill.html skill=skill_data starter=true %}
-          <!-- <div class='line'></div> -->
-          {% include combo.html skill=skill class=class %}
+
+          {% include combo.html skill=skill class=class toplevel=true %}
         </div>
       {% endfor %}
     </div>

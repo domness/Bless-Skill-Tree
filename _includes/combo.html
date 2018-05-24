@@ -2,8 +2,40 @@
 {% for combo in combos %}
   <div class='combo'>
     {% assign skill_data = include.class.skills | where: "slug", combo.slug | first %}
+
+    <div class='b-top'></div>
+
+    {% if forloop.first %}
+      {% if include.toplevel == true %}
+      {% assign direction='left' %}
+      {% endif %}
+
+    {% elsif forloop.last %}
+      {% if include.toplevel == true %}
+      {% assign direction='right' %}
+      {% endif %}
+
+    {% elsif forloop.index == 2 %}
+      {% if include.toplevel == true %}
+      {% assign direction='middle' %}
+      {% endif %}
+
+    {% endif %}
+
+    {% if direction %}
+      {% if include.toplevel == true %}
+      <div class='b-{{direction}}'></div>
+      {% endif %}
+    {% endif %}
+
+    {% if includes.direction  %}
+      <div class='b-{{includes.direction}}'></div>
+    {% endif %}
+
     {% include skill.html skill=skill_data %}
 
-    {% include combo.html skill=combo class=include.class %}
+    {% include combo.html skill=combo class=include.class toplevel=false direction=direction %}
+
+
   </div>
 {% endfor %}
