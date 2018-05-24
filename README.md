@@ -159,7 +159,7 @@ An example of the JSON is:
         }
       ],
       "non_stance_skills": [
-        "holy-explosion",
+        "holy-explosion"
       ]
     }
   }
