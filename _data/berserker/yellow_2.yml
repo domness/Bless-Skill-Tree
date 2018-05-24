@@ -1,0 +1,35 @@
+- slug: rhapsody-2
+  followed:
+    - slug: vengeful-strike-1
+      followed:
+        - slug: counter
+    - slug: rapid-attack
+      followed:
+        - slug: rumbling-ground
+    - slug: rapid-attack
+      followed:
+        - slug: skull-crusher-2
+
+- slug: decapitate-1
+  followed:
+    - slug: finishing-strike
+      followed:
+        - slug: bitter-strike
+    - slug: rapid-slash-1
+      followed:
+        - slug: skull-crusher-2
+    - slug: rapid-slash-1
+      followed:
+        - slug: vengeful-strike-1
+
+- slug: assault
+  followed:
+    - slug: bloodlust
+      followed:
+        - slug: upper-swing-1
+    - slug: upper-swing-1
+      followed:
+        - slug: trample
+    - slug: prompt-decision-2
+      followed:
+        - slug: bloodlust
