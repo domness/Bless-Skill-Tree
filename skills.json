@@ -8,7 +8,7 @@ layout: null
       [{
         "slug": {{ skill_data.slug | jsonify }},
         "name": {{ skill_data.name | jsonify }},
-        "image": "{{ site.url }}/images/{{ skill_data.image }}",
+        "image": "{{ site.url }}/{{ site.root }}/images/{{ skill_data.image }}",
         "cooldown": {{ skill_data.cooldown | jsonify }},
         "crowd_control": {{ skill_data.crowd_control | jsonify }},
         "skill-details": {{ skill_data.skill-details | jsonify }},
