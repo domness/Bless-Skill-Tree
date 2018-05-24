@@ -6,6 +6,29 @@ Bless Online stances, rotations and skills using simple HTML and CSS.
 
 The GitHub pages are updated automatically when deploying to `master`. This uses Jekyll to build the site after any changes.
 
+Requirements:
+
+- [Ruby 2.5.1](https://www.ruby-lang.org/en/downloads/)
+- [Jekyll](https://jekyllrb.com/)
+
+### Setup
+
+```bash
+gem install bundler
+bundle install
+jekyll serve --livereload
+```
+
+This will then run on `localhost:4000` and automatically reload when you change any files.
+
+Updating of the site will happen when a push is made to the `master` branch.
+
+## Pull Requests
+
+I'm more than happy for anyone to help out by submitting a pull request! Feel free to fork the repo and make any changes to submit.
+
+If you have any feature requests or have found any bugs/issues, feel free to submit an Issue on the main repo.
+
 ## Class Folder Structure
 
 ```
@@ -108,4 +131,36 @@ These can be repeated if stances were to allow additional combo skills by just a
 ```yaml
 followed:
   - slug: sacred-verdict
+```
+
+## JSON Endpoint
+
+The JSON data is put together in `skills.json`. This uses the same Liquid formatting to create the JSON, pulling from the various `.yml` files.
+
+An example of the JSON is:
+
+```json
+  {
+    "paladin": {
+      "skills": [
+        {
+          "slug": "holy-explosion",
+          "name": "Holy Explosion",
+          "image": "paladin/holy-explosion.png",
+          "cooldown": 30,
+          "crowd_control": true,
+          "skill-details": [
+            "non targeting skill",
+            "maximum mana 10.00% + 100 consumption"
+          ],
+          "skill-descriptions": [
+            "Deals 429 damage to enemies within a 5m radius, knocking them back."
+          ]
+        }
+      ],
+      "non_stance_skills": [
+        "holy-explosion",
+      ]
+    }
+  }
 ```
