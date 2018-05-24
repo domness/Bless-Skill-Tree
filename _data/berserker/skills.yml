@@ -123,6 +123,32 @@
     - Deals 394 damage to nearby enemies and gains 10 Anger. You can gather power up to level 1, and your Movement Speed decreases by 75% while gathering power.
     - Increases Critical Hit rate by 10% for 5 seconds when attacking with maximum power.
 
+- slug: trick-attack-1
+  name: Trick Attack
+  image: berserker/trick-attack.png
+  cooldown: 15.00
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Charging Time 0.90 seconds
+    - Anger 5 obtain
+  skill-descriptions:
+    - Deals 394 damage to enemies nearby. You can gather power up to level 1. When you maximize power to the fullest, damage will increase greatly.
+    - While collecting power, Berserker's Movement Speed decreases by 75%.
+    - When you attack the enemy with maximized power, Critical hit rate will increase in proportion to lost Vitality.
+
+- slug: trick-attack-2
+  name: Trick Attack
+  image: berserker/trick-attack.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Charging Time 0.90 seconds
+    - Anger 10 obtain
+  skill-descriptions:
+    - Deals 394 damage to enemies nearby. You can gather power up to level 1. When you maximize power to the fullest, damage will increase greatly.
+    - While collecting power, Berserker's Movement Speed decreases by 75%.
+
 - slug: rapid-attack
   name: Rapid Attack
   image: berserker/rapid-attack.png
@@ -206,6 +232,16 @@
     - Anger 10 obtain
   skill-descriptions:
     - Deals 1254 damage to nearby enemies and gains 10 Anger. The higher the enemy's Health Points, the more damage you deal.
+
+- slug: unjust-strike-1
+  name: Unjust Strike
+  image: berserker/unjust-strike.png
+  skill-details:
+    - Non-targeting
+    - Range 4.50m
+    - Anger 10 obtain
+  skill-descriptions:
+    - Deals 1254 damage to nearby enemies and charges Anger. Damage increase in proportion to Vitality loss.
 
 - slug: skull-crusher
   name: Skull Crusher
@@ -323,6 +359,16 @@
   skill-descriptions:
     - Deals 1018 damage to enemies in front of the caster and gains 10 Anger. Has a 30% chance of inflicting a [Hemorrhage] effect on attacked enemies.
 
+- slug: bloody-retribution-2
+  name: Bloody Retribution
+  image: berserker/bloody-retribution.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Anger 15 obtain
+  skill-descriptions:
+    - Deals 1018 damage to enemies in front of you and charges Anger. Attach [Hemorrhage] effect if current Vitality is less than 50%.
+
 - slug: skull-cleaver
   name: Skull Cleaver
   image: berserker/skull-cleaver.png
@@ -334,6 +380,19 @@
   skill-descriptions:
     - Deals 688 damage to nearby enemies and gains 10 Anger. You can gather power up to level 2, and your Movement Speed decreases by 75% while gathering power.
     - The more you gather power, the more damage increases. When you gather maximum power, a [Hemorrhage] effect will be inflicted on the target, dealing damage over time.
+
+- slug: skull-cleaver-1
+  name: Skull Cleaver
+  image: berserker/skull-cleaver.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Charging Time 1.80 seconds
+    - Anger 15 obtain
+  skill-descriptions:
+    - Deals 688 damage to enemies nearby. You can gather power up to level 2. The more power you gather, the more damage you deal.
+    - While collecting power, the Berserker's Movement Speed decreases by 75%.
+    - When you gather power to the fullest, the [Hemorrhage] effect will be inflicted on the target, dealing damage over time.
 
 - slug: whirlwind
   name: Whirlwind
@@ -404,6 +463,17 @@
     - Deals 1923 damage to the enemy and gains 10 Anger.
     - Gain 20 Anger on defeating an enemy.
 
+- slug: finishing-strike-1
+  name: Finishing Strike
+  image: berserker/finishing-strike.png
+  skill-details:
+    - Non-targeting
+    - Range 5.50m
+    - Anger 10 obtain
+  skill-descriptions:
+    - Deals 1923 damage to nearby enemies and charges Anger.
+    - Critical Hit rate increase in proportion to Vitality loss. (Increases Critical Hit rate by 0.1% for each 1% of lost Vitality)
+
 - slug: brutal-smite
   name: Brutal Smite
   image: berserker/brutal-smite.png
@@ -443,6 +513,20 @@
     - Deals 1029 damage to enemies nearby and charges Anger. You can gather power up to level 3. When you maximize power to the fullest, damage will increase greatly.
     - While collecting power, the Berserker's Movement Speed decreases by 75%.
     - When a Critical Hit is made, your Fighting Power will increase.
+
+- slug: decapitate-2
+  name: Decapitate
+  image: berserker/decapitate.png
+  cooldown: 20.00
+  skill-details:
+    - Non-targeting
+    - Range 4.70m
+    - Charging Time 2.70 seconds
+    - Anger 15 obtain
+  skill-descriptions:
+    - Deals 1263 damage to enemies nearby and charges Anger. You can gather power up to level 3. When you maximize power to the fullest, damage will increase greatly.
+    - While collecting power, the Berserker's Movement Speed decreases by 75%.
+    - When attacking with maximized power, damage will increase in proportion to lost Vitality.
 
 - slug: pull-in
   name: Pull In
@@ -487,6 +571,15 @@
   skill-descriptions:
     - Physical Attack Power increases by 50% for 3 seconds and you gain 3 Anger.
 
+- slug: furious-cry-2
+  name: Furious Cry
+  image: berserker/furious-cry.png
+  skill-details:
+    - Non-targeting
+    - Anger 3 obtain
+  skill-descriptions:
+    - Charges Anger and increase Fighting Power by 2% for 2 seconds.
+
 - slug: furious-strike
   name: Furious Strike
   image: berserker/furious-strike.png
@@ -498,6 +591,16 @@
     - Spins within a large radius and hits the enemy, dealing 1220 damage and gaining 10 Anger.
     - When the Vitality of the skill caster is less than 30%, Physical Attack Power increases by 20% for 3 seconds.
 
+- slug: furious-strike-1
+  name: Furious Strike
+  image: berserker/furious-strike.png
+  skill-details:
+    - Non-targeting
+    - Range 5.00m
+    - Anger 2 obtain
+  skill-descriptions:
+    - Spins within a large radius and hits the enemy with your weapon, dealing 1220 damage and charging Anger.
+
 - slug: charge-stance
   name: Charge Stance
   image: berserker/charge-stance.png
@@ -506,6 +609,15 @@
     - Anger 3 obtain
   skill-descriptions:
     - Movement Speed increases by 30% for 3 seconds and you gain 3 Anger.
+
+- slug: charge-stance-1
+  name: Charge Stance
+  image: berserker/charge-stance.png
+  skill-details:
+    - Non-targeting
+    - Anger 30 obtain
+  skill-descriptions:
+    - Charges Anger after using the skill, and increases both Fighting Power and Critical Hit rate by 30% for 3 seconds.
 
 - slug: counter
   name: Counter
@@ -553,6 +665,19 @@
     - Anger 5 obtain
   skill-descriptions:
     - Flies at the enemy, dealing 762 damage. The enemy is also stunned for 0.5 seconds.
+
+- slug: assault-1
+  name: Assault
+  image: berserker/assault.png
+  cooldown: 20.00
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Range 17.00m
+    - Anger 5 obtain
+  skill-descriptions:
+    - Flies at the enemy, dealing 621 damage. You also stun the enemy for 1 second.
+    - Damage will increase depending on the distance you've jumped.
 
 - slug: trample
   name: Trample

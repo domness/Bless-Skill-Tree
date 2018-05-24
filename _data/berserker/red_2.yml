@@ -1,0 +1,35 @@
+- slug: assault-1
+  followed:
+    - slug: furious-strike-1
+      followed:
+        - slug: unjust-strike-1
+    - slug: bloodlust
+      followed:
+        - slug: bloody-retribution-2
+    - slug: rapid-attack
+      followed:
+        - slug: decapitate-2
+
+- slug: trick-attack-1
+  followed:
+    - slug: rapid-attack
+      followed:
+        - slug: trick-attack-2
+    - slug: furious-cry-2
+      followed:
+        - slug: finishing-strike-1
+    - slug: rapid-slash-1
+      followed:
+        - slug: skull-cleaver-1
+
+- slug: rumbling-ground
+  followed:
+    - slug: rapid-attack
+      followed:
+        - slug: pull-in
+    - slug: bloodlust
+      followed:
+        - slug: prompt-decision-2
+    - slug: rapid-attack
+      followed:
+        - slug: charge-stance-1
