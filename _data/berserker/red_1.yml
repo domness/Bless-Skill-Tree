@@ -1,0 +1,35 @@
+- slug: rapid-slash
+  followed:
+    - slug: cleaving-attack
+      followed:
+        - slug: trick-attack
+    - slug: rapid-attack
+      followed:
+        - slug: vengeful-strike
+    - slug: rhapsody
+      followed:
+        - slug: unjust-strike
+
+- slug: skull-crusher
+  followed:
+    - slug: upper-swing
+      followed:
+        - slug: prompt-decision
+    - slug: rapid-slash-1
+      followed:
+        - slug: skull-crusher
+    - slug: bloody-retribution
+      followed:
+        - slug: skull-cleaver
+
+- slug: whirlwind
+  followed:
+    - slug: bloodlust
+      followed:
+        - slug: whirlwind-1
+    - slug: whirlwind-2
+      followed:
+        - slug: whirlwind-3
+    - slug: rapid-slash-1
+      followed:
+        - slug: finishing-strike

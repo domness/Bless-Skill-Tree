@@ -79,3 +79,204 @@
     - Non-targeting
   skill-descriptions:
     - Consumes Anger slowly when used. Increases Parry rate by 30%.
+
+- slug: rapid-slash
+  name: Rapid Slash
+  image: berserker/rapid-slash.png
+  cooldown: 1.60
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Anger 5 obtain
+  skill-descriptions:
+    - Deals 283 damage to enemies nearby and gains 5 Anger.
+
+- slug: rapid-slash-1
+  name: Rapid Slash
+  image: berserker/rapid-slash.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Anger 1 obtain
+  skill-descriptions:
+    - Deals 283 damage to enemies nearby and gains 1 Anger.
+
+- slug: cleaving-attack
+  name: Cleaving Attack
+  image: berserker/cleaving-attack.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Anger 1 obtain
+  skill-descriptions:
+    - Deals 287 damage to nearby enemies and gains 1 Anger.
+
+- slug: trick-attack
+  name: Trick Attack
+  image: berserker/trick-attack.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Charging Time 0.90 seconds
+    - Anger 10 obtain
+  skill-descriptions:
+    - Deals 394 damage to nearby enemies and gains 10 Anger. You can gather power up to level 1, and your Movement Speed decreases by 75% while gathering power.
+    - Increases Critical Hit rate by 10% for 5 seconds when attacking with maximum power.
+
+- slug: rapid-attack
+  name: Rapid Attack
+  image: berserker/rapid-attack.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Anger 1 obtain
+  skill-descriptions:
+    - Deals 425 damage to nearby enemies and gains 1 Anger.
+
+- slug: vengeful-strike
+  name: Vengeful Strike
+  image: berserker/vengeful-strike.png
+  skill-details:
+    - Non-targeting
+    - Range 4.50m
+    - Anger 10 obtain
+  skill-descriptions:
+    - Deals 1218 damage to nearby enemies and gains 10 Anger. Damage increases in proportion to present Anger.
+
+- slug: rhapsody
+  name: Rhapsody
+  image: berserker/rhapsody.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Anger 2 obtain
+  skill-descriptions:
+    - Deals 1370 damage to the enemy and gains 2 Anger. The lower Health Points the skill caster has, the more damage the enemy takes.
+
+- slug: unjust-strike
+  name: Unjust Strike
+  image: berserker/unjust-strike.png
+  skill-details:
+    - Non-targeting
+    - Range 4.50m
+    - Anger 10 obtain
+  skill-descriptions:
+    - Deals 1254 damage to nearby enemies and gains 10 Anger. The higher the enemy's Health Points, the more damage you deal.
+
+- slug: skull-crusher
+  name: Skull Crusher
+  image: berserker/skull-crusher.png
+  cooldown: 8.00
+  crowd-control: true
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Charging Time 1.80 seconds
+    - Anger 5 obtain
+  skill-descriptions:
+    - Deals 1072 damage to enemies nearby and gains 5 Anger. You can gather power up to level 2, and your Movement Speed decreases by 75% while gathering power.
+    - The more you gather power, the more the damage increases. When you gather power to the fullest, a Knock Down effect is inflicted on the target.
+
+- slug: upper-swing
+  name: Upper Swing
+  image: berserker/upper-swing.png
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Range 4.00m
+    - Anger 2 obtain
+  skill-descriptions:
+    - Lifts the target with your weapon, dealing 594 damage and gaining 2 Anger.
+
+- slug: prompt-decision
+  name: Prompt Decision
+  image: berserker/prompt-decision.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Anger 15 obtain
+  skill-descriptions:
+    - Attacks the enemy, dealing 850 damage and gaining 15 Anger.
+    - "[Fighting Spirit] skill's cooldown time is reduced by 3 seconds when a Critical Hit is made."
+    - Attacks the enemy and applies [Prompt Decision] effect which increases damage by 10% for 10 seconds.
+
+- slug: bloody-retribution
+  name: Bloody Retribution
+  image: berserker/bloody-retribution.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Anger 1 obtain
+  skill-descriptions:
+    - Deals 1018 damage to enemies in front of you and gains 1 Anger.
+
+- slug: skull-cleaver
+  name: Skull Cleaver
+  image: berserker/skull-cleaver.png
+  skill-details:
+    - Non-targeting
+    - Range 4.00m
+    - Charging Time 1.80 seconds
+    - Anger 10 obtain
+  skill-descriptions:
+    - Deals 688 damage to nearby enemies and gains 10 Anger. You can gather power up to level 2, and your Movement Speed decreases by 75% while gathering power.
+    - The more you gather power, the more damage increases. When you gather maximum power, a [Hemorrhage] effect will be inflicted on the target, dealing damage over time.
+
+- slug: whirlwind
+  name: Whirlwind
+  image: berserker/whirlwind.png
+  cooldown: 10.00
+  skill-details:
+    - Non-targeting
+    - Anger 1 obtain each time attacked by enemy
+  skill-descriptions:
+    - Spins around two times and deals 229 damage to enemies within a 3.8m radius, and gains 1 Anger. Movement Speed decreases by 50% while spinning.
+
+- slug: whirlwind-1
+  name: Whirlwind
+  image: berserker/whirlwind.png
+  skill-details:
+    - Non-targeting
+    - Anger 2 obtain each time attacked by enemy
+  skill-descriptions:
+    - Spins around two times and deals 229 damage to enemies within a 3.8m radius, and gains 1 Anger. Movement Speed decreases by 50% while spinning.
+
+- slug: whirlwind-2
+  name: Whirlwind
+  image: berserker/whirlwind.png
+  skill-details:
+    - Non-targeting
+    - Anger 1 obtain each time attacked by enemy
+  skill-descriptions:
+    - Spins around two times and deals 229 damage to enemies within a 3.8m radius, and gains 1 Anger. Movement Speed decreases by 50% while spinning.
+
+- slug: whirlwind-3
+  name: Whirlwind
+  image: berserker/whirlwind.png
+  skill-details:
+    - Non-targeting
+    - Anger 3 obtain each time attacked by enemy
+  skill-descriptions:
+    - Spins around two times and deals 229 damage to enemies within a 3.8m radius. While spinning, Parry rate increases by 100% while Movement Speed decreases by 50%.
+    - Can be used up to 4 times in a row.
+
+- slug: bloodlust
+  name: Bloodlust
+  image: berserker/bloodlust.png
+  skill-details:
+    - Targeting
+    - Range 4.00m
+    - Anger 2 obtain
+  skill-descriptions:
+    - Deals 553 damage to the enemy and gains 2 Anger.
+
+- slug: finishing-strike
+  name: Finishing Strike
+  image: berserker/finishing-strike.png
+  skill-details:
+    - Non-targeting
+    - Range 5.50m
+    - Anger 10 obtain
+  skill-descriptions:
+    - Deals 1923 damage to the enemy and gains 10 Anger.
+    - Gain 20 Anger on defeating an enemy.
