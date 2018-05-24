@@ -44,6 +44,8 @@ Skills are the entire set of available skills for a certain class. Anything that
     - Reduces Threat by 30% for 5 seconds.
 ```
 
+Some skills will have the same name and icon, but may have different effects depending on the stance and place in the combo. The easiest thing to do for now is duplicate the skill in `skills.yml` and name it with a different slug. i.e. `distortion-1` making sure to use the new slug in the correct place in the combo. This is a temporary fix whilst I find better ways of dealing with skills that change effect.
+
 ### rotations.yml
 
 The rotations file just lists the name of the rotation and the slug names of the skills in order.
