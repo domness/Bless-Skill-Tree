@@ -1,0 +1,35 @@
+- slug: retreating-shot
+  followed:
+    - slug: moving-shot-3
+      followed:
+        - slug: frontal-aoe
+    - slug: poison-arrow
+      followed:
+        - slug: spinning-arrow-1
+    - slug: spinning-arrow-1
+      followed:
+        - slug: arrow-of-destiny-1
+
+- slug: snipe-3
+  followed:
+    - slug: continuous-fire
+      followed:
+        - slug: unknown
+    - slug: moving-shot-4
+      followed:
+        - slug: fatal-arrow-1
+    - slug: mark-of-the-fugitive-1
+      followed:
+        - slug: precise-aim
+
+- slug: precise-aim-1
+  followed:
+    - slug: launch-2
+      followed:
+        - slug: vengeful-arrow-1
+    - slug: poison-arrow
+      followed:
+        - slug: prudent-shot-2
+    - slug: fatal-arrow
+      followed:
+        - slug: penetrating-shot

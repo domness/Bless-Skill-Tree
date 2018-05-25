@@ -279,6 +279,15 @@
   skill-descriptions:
     - Deals [[1536]] damage to the enemy.
 
+- slug: fatal-arrow-1
+  name: Fatal Arrow
+  image: ranger/fatal-arrow.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+  skill-descriptions:
+    - Consumes all remaining Concentration. Skill damage increases in proportion to consumed Concentration.
+
 - slug: penetrating-shot
   name: Penetrating Shot
   image: ranger/penetrating-shot.png
@@ -331,6 +340,17 @@
   skill-descriptions:
     - Deals [[623]] damage to the enemy.
 
+- slug: moving-shot-4
+  name: Moving Shot
+  image: ranger/moving-shot.png
+  cooldown: 30.00
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[566]] damage to the enemy.
+
 - slug: snipe
   name: Snipe
   image: ranger/snipe.png
@@ -362,6 +382,17 @@
   skill-descriptions:
     - Deals [[342]] damage to the enemy. You can gather power up to level [[3]], and cannot move while gathering power. The further the enemy, the greater the damage.
     - The higher your current Concentration, the higher the Hit rate.
+
+- slug: snipe-3
+  name: Snipe
+  image: ranger/snipe.png
+  cooldown: 20.00s
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[321]] damage to the enemy. You can gather power up to level [[2]] but cannot move while gathering power.
 
 - slug: arrow-of-destiny
   name: Arrow of Destiny
@@ -580,3 +611,42 @@
     - Concentration 20 consumption
   skill-descriptions:
     - Shoots arrows, inflicting the [[Venom]] effect on the enemy for [[10]] seconds, and then the [[Weakened Immunity]] effect for [[3]] seconds. Increases the damage dealt by the caster to enemies affected by the [[Weakened Immunity]] effect by [[3%]].
+
+- slug: retreating-shot
+  name: Retreating Shot
+  image: ranger/retreating-shot.png
+  cooldown: 30.00
+  skill-details:
+    - Targeting
+    - Range 10.00m
+    - Concentration 15 consumption
+  skill-descriptions:
+    - You leap backwards, shooting arrows dealing [[865]] damage to the enemy.
+
+- slug: precise-aim
+  name: Precise Aim
+  image: ranger/precise-aim.png
+  skill-details:
+    - Non-targeting
+    - Concentration 25 consumption
+  skill-descriptions:
+    - Aims at the enemy precisely. Increase the damage of the following skills by [[10%]] for [[5]] seconds.
+
+- slug: precise-aim-1
+  name: Precise Aim
+  image: ranger/precise-aim.png
+  cooldown: 20.00
+  skill-details:
+    - Non-targeting
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Aims at the enemy precisely. Increases Critical Hit rate of the following skills by [[5%]] for [[5]] seconds.
+
+- slug: unknown
+  name: Unknown
+  image: ranger/precise-aim.png
+  cooldown: ??
+  skill-details:
+    - ??
+  skill-descriptions:
+    - ??
