@@ -10,12 +10,14 @@
 }
 
 .class-table {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   text-align: center;
 
   img {
-    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+    max-width: 70px;
   }
 }
 
