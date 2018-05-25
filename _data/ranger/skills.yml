@@ -120,6 +120,16 @@
   skill-descriptions:
     - Deals [[304]] damage in total to the enemy over [[2]] attacks.
 
+- slug: continuous-fire-1
+  name: Continuous Fire
+  image: ranger/continuous-fire.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[326]] damage in total to the enemy over [[2]] attacks.
+
 - slug: mark-of-the-fugitive
   name: Mark of the Fugitive
   image: ranger/mark-of-the-fugitive.png
@@ -129,6 +139,38 @@
     - Concentration 10 consumption
   skill-descriptions:
     - Deals [[508]] damage to the enemy.
+
+- slug: mark-of-the-fugitive-1
+  name: Mark of the Fugitive
+  image: ranger/mark-of-the-fugitive.png
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[547]] damage to the enemy.
+
+- slug: mark-of-the-fugitive-2
+  name: Mark of the Fugitive
+  image: ranger/mark-of-the-fugitive.png
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[547]] damage to the enemy, applying the [[Mark]] effect.
+    - Increase damage dealt to enemies affected by the [[Mark]] effect.
+
+- slug: mark-of-the-fugitive-3
+  name: Mark of the Fugitive
+  image: ranger/mark-of-the-fugitive.png
+  cooldown: 30.00
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[547]] damage to the enemy.
 
 - slug: prudent-shot
   name: Prudent Shot
@@ -153,6 +195,17 @@
   skill-descriptions:
     - Deals [[406]] damage to the enemy. You can gather power up to level [[1]].
     - If you gather the maximuim amount of power, the damage increases. You can also gather power while moving.
+
+- slug: prudent-shot-2
+  name: Prudent Shot
+  image: ranger/prudent-shot.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[406]] damage to the enemy. You can gather power up to level [[1]].
+    - You can also gather power while moving. When a Critical Hit is made, the amount of Concentration spent is recovered.
 
 - slug: vengeful-arrow
   name: Vengeful Arrow
@@ -215,6 +268,16 @@
   skill-descriptions:
     - Deals [[45]] damage to the enemy.
 
+- slug: moving-shot-2
+  name: Moving Shot
+  image: ranger/moving-shot.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[623]] damage to the enemy. Increase damage by [[5%]] if used while moving.
+
 - slug: snipe
   name: Snipe
   image: ranger/snipe.png
@@ -224,6 +287,28 @@
     - Concentration 40 consumption
   skill-descriptions:
     - Deals [[342]] damage to the enemy. You can gather power up to level [[3]], and cannot move while gathering power. The further the enemy, the greater the damage.
+
+- slug: snipe-1
+  name: Snipe
+  image: ranger/snipe.png
+  cooldown: 20.00s
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[342]] damage to the enemy. You can gather power up to level [[2]], but cannot move while gathering power.
+
+- slug: snipe-2
+  name: Snipe
+  image: ranger/snipe.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 40 consumption
+  skill-descriptions:
+    - Deals [[342]] damage to the enemy. You can gather power up to level [[3]], and cannot move while gathering power. The further the enemy, the greater the damage.
+    - The higher your current Concentration, the higher the Hit rate.
 
 - slug: arrow-of-destiny
   name: Arrow of Destiny
@@ -247,6 +332,16 @@
   skill-descriptions:
     - Deals [[269]] damage to the enemy and inflicts the [[Root]] effect, which makes it unable to move for [[1]] second.
 
+- slug: binding-arrow-1
+  name: Binding Arrow
+  image: ranger/binding-arrow.png
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[254]] damage to the enemy.
+
 - slug: enhancement
   name: Enhancement
   image: ranger/enhancement.png
@@ -257,3 +352,55 @@
     - Concentration 25 consumption
   skill-descriptions:
     - Applies the [[Enhancement]] effect, which increases damage dealt to the enemy by [[5%]] for [[3]] seconds.
+
+- slug: spinning-arrow
+  name: Spinning Arrow
+  image: ranger/spinning-arrow.png
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 25 consumption
+  skill-descriptions:
+    - Deals [[1452]] damage to the enemy.
+    - Pushes the target back by [[5m]] for each hit.
+
+- slug: spinning-arrow-1
+  name: Spinning Arrow
+  image: ranger/spinning-arrow.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[1489]] damage to the enemy.
+
+- slug: strafe
+  name: Strafe
+  image: ranger/strafe.png
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[1308]] damage to enemies within a sector area in front.
+
+- slug: poison-arrow
+  name: Poison Arrow
+  image: ranger/poison-arrow.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[532]] damage to the enemy.
+
+- slug: frontal-aoe
+  name: Frontal AoE
+  image: ranger/poison-arrow.png
+  skill-details:
+    - Targeting
+    - Range ??m
+    - Concentration ?? consumption
+  skill-descriptions:
+    - Deals [[??]] damage to the enemy.

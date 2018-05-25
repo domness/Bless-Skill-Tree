@@ -1,0 +1,35 @@
+- slug: snipe-1
+  followed:
+    - slug: spinning-arrow
+      followed:
+        - slug: prudent-shot-2
+    - slug: mark-of-the-fugitive-1
+      followed:
+        - slug: strafe
+    - slug: continuous-fire-1
+      followed:
+        - slug: mark-of-the-fugitive-2
+
+- slug: prudent-shot-1
+  followed:
+    - slug: binding-arrow-1
+      followed:
+        - slug: prudent-shot-2
+    - slug: mark-of-the-fugitive-3
+      followed:
+        - slug: snipe-2
+    - slug: vengeful-arrow
+      followed:
+        - slug: spinning-arrow-1
+
+- slug: poison-arrow
+  followed:
+    - slug: launch
+      followed:
+        - slug: frontal-aoe
+    - slug: continuous-fire-1
+      followed:
+        - slug: moving-shot-2
+    - slug: spinning-arrow-1
+      followed:
+        - slug: continuous-fire-1
