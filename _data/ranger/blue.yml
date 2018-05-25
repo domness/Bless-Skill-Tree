@@ -1,0 +1,35 @@
+- slug: rain-of-arrows
+  followed:
+    - slug: vengeful-arrow-1
+      followed:
+        - slug: prudent-shot-3
+    - slug: launch-2
+      followed:
+        - slug: strafe-1
+    - slug: moving-shot-2
+      followed:
+        - slug: rapid-fire
+
+- slug: sudden-attack
+  followed:
+    - slug: breakaway
+      followed:
+        - slug: explosive-trap
+    - slug: continuous-fire-2
+      followed:
+        - slug: breakaway-1
+    - slug: breakaway
+      followed:
+        - slug: silencing-arrow
+
+- slug: vertigo
+  followed:
+    - slug: moving-shot-3
+      followed:
+        - slug: scars-of-defeat
+    - slug: arrow-of-destiny-1
+      followed:
+        - slug: spinning-arrow-2
+    - slug: spinning-arrow-1
+      followed:
+        - slug: binding-arrow-2

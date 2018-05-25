@@ -110,6 +110,16 @@
   skill-descriptions:
     - Deals [[422]] damage to the enemy.
 
+- slug: launch-2
+  name: Launch
+  image: ranger/launch.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[463]] damage to the enemy.
+
 - slug: continuous-fire
   name: Continuous Fire
   image: ranger/continuous-fire.png
@@ -129,6 +139,16 @@
     - Concentration 10 consumption
   skill-descriptions:
     - Deals [[326]] damage in total to the enemy over [[2]] attacks.
+
+- slug: continuous-fire-2
+  name: Continuous Fire
+  image: ranger/continuous-fire.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[334]] damage in total to the enemy over [[2]] attacks.
 
 - slug: mark-of-the-fugitive
   name: Mark of the Fugitive
@@ -207,6 +227,18 @@
     - Deals [[406]] damage to the enemy. You can gather power up to level [[1]].
     - You can also gather power while moving. When a Critical Hit is made, the amount of Concentration spent is recovered.
 
+- slug: prudent-shot-3
+  name: Prudent Shot
+  image: ranger/prudent-shot.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[416]] damage to the enemy. You can gather power up to level [[1]].
+    - When you gather power to the fullest, the damage increases.
+    - Increases damage by [[20%]] if the [[Prudence]] effect has been applied one or more times.
+
 - slug: vengeful-arrow
   name: Vengeful Arrow
   image: ranger/vengeful-arrow.png
@@ -216,6 +248,16 @@
     - Concentration 10 consumption
   skill-descriptions:
     - Deals [[1209]] damage to the enemy.
+
+- slug: vengeful-arrow-1
+  name: Vengeful Arrow
+  image: ranger/vengeful-arrow.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[1238]] damage to the enemy.
 
 - slug: rapid-fire
   name: Rapid Fire
@@ -278,6 +320,17 @@
   skill-descriptions:
     - Deals [[623]] damage to the enemy. Increase damage by [[5%]] if used while moving.
 
+- slug: moving-shot-3
+  name: Moving Shot
+  image: ranger/moving-shot.png
+  cooldown: 10.00
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[623]] damage to the enemy.
+
 - slug: snipe
   name: Snipe
   image: ranger/snipe.png
@@ -320,6 +373,16 @@
   skill-descriptions:
     - Deals [[925]] damage to the enemy. Increases damage taken when the Ranger is not moving or Movement Speed has been reduced.
 
+- slug: arrow-of-destiny-1
+  name: Arrow of Destiny
+  image: ranger/arrow-of-destiny.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[918]] damage to the enemy.
+
 - slug: binding-arrow
   name: Binding Arrow
   image: ranger/binding-arrow.png
@@ -341,6 +404,17 @@
     - Concentration 10 consumption
   skill-descriptions:
     - Deals [[254]] damage to the enemy.
+
+- slug: binding-arrow-2
+  name: Binding Arrow
+  image: ranger/binding-arrow.png
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 25 consumption
+  skill-descriptions:
+    - Deals [[262]] damage to the enemy and its surroundings. Inflicts the [[Root]] effect, rendering the target unable to move for [[1.5]] seconds.
 
 - slug: enhancement
   name: Enhancement
@@ -375,6 +449,17 @@
   skill-descriptions:
     - Deals [[1489]] damage to the enemy.
 
+- slug: spinning-arrow-2
+  name: Spinning Arrow
+  image: ranger/spinning-arrow.png
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 25 consumption
+  skill-descriptions:
+    - Deals [[1489]] damage to the enemy. Increase damage by [[10%]] when hit by an enemy within [[5m]].
+
 - slug: strafe
   name: Strafe
   image: ranger/strafe.png
@@ -384,6 +469,16 @@
     - Concentration 20 consumption
   skill-descriptions:
     - Deals [[1308]] damage to enemies within a sector area in front.
+
+- slug: strafe-1
+  name: Strafe
+  image: ranger/strafe.png
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[1339]] damage to enemies within a sector area in front. Inflicts damage up to [[3]] enemies.
 
 - slug: poison-arrow
   name: Poison Arrow
@@ -404,3 +499,84 @@
     - Concentration ?? consumption
   skill-descriptions:
     - Deals [[??]] damage to the enemy.
+
+- slug: rain-of-arrows
+  name: Rain of Arrows
+  image: ranger/rain-of-arrows.png
+  cooldown: 20.00
+  skill-details:
+    - Point skill
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Fires an enormous number of arrows at the target location, causing damage over time to enemies within the area. Reduces Movement Speed of enemies within the Rain of Arrows range by [[10%]].
+
+- slug: sudden-attack
+  name: Sudden Attack
+  image: ranger/sudden-attack.png
+  cooldown: 15.00
+  skill-details:
+    - Targeting
+    - Range 5.00m
+    - Concentration 15 consumption
+  skill-descriptions:
+    - Stabs the enemy with the hidden weapon, dealing [[521]] damage.
+
+- slug: breakaway
+  name: Breakaway
+  image: ranger/breakaway.png
+  skill-details:
+    - Targeting
+    - Range 4.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - You kick the enemy, dealing [[906]] damage and stepping back.
+
+- slug: breakaway-1
+  name: Breakaway
+  image: ranger/breakaway.png
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Range 4.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - You kick the enemy, dealing [[906]] damage, stepping back and knocking the target back [[5m]].
+
+- slug: explosive-trap
+  name: Explosive Trap
+  image: ranger/explosive-trap.png
+  skill-details:
+    - Point skill
+    - Range 15.00m
+    - Concentration 50 consumption
+  skill-descriptions:
+    - Places an explosive trap at the target location. When the trap exploes, after a while, it deals [[??]] damage to enemies within a [[3m]] radius.
+
+- slug: silencing-arrow
+  name: Silencing Arrow
+  image: ranger/silencing-arrow.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[594]] damage to the enemy. Silences the enemy for 1.5 seconds, preventing it from casting skills. Blocks the enemy's skills in preparation.
+
+- slug: vertigo
+  name: Vertigo
+  image: ranger/vertigo.png
+  cooldown: 30.00
+  skill-details:
+    - Non-targeting
+  skill-descriptions:
+    - Removes the stacked [[Prudence]] effects and increases Physical Fighting Power by [[5%]] for [[5]] seconds for each removed effect.
+
+- slug: scars-of-defeat
+  name: Scars of Defeat
+  image: ranger/scars-of-defeat.png
+  skill-details:
+    - Non-targeting
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Shoots arrows, inflicting the [[Venom]] effect on the enemy for [[10]] seconds, and then the [[Weakened Immunity]] effect for [[3]] seconds. Increases the damage dealt by the caster to enemies affected by the [[Weakened Immunity]] effect by [[3%]].
