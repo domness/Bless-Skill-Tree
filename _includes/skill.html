@@ -17,13 +17,13 @@
 
     {% for detail in include.skill.skill-details %}
       <div class='skill-detail'>
-        {{ detail }}
+        {{ detail | replace: "[[", "<span class='note'>" | replace: "]]", "</span>" }}
       </div>
     {% endfor %}
 
     {% for detail in include.skill.skill-descriptions %}
       <div class='skill-description'>
-        {{ detail }}
+        {{ detail | replace: "[[", "<span class='note'>" | replace: "]]", "</span>" }}
       </div>
     {% endfor %}
   </div>

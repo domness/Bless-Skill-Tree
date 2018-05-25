@@ -6,7 +6,7 @@
     - Non-targeting
     - Mana 2.00% + 100 consumption
   skill-descriptions:
-    - Reduces Threat by 30% for 5 seconds.
+    - Reduces Threat by [[30%]] for [[5]] seconds.
 
 - slug: blink
   name: Blink
@@ -27,7 +27,7 @@
     - Range 18.00m
     - Mana 3.00% + 100 consumption
   skill-descriptions:
-    - Removes one of the [Burn], [Curse], and [Wound] effects affecting each ally.
+    - Removes one of the [[Burn]], [[Curse]], and [[Wound]] effects affecting each ally.
 
 - slug: elemental-discharge
   name: Elemental Discharge
@@ -35,12 +35,12 @@
   cooldown: 45.00
   skill-details:
     - Non-targeting
-    - fire element 200 obtain
-    - ice element 200 obtain
-    - air element 200 obtain
+    - +200 Fire
+    - +200 Ice
+    - +200 Air
     - Mana 2.00% + 100 consumption
   skill-descriptions:
-    - Obtain 20 fire, Ice, and Air Elements.
+    - Obtain [[20]] fire, Ice, and Air Elements.
 
 - slug: mana-shield
   name: Mana Shield
@@ -50,7 +50,7 @@
     - Non-targeting
   skill-descriptions:
     - Creates a Protective Shield that absorbs damage by consuming Mana. Press the skill once again to deactivate it.
-    - You can activate it when you have 10% or more of maximum Mana.
+    - You can activate it when you have [[10%]] or more of maximum Mana.
 
 - slug: counterspell
   name: Counterspell
@@ -61,7 +61,7 @@
     - Range 18.00m
     - Mana 2.00% + 100 consumption
   skill-descriptions:
-    - Interrupts spells being cast and makes the target unable to cast magic skills for 4 seconds.
+    - Interrupts spells being cast and makes the target unable to cast magic skills for [[4]] seconds.
 
 - slug: sleep
   name: Sleep
@@ -74,9 +74,9 @@
     - Cast time 1.50 seconds
     - Mana 5.00% + 200 consumption
   skill-descriptions:
-    - The enemy falls asleep and becomes unable to move for 30 seconds. The target quickly recovers Health Points for the duration of the effect. The target wakes up when attacked.
+    - The enemy falls asleep and becomes unable to move for [[30]] seconds. The target quickly recovers Health Points for the duration of the effect. The target wakes up when attacked.
     - The skill does not trigger Resistance calculation.
-    - When used on a player, it only lasts for 10 seconds.
+    - When used on a player, it only lasts for [[10]] seconds.
 
 - slug: elemental-armor
   name: Elemental Armor
@@ -87,9 +87,9 @@
     - Non-targeting
     - Mana 15.00% + 300 consumption
   skill-descriptions:
-    - Summons armor which absorbs 15% of damage taken for 30 seconds.
-    - The Armor transforms into [Phantasmal Armor] when more than 25% of Vitality is consumed by a single attack. Phantasmal Armor absorbs 30% of damage taken from the next attack within 5 seconds.
-    - When hit by a melee attack, inflicts the [Stun] effect, making the target unable to move for 3 seconds.
+    - Summons armor which absorbs [[15%]] of damage taken for [[30]] seconds.
+    - The Armor transforms into [[Phantasmal Armor]] when more than [[25%]] of Vitality is consumed by a single attack. Phantasmal Armor absorbs [[30%]] of damage taken from the next attack within [[5]] seconds.
+    - When hit by a melee attack, inflicts the [[Stun]] effect, making the target unable to move for [[3]] seconds.
 
 - slug: magic-shot
   name: Magic Shot
@@ -98,7 +98,7 @@
     - Targeting
     - Range 18.00m
   skill-descriptions:
-    - Deals 319 damage to the enemy.
+    - Deals [[319]] damage to the enemy.
 
 - slug: flame-shot
   name: Flame Shot
@@ -106,9 +106,9 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 50 obtain
+    - +50 Fire
   skill-descriptions:
-    - Deals 319 damage to the enemy.
+    - Deals [[319]] damage to the enemy.
 
 - slug: magic-absorption
   name: Magic Absorption
@@ -117,7 +117,7 @@
     - Targeting
     - Range 18.00m
   skill-descriptions:
-    - Deals 373 damage to the enemy.
+    - Deals [[373]] damage to the enemy.
 
 - slug: fireball
   name: Fireball
@@ -126,10 +126,10 @@
     - Targeting
     - Range 20.00m
     - Cast time 1.60 seconds
-    - fire element 90 obtain
+    - +90 Fire
     - Mana 6.00% + 100 consumption
   skill-descriptions:
-    - Deals 1156 damage to the enemy.
+    - Deals [[1156]] damage to the enemy.
 
 - slug: area-of-effect-fireball
   name: Area of Effect Fireball
@@ -138,10 +138,10 @@
     - Targeting
     - Range 20.00m
     - Cast time 1.60 seconds
-    - fire element 90 obtain
+    - +90 Fire
     - Mana 6.00% + 100 consumption
   skill-descriptions:
-    - Deals 1156 damage to the enemy and its surroundings.
+    - Deals [[1156]] damage to the enemy and its surroundings.
     - Not affected by other skills that increase damage or add damage effects.
 
 - slug: incineration
@@ -151,10 +151,10 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 40 obtain
+    - +40 Fire
     - Mana 3.00% + 40 consumption
   skill-descriptions:
-    - Deals 963 damage to the enemy.
+    - Deals [[963]] damage to the enemy.
 
 - slug: fiery-meteor-1
   name: Fiery Meteor
@@ -163,11 +163,11 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 50 obtain
+    - +50 Fire
     - Mana 4.00% + 100 consumption
   skill-descriptions:
-    - Deals 781 damage to the enemy and its surroundings
-    - Inflicts the [Stun] effect after [Flame Shot] in the Fire 3-2 combo, which makes the enemy unable to move for 2 seconds.
+    - Deals [[781]] damage to the enemy and its surroundings
+    - Inflicts the [[Stun]] effect after [[Flame Shot]] in the Fire 3-2 combo, which makes the enemy unable to move for [[2]] seconds.
 
 - slug: fiery-meteor-2
   name: Fiery Meteor
@@ -176,10 +176,10 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 50 obtain
+    - +50 Fire
     - Mana 4.00% + 100 consumption
   skill-descriptions:
-    - Deals 781 damage to the enemy and its surroundings.
+    - Deals [[781]] damage to the enemy and its surroundings.
 
 - slug: fiery-meteor
   name: Fiery Meteor
@@ -187,20 +187,20 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 50 obtain
+    - +50 Fire
     - Mana 4.00% + 100 consumption
   skill-descriptions:
-    - Deals 781 damage to the enemy and its surroundings.
+    - Deals [[781]] damage to the enemy and its surroundings.
 
 - slug: kindle
   name: Kindle
   image: mage/kindle.png
   skill-details:
     - Targeting
-    - fire element 100 obtain
+    - +100 Fire
     - Mana 6.00% + 200 consumption
   skill-descriptions:
-    - Deals 419 damage to the enemy, inflicting the [Burn] effect.
+    - Deals [[419]] damage to the enemy, inflicting the [[Burn]] effect.
 
 - slug: ignition
   name: Ignition
@@ -208,20 +208,20 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 40 obtain
+    - +40 Fire
     - Mana 2.00% + 100 consumption
   skill-descriptions:
-    - Deals 336 damage to the enemy. If the [Burn] effect is applied to the target, it affects additional nearby targets within 6m. Resets the duration of the [Burn] effect affecting the target.
+    - Deals [[336]] damage to the enemy. If the [[Burn]] effect is applied to the target, it affects additional nearby targets within 6m. Resets the duration of the [[Burn]] effect affecting the target.
 
 - slug: fiery-explosion
   name: Fiery Explosion
   image: mage/fiery-explosion.png
   skill-details:
     - Targeting
-    - fire element 120 obtain
+    - +120 Fire
     - Mana 8.00% + 200 consumption
   skill-descriptions:
-    - Deals 2867 damage to the enemy.
+    - Deals [[2867]] damage to the enemy.
 
 - slug: incandescence
   name: Incandescence
@@ -230,10 +230,10 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 60 obtain
+    - +60 Fire
     - Mana 2.00% + 100 consumption
   skill-descriptions:
-    - Deals 586 damage to the enemy and applies the [Stun] effect, which makes the enemy unable to move for 2 seconds.
+    - Deals [[586]] damage to the enemy and applies the [[Stun]] effect, which makes the enemy unable to move for [[2]] seconds.
 
 - slug: fiery-eruption
   name: Fiery Eruption
@@ -242,22 +242,22 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 40 obtain
+    - +40 Fire
     - Mana 2.00% + 100 consumption
   skill-descriptions:
-    - Deals 433 damage to the enemy.
+    - Deals [[433]] damage to the enemy.
 
 - slug: flamestrike
   name: Flamestrike
   image: mage/flamestrike.png
   skill-details:
-    - specific area skill
+    - Specific area skill
     - Range 20.00m
     - Cast time 2.00 seconds
-    - fire element 120 obtain
+    - +120 Fire
     - Mana 15.00% + 200 consumption
   skill-descriptions:
-    - For N seconds, deals 1150 damage to the targeted area and additional periodic damage to enemies in the area.
+    - For [[N]] seconds, deals [[1150]] damage to the targeted area and additional periodic damage to enemies in the area.
 
 - slug: ice-flame
   name: Ice Flame
@@ -266,11 +266,11 @@
     - Targeting
     - Range 20.00m
     - Cast time 1.50 seconds
-    - adds fire element 40 obtain
-    - adds ice element 40 obtain
+    - +40 Fire
+    - +40 Ice
     - Mana 5.00% + 100 consumption
   skill-descriptions:
-    - Deals 641 damage in total to the enemy over 2 attacks
+    - Deals [[641]] damage in total to the enemy over [[2]] attacks
 
 - slug: ice-arrow
   name: Ice Arrow
@@ -280,10 +280,10 @@
     - Targeting
     - Range 18.00m
     - Cast time 1.40 seconds
-    - ice element 80 obtain
+    - +80 Ice
     - Mana 5.00% + 60 consumption
   skill-descriptions:
-    - Deals 991 damage to the enemy.
+    - Deals [[991]] damage to the enemy.
 
 - slug: ice-blast
   name: Ice Blast
@@ -291,10 +291,10 @@
   skill-details:
     - Targeting
     - Range 18.00m
-    - ice element 40 obtain
+    - +40 Ice
     - Mana 4.00% + 100 consumption
   skill-descriptions:
-    - Deals 781 damage to the enemy.
+    - Deals [[781]] damage to the enemy.
 
 - slug: lightning-arrow
   name: Lightning Arrow
@@ -304,10 +304,10 @@
     - Targeting
     - Range 18.00m
     - Cast time 1.40 seconds
-    - air element 70 obtain
+    - +70 Air
     - Mana 3.00% + 100 consumption
   skill-descriptions:
-    - Deals 1025 damage to the enemy.
+    - Deals [[1025]] damage to the enemy.
 
 - slug: bladestorm
   name: Bladestorm
@@ -317,10 +317,10 @@
     - Targeting
     - Range 18.00m
     - Cast time 1.50 seconds
-    - air element 80 obtain
+    - +80 Air
     - Mana 4.00% + 200 consumption
   skill-descriptions:
-    - Deals 1324 damage to the enemy.
+    - Deals [[1324]] damage to the enemy.
 
 - slug: static-charge
   name: Static Charge
@@ -329,11 +329,11 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 70 obtain
-    - air element 70 obtain
+    - +70 Fire
+    - +70 Air
     - Mana 6.00% + 200 consumption
   skill-descriptions:
-    - Inflicts the [Lightning Fire] effect on the target for 8 seconds. When used on allies, increases Movement Speed by 30%. When used on enemies, reduces Movement Speed by 30%.
+    - Inflicts the [[Lightning Fire]] effect on the target for [[8]] seconds. When used on allies, increases Movement Speed by [[30%]]. When used on enemies, reduces Movement Speed by [[30%]].
 
 - slug: frostbite
   name: Frostbite
@@ -342,10 +342,10 @@
   skill-details:
     - Targeting
     - Range 18.00m
-    - ice element 40 obtain
+    - +40 Ice
     - Mana 3.00% + 100 consumption
   skill-descriptions:
-    - Deals 676 damage to the enemy.
+    - Deals [[676]] damage to the enemy.
 
 - slug: frigid-spear
   name: Frigid Spear
@@ -353,10 +353,10 @@
   skill-details:
     - Targeting
     - Range 18.00m
-    - ice element 100 obtain
+    - +100 Ice
     - Mana 6.00% + 200 consumption
   skill-descriptions:
-    - Deals 1659 damage to the enemy.
+    - Deals [[1659]] damage to the enemy.
 
 - slug: static-strike
   name: Static Strike
@@ -364,21 +364,21 @@
   skill-details:
     - Targeting
     - Range 20.00m
-    - fire element 70 obtain
-    - air element 70 obtain
+    - +70 Fire
+    - +70 Air
   skill-descriptions:
-    - Deals 1115 damage to the target and its surroundings, and removes the [Lightning Fire] effect.
+    - Deals [[1115]] damage to the target and its surroundings, and removes the [[Lightning Fire]] effect.
 
 - slug: thunder-and-lightning
   name: Thunder and Lightning
   image: mage/thunder-and-lightning.png
   skill-details:
-    - specific area skill
+    - Specific area skill
     - Range 18.00m
-    - air element 40 obtain
+    - +40 Air
     - Mana 4.00% + 150 consumption
   skill-descriptions:
-    - Deals 1150 damage to the target area.
+    - Deals [[1150]] damage to the target area.
 
 - slug: chilling-wind
   name: Chilling Wind
@@ -387,11 +387,11 @@
   crowd-control: true
   skill-details:
     - Non-targeting
-    - ice element 50 obtain
-    - air element 50 obtain
+    - +50 Ice
+    - +50 Air
     - Mana 2.00% + 100 consumption
   skill-descriptions:
-    - Deals 419 damage to enemies within 7m in front, knocking them back.
+    - Deals [[419]] damage to enemies within [[7m]] in front, knocking them back.
 
 - slug: chill-shot
   name: Chill Shot
@@ -399,9 +399,9 @@
   cooldown: 20.00
   skill-details:
     - Targeting
-    - ice element 50 obtain
+    - +50 Ice
   skill-descriptions:
-    - Deals 319 damage to the enemy.
+    - Deals [[319]] damage to the enemy.
 
 - slug: icy-wave
   name: Icy Wave
@@ -409,10 +409,10 @@
   skill-details:
     - Non-targeting
     - Cast time 2.50 seconds
-    - ice element 110 obtain
+    - +110 Ice
     - Mana 6.00% + 200 consumption
   skill-descriptions:
-    - Deals 2021 damage to enemies in front.
+    - Deals [[2021]] damage to enemies in front.
 
 - slug: thunderbolt
   name: Thunderbolt
@@ -421,10 +421,10 @@
   skill-details:
     - Targeting
     - Range 18.00m
-    - air element 60 obtain
+    - +60 Air
     - Mana 3.00% + 100 consumption
   skill-descriptions:
-    - Deals 558 damage to the enemy.
+    - Deals [[558]] damage to the enemy.
 
 - slug: gust
   name: Gust
@@ -432,10 +432,10 @@
   crowd-control: true
   skill-details:
     - Non-targeting
-    - air element 50 obtain
+    - +50 Air
     - Mana 6.00% + 100 consumption
   skill-descriptions:
-    - Deals 739 damage to enemies within 5m in front, knocking them back.
+    - Deals [[739]] damage to enemies within [[5m]] in front, knocking them back.
 
 - slug: biting-cold
   name: Biting Cold
@@ -443,10 +443,10 @@
   skill-details:
     - Targeting
     - Range 18.00m
-    - ice element 60 obtain
+    - +60 Ice
     - Mana 3.00% + 100 consumption
   skill-descriptions:
-    - Deals 837 damage to the enemy.
+    - Deals [[837]] damage to the enemy.
 
 - slug: freezing
   name: Freezing
@@ -456,10 +456,10 @@
     - Targeting
     - Range 18.00m
     - Cast time 1.10 seconds
-    - ice element 70 obtain
+    - +70 Ice
     - Mana 4.00% + 150 consumption
   skill-descriptions:
-    - Deals damage over time to the enemy for 8 seconds and decreases the enemy's Movement Speed by 10%. The target freezes for 3 seconds when the damage over time duration finishes.
+    - Deals damage over time to the enemy for [[8]] seconds and decreases the enemy's Movement Speed by [[10%]]. The target freezes for [[3]] seconds when the damage over time duration finishes.
 
 - slug: frozen-ground
   name: Frozen Ground
@@ -468,22 +468,22 @@
   cooldown: 15.00
   skill-details:
     - Non-targeting
-    - ice element 50 obtain
+    - +50 Ice
     - Mana 3.00% + 100 consumption
   skill-descriptions:
-    - Deals 391 damage to enemies within a 5 radius, freezing their legs for 4 seconds.
+    - Deals [[391]] damage to enemies within a [[5]] radius, freezing their legs for [[4]] seconds.
 
 - slug: blizzard
   name: Blizzard
   image: mage/blizzard.png
   skill-details:
-    - specific area skill
+    - Specific area skill
     - Range 18.00m
     - Instant Cast
-    - adds ice element 20 obtain
+    - +20 Ice
     - Mana 15.00% + 200 consumption
   skill-descriptions:
-    - For 7.5 seconds, deals 210 damage to the targeted area periodically.
+    - For [[7.5]] seconds, deals [[210]] damage to the targeted area periodically.
     - Any move command cancels the skill casting.
 
 - slug: electric-shot
@@ -492,9 +492,9 @@
   skill-details:
     - Targeting
     - Range 18.00m
-    - air element 50 obtain
+    - +50 Air
   skill-descriptions:
-    - Deals 319 damage to the enemy.
+    - Deals [[319]] damage to the enemy.
 
 - slug: chain-lightning
   name: Chain Lightning
@@ -503,10 +503,10 @@
     - Targeting
     - Range 18.00m
     - Cast time 2.00 seconds
-    - adds air element 30 obtain
+    - +30 Air
     - Mana 8.00% + 150 consumption
   skill-descriptions:
-    - Deals 1220 damage to the enemy and arcs to another nearby enemy. The spell affects up to 5 targets, inflicting 10% less damage to each successive target.
+    - Deals [[1220]] damage to the enemy and arcs to another nearby enemy. The spell affects up to [[5]] targets, inflicting [[10%]] less damage to each successive target.
 
 - slug: along-the-wind
   name: Along the wind
@@ -514,10 +514,10 @@
   cooldown: 15.00
   skill-details:
     - Non-targeting
-    - air element 60 obtain
+    - +60 Air
     - Mana 4.00% + 100 consumption
   skill-descriptions:
-    - After generating a magical glyph in the current location, you fly forward quickly, dealing 2122 damage to the targeted area.
+    - After generating a magical glyph in the current location, you fly forward quickly, dealing [[2122]] damage to the targeted area.
     - Grants immunity to all Crowd Control and Position Control effects while moving.
     - It is not affected by other skills that increase damage.
 
@@ -526,7 +526,7 @@
   image: mage/along-the-wind-2.png
   skill-details:
     - Targeting
-    - air element 60 obtain
+    - +60 Air
     - Range 20.00m
   skill-descriptions:
     - Returns to the placed magical glyph. However, the magical glyph must be located within your sight.
@@ -537,10 +537,10 @@
   image: mage/lightning-explosion.png
   skill-details:
     - Non-targeting
-    - air element 50 obtain
+    - +50 Air
     - Mana 2.00% + 100 consumption
   skill-descriptions:
-    - Deals 335 damage to the enemies within a 4m radius.
+    - Deals [[335]] damage to the enemies within a [[4m]] radius.
 
 - slug: piercing-wind
   name: Piercing Wind
@@ -548,10 +548,10 @@
   skill-details:
     - Targeting
     - Range 18.00m
-    - air element 30 obtain
+    - +30 Air
     - Mana 35% consumption
   skill-descriptions:
-    - For 6.5 seconds, deals 369 damage to the targeted area periodically.
+    - For [[6.5]] seconds, deals [[369]] damage to the targeted area periodically.
 
 - slug: typhoon
   name: Typhoon
@@ -561,7 +561,7 @@
   skill-details:
     - Non-targeting
     - Range 18.00m
-    - air element 10 obtain
+    - +10 Air
     - Mana 5.00% + 150 consumption
   skill-descriptions:
-    - Inflicts 201 periodic damage to enemies within 5m. Drags enemies into the range of the skill at the start, middle, and end.
+    - Inflicts [[201]] periodic damage to enemies within [[5m]]. Drags enemies into the range of the skill at the start, middle, and end.

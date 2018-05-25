@@ -1,0 +1,35 @@
+- slug: launch
+  followed:
+    - slug: continuous-fire
+      followed:
+        - slug: prudent-shot
+    - slug: launch-1
+      followed:
+        - slug: vengeful-arrow
+    - slug: mark-of-the-fugitive
+      followed:
+        - slug: rapid-fire
+
+- slug: prudent-shot-1
+  followed:
+    - slug: fatal-arrow
+      followed:
+        - slug: penetrating-shot
+    - slug: moving-shot
+      followed:
+        - slug: snipe
+    - slug: launch-1
+      followed:
+        - slug: arrow-of-destiny
+
+- slug: binding-arrow
+  followed:
+    - slug: moving-shot-1
+      followed:
+        - slug: barrage-1
+    - slug: launch-1
+      followed:
+        - slug: fatal-arrow
+    - slug: vengeful-arrow
+      followed:
+        - slug: enhancement

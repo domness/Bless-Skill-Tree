@@ -7,7 +7,7 @@
     - Non-targeting
     - Mana 10.00% + 100 consumption
   skill-descriptions:
-    - Deals 429 damage to enemies within a 5m radius, knocking them back.
+    - Deals [[429]] damage to enemies within a [[5m]] radius, knocking them back.
 
 - slug: purify
   name: Purify
@@ -18,7 +18,7 @@
     - Range 25.00m
     - Mana 5.00% + 50 consumption
   skill-descriptions:
-    - Removes all Poison, Curse and Wound effects from allies. Continues to remove all Poison, Curse, and Wound effects from allies at regular intervals.
+    - Removes all [[Poison]], [[Curse]] and [[Wound]] effects from allies. Continues to remove all [[Poison]], [[Curse]], and [[Wound]] effects from allies at regular intervals.
     - Stacks up to 3 times.
 
 - slug: transcend
@@ -29,8 +29,8 @@
     - Non-targeting
     - Mana 5.00% + 50 consumption
   skill-descriptions:
-    - Able to cast spells while moving for 7 seconds. Grants immunity to all Crowd Control and Position Control effects and increases Movement Speed by 20%.
-    - 'Skills effected: [Retribution], [Beacon of Healing], [Healing Light], [Healing Grace], [Resurrection]'
+    - Able to cast spells while moving for [[7]] seconds. Grants immunity to all Crowd Control and Position Control effects and increases Movement Speed by [[20%]].
+    - 'Skills effected: [[Retribution]], [[Beacon of Healing]], [[Healing Light]], [[Healing Grace]], [[Resurrection]]'
 
 - slug: sacred-ground
   name: Sacred Ground
@@ -40,7 +40,7 @@
     - Non-targeting
     - Mana 10.00% + 100 consumption
   skill-descriptions:
-    - Covers the caster's surroundings with divine power for 10 seconds. Reduces damage dealt to allies in the sacred ground by 30% and Movement Speed of hostile targets by 20%.
+    - Covers the caster's surroundings with divine power for [[10]] seconds. Reduces damage dealt to allies in the sacred ground by [[30%]] and Movement Speed of hostile targets by [[20%]].
 
 - slug: endure
   name: Endure
@@ -50,7 +50,7 @@
     - Non-targeting
     - Mana 10.00% + 100 consumption
   skill-descriptions:
-    - Removes all detrimental timed effects. For the duration of the effect, grants immunity to all effects, including Position Control effects such as Floating.
+    - Removes all detrimental timed effects. For the duration of the effect, grants immunity to all effects, including Position Control effects such as [[Floating]].
     - Heals the caster during the skill effect duration.
 
 - slug: resurrection
@@ -63,8 +63,8 @@
     - Cast time 4.00 seconds
     - Mana 25.00% consumption
   skill-descriptions:
-    - Resurrects a dead ally into a state of 30% Vitality and Mana.
-    - Cannot be used in the Certanon Arena.
+    - Resurrects a dead ally into a state of [[30%]] Vitality and Mana.
+    - Cannot be used in the [[Certanon Arena]].
 
 - slug: concentration
   name: Concentration
@@ -74,7 +74,7 @@
     - Non-targeting
     - Mana 5.00% + 50 consumption
   skill-descriptions:
-    - Reduces cooldown time of [Crusader's Will], [Fanaticism], [Prayer], [Seeker's Devotion] and [Benevolence] skills by 30%.
+    - Reduces cooldown time of [[Crusader's Will]], [[Fanaticism]], [[Prayer]], [[Seeker's Devotion]] and [[Benevolence]] skills by [[30%]].
 
 - slug: strike
   name: Strike
@@ -84,7 +84,7 @@
     - Targeting
     - Range 4.00m
   skill-descriptions:
-    - Deals 129 damage to the enemy.
+    - Deals [[129]] damage to the enemy.
   followed:
     - rapid-strike
     - verdict
@@ -98,7 +98,7 @@
     - Range 4.00m
     - Mana 15.00% + 50 consumption
   skill-descriptions:
-    - Deals 476 damage to the enemy and knocks them down.
+    - Deals [[476]] damage to the enemy and knocks them down.
 
 - slug: rapid-strike
   name: Rapid Strike
@@ -107,7 +107,7 @@
     - Targeting
     - Range 4.00m
   skill-descriptions:
-    - Deals 143 damage to the enemy.
+    - Deals [[143]] damage to the enemy.
 
 - slug: chastise
   name: Chastise
@@ -117,8 +117,8 @@
     - Range 4.00m
     - Mana 10.00% + 45 consumption
   skill-descriptions:
-    - Deals 235 damage to the enemy.
-    - If the enemy is already affected by the [Divine Punishment] or [Smash] effects, other nearby enemies will gain this effect.
+    - Deals [[235]] damage to the enemy.
+    - If the enemy is already affected by the [[Divine Punishment]] or [[Smash]] effects, other nearby enemies will gain this effect.
 
 - slug: conviction
   name: Conviction
@@ -128,7 +128,7 @@
     - Range 11.00m
     - Mana 11.00% + 50 consumption
   skill-descriptions:
-    - You fly at the fallen enemy, dealing 645 damage and reducing its Movement Speed by 20%
+    - You fly at the fallen enemy, dealing [[645]] damage and reducing its Movement Speed by [[20%]]
 
 - slug: retribution
   name: Retribution
@@ -151,8 +151,8 @@
     - Range 20.00m
     - Mana 18.00% + 100 consumption
   skill-descriptions:
-    - Deals 407 damage to the enemy and immediately applies 3 stacks of [Divine Punishment] and 5 stacks of [Smash].
-    - The damage will be increased to enemies with [Divine Punishment] and [Smash] applied.
+    - Deals [[407]] damage to the enemy and immediately applies 3 stacks of [[Divine Punishment]] and 5 stacks of [[Smash]].
+    - The damage will be increased to enemies with [[Divine Punishment]] and [[Smash]] applied.
 
 - slug: execute
   name: Execute
@@ -162,7 +162,7 @@
     - Range 5.00m
     - Mana 20.00% + 65 consumption
   skill-descriptions:
-    - Attacks the enemy, dealing 1058 damage. Additionaly, if the enemy has the [Branded] or [Verdict] effect, the [Smash] effect will also be applied, dealing damage over time for 10 seconds. The [Smash] effect can be stacked up to 5 times to deal continuous physical damage.
+    - Attacks the enemy, dealing [[1058]] damage. Additionaly, if the enemy has the [[Branded]] or [[Verdict]] effect, the [[Smash]] effect will also be applied, dealing damage over time for 10 seconds. The [[Smash]] effect can be stacked up to [[5]] times to deal continuous physical damage.
 
 - slug: penalize
   name: Penalize
@@ -171,7 +171,7 @@
     - Non-targeting
     - Mana 18.00% + 15 consumption
   skill-descriptions:
-    - Deals 210 damage to enemies within a 5m radius. Damage is increased by 10% against enemies with the [Divine Punishment] effect.
+    - Deals [[210]] damage to enemies within a [[5m]] radius. Damage is increased by [[10%]] against enemies with the [[Divine Punishment]] effect.
 
 - slug: branded
   name: Branded
@@ -182,7 +182,7 @@
     - Range 25.00m
     - Mana 8.00% + 20 consumption
   skill-descriptions:
-    - Inflicts the [Branded] effect on the enemy. Increases damage dealt to the [Branded] target by 20%.
+    - Inflicts the [[Branded]] effect on the enemy. Increases damage dealt to the [[Branded]] target by [[20%]].
 
 - slug: armor-of-insight
   name: Armor of Insight
@@ -191,7 +191,7 @@
   skill-details:
     - Non-targeting
   skill-descriptions:
-    - Reduces Magic damage take by 50% and provides immunity to ensnare, root, and position control effects for 6 seconds.
+    - Reduces Magic damage take by [[50%]] and provides immunity to ensnare, root, and position control effects for [[6]] seconds.
 
 - slug: prayer
   name: Prayer
@@ -200,7 +200,7 @@
   skill-details:
     - Non-targeting
   skill-descriptions:
-    - Immediately restores 50 Mana.
+    - Immediately restores [[50]] Mana.
 
 - slug: seekers-devotion
   name: Seeker's Devotion
@@ -219,7 +219,7 @@
     - Range 25.00m
     - Mana 12.00% + 60 consumption
   skill-descriptions:
-    - Deals 548 damage to the enemy. Applies the [Divine Punishment] effect for 10 seconds to enemies affected by the [Branded] or [Verdict] effects. [Divine Punishment] effect can be stacked up to 3 times.
+    - Deals [[548]] damage to the enemy. Applies the [[Divine Punishment]] effect for [[10]] seconds to enemies affected by the [[Branded]] or [[Verdict]] effects. [[Divine Punishment]] effect can be stacked up to [[3]] times.
 
 - slug: chastisement-chain
   name: Chastisement Chain
@@ -231,7 +231,7 @@
     - Range 15.00m
     - Mana 20.00%
   skill-descriptions:
-    - Blocks enemies' skill casting. Also applies the [Chastisement Chain] effect, which prevents the enemy from moving for 5 seconds. The [Chastisement Chain] gradually constricts the enemy and explodes, inflicting damage when dismissed.
+    - Blocks enemies' skill casting. Also applies the [[Chastisement Chain]] effect, which prevents the enemy from moving for [[5]] seconds. The [[Chastisement Chain]] gradually constricts the enemy and explodes, inflicting damage when dismissed.
 
 - slug: fierce-strike
   name: Fierce Strike
@@ -241,7 +241,7 @@
     - Range 4.00m
     - Mana 4.50% consumption
   skill-descriptions:
-    - Deals 162 damage to the enemy. Restores 5% of max Mana.
+    - Deals [[162]] damage to the enemy. Restores [[5%]] of max Mana.
 
 - slug: celestial-armor
   name: Celestial Armor
@@ -250,7 +250,7 @@
   skill-details:
     - Non-targeting
   skill-descriptions:
-    - Increases Physical Defense by 50% and provides immunity to ensnare, root, and position control effects for 6 seconds.
+    - Increases Physical Defense by [[50%]] and provides immunity to ensnare, root, and position control effects for [[6]] seconds.
 
 - slug: crusaders-will
   name: Crusader's Will
@@ -259,7 +259,7 @@
   skill-details:
     - Non-targeting
   skill-descriptions:
-    - Increases Paladin's Mana recovery for 5 seconds.
+    - Increases Paladin's Mana recovery for [[5]] seconds.
 
 - slug: fanaticism
   name: Fanaticism
@@ -268,7 +268,7 @@
   skill-details:
     - Non-targeting
   skill-descriptions:
-    - Increases Paladin's Critical Hit by 50% for 5 seconds.
+    - Increases Paladin's Critical Hit by [[50%]] for [[5]] seconds.
 
 - slug: healing-beacon
   name: Healing Beacon
@@ -279,7 +279,7 @@
     - Cast time 2.00 seconds
     - Mana 11.00% + 50 consumption
   skill-descriptions:
-    - Heals up to 10 allies' Health Points within a 7m radius by 785 + (MP consumption x 1.6).
+    - Heals up to 10 allies' Health Points within a [[7m]] radius by [[785 + (MP consumption x 1.6)]].
 
 - slug: healing-brilliance
   name: Healing Brilliance
@@ -290,7 +290,7 @@
     - Cast time 2.50 seconds
     - Mana 20.00% + 75 consumption
   skill-descriptions:
-    - Heals an ally's Health Points by 1961 + (MP consumption x 3.3).
+    - Heals an ally's Health Points by [[1961 + (MP consumption x 3.3)]].
 
 - slug: healing-grace
   name: Healing Grace
@@ -300,7 +300,7 @@
     - Range 20.00m
     - Mana 6.00% consumption
   skill-descriptions:
-    - Heals the target's Health Points every 2 seconds for 10 seconds.
+    - Heals the target's Health Points every [[2]] seconds for [[10]] seconds.
 
 - slug: sacrificial-plea
   name: Sacrificial Plea
@@ -309,7 +309,7 @@
     - Non-targeting
     - consumes maximum vitality by 10% each period
   skill-descriptions:
-    - For 7 seconds, sacrifice Health Points to restore the Vitality of party members within a 20m radius. If there is a movement after the spell has been cast, the effect vanishes.
+    - For [[7]] seconds, sacrifice Health Points to restore the Vitality of party members within a [[20m]] radius. If there is a movement after the spell has been cast, the effect vanishes.
     - While casting the spell, the Paladin cannot be healed and may die due to its effect.
 
 - slug: healing-light
@@ -321,7 +321,7 @@
     - Cast time 1.50 seconds
     - Mana 9.00% + 100 consumption
   skill-descriptions:
-    - Heals an ally's Health Points by 1373 + (MP consumption x3)
+    - Heals an ally's Health Points by [[1373 + (MP consumption x3)]]
 
 - slug: awareness
   name: Awareness
@@ -331,7 +331,7 @@
     - Non-targeting
     - Mana 7.00% + 0 consumption
   skill-descriptions:
-    - You have a 40% chance of using [Healing Light], the next skill in the chain, immediately.
+    - You have a [[40%]] chance of using [[Healing Light]], the next skill in the chain, immediately.
 
 - slug: blessing
   name: Blessing
@@ -341,7 +341,7 @@
     - Targeting
     - Range 25.00m
   skill-descriptions:
-    - Applies [Blessing] effect to allies. Increasing Healing output by 15% when a Paladin heals a target under the [Blessing] effect.
+    - Applies [[Blessing]] effect to allies. Increasing Healing output by [[15%]] when a Paladin heals a target under the [[Blessing]] effect.
 
 - slug: oracle
   name: Oracle
@@ -350,7 +350,7 @@
   skill-details:
     - Non-targeting
   skill-descriptions:
-    - For a certain duration, reduces the damages Paladin takes by 20%. This effect does not stack, and its duration will be increase by 2 seconds with successful shield block or resist. The duration-increasing effect will be activated only once in every 3 seconds.
+    - For a certain duration, reduces the damages Paladin takes by [[20%]]. This effect does not stack, and its duration will be increase by [[2]] seconds with successful shield block or resist. The duration-increasing effect will be activated only once in every [[3]] seconds.
 
 - slug: celestial-protection
   name: Celestial Protection

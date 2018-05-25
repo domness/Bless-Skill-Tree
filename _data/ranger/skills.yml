@@ -1,0 +1,259 @@
+- slug: locate
+  name: Locate
+  image: ranger/locate.png
+  cooldown: 15.00
+  skill-details:
+    - Non-targeting
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Disables the Sneak state of enemies lurking around you.
+
+- slug: nerve-wreck
+  name: Nerve Wreck
+  image: ranger/nerve-wreck.png
+  cooldown: 25.00
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Concentration 25 consumption
+    - Range 25.00m
+  skill-descriptions:
+    - When the enemy is hit, stuns the enemy for [[1]] second, dealing [[1209]] damage.
+
+- slug: high-angle-fire-stance
+  name: High-Angle Fire Stance
+  image: ranger/high-angle-fire-stance.png
+  skill-details:
+    - Non-targeting
+  skill-descriptions:
+    - Reduces Movement Speed by [[30%]] and increases skill damage dealt to enemies [[15m]] or further away by [[10%]].
+
+- slug: dodge-move
+  name: Dodge Move
+  image: ranger/dodge-move.png
+  cooldown: 30.00
+  skill-details:
+    - Non-targeting
+    - Concentration 30 consumption
+  skill-descriptions:
+    - The Crowd Control effect is dismissed, and you can move by rolling in 8 directions.
+
+- slug: steady-concentration
+  name: Steady Concentration
+  image: ranger/steady-concentration.png
+  cooldown: 60.00
+  skill-details:
+    - Non-targeting
+    - Concentration 25 obtain
+  skill-descriptions:
+    - Instantly gain [[25]] Concentration.
+
+- slug: smoke-bomb
+  name: Smoke Bomb
+  image: ranger/smoke-bomb.png
+  cooldown: 30.00
+  skill-details:
+    - Non-targeting
+    - Concentration 30 consumption
+  skill-descriptions:
+    - Fires a Smoke Bomb, reducing the Movement Speed of enemies in the smoke by [[15%]].
+
+- slug: hunting-trap
+  name: Hunting Trap
+  image: ranger/hunting-trap.png
+  cooldown: 20.00
+  skill-details:
+    - Targeting
+    - Range 12.00m
+    - Concentration 15 consumption
+  skill-descriptions:
+    - Places a trap in the selected area. Deals [[2467]] damage to the enemy stuck in the trap, inflicting the [[Ensnare]] effect, which reduces Movement Speed by 30% for 3 seconds.
+
+- slug: barrage
+  name: Barrage
+  image: ranger/barrage.png
+  cooldown: 25.00
+  skill-details:
+    - Non-targeting
+    - Concentration 30 consumption
+  skill-descriptions:
+    - Creates a Protective Shield that absorbs all damage from Projectile Attacks for [[1]] second.
+
+- slug: barrage-1
+  name: Barrage
+  image: ranger/barrage.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Fires a series of arrows toward the enemy, inflicting damage to the target and its surroundings. Can be used up to [[2]] times in a row. You will be pushed back a little when using the skill. Continuous use increases damage.
+
+- slug: launch
+  name: Launch
+  image: ranger/launch.png
+  cooldown: 1.60
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[422]] damage to the enemy.
+
+- slug: launch-1
+  name: Launch
+  image: ranger/launch.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[422]] damage to the enemy.
+
+- slug: continuous-fire
+  name: Continuous Fire
+  image: ranger/continuous-fire.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 15 consumption
+  skill-descriptions:
+    - Deals [[304]] damage in total to the enemy over [[2]] attacks.
+
+- slug: mark-of-the-fugitive
+  name: Mark of the Fugitive
+  image: ranger/mark-of-the-fugitive.png
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[508]] damage to the enemy.
+
+- slug: prudent-shot
+  name: Prudent Shot
+  image: ranger/prudent-shot.png
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[378]] damage to the enemy. You can gather power up to level [[1]].
+    - When you gather power to the fullest, damage increases and the [[Stun]] effect is inflicted, making the target unable to move for [[1]] second.
+
+- slug: prudent-shot-1
+  name: Prudent Shot
+  image: ranger/prudent-shot.png
+  cooldown: 5.00
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 15 consumption
+  skill-descriptions:
+    - Deals [[406]] damage to the enemy. You can gather power up to level [[1]].
+    - If you gather the maximuim amount of power, the damage increases. You can also gather power while moving.
+
+- slug: vengeful-arrow
+  name: Vengeful Arrow
+  image: ranger/vengeful-arrow.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[1209]] damage to the enemy.
+
+- slug: rapid-fire
+  name: Rapid Fire
+  image: ranger/rapid-fire.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Fires [[11]] arrows rapidly toward the enemy. Deals [[254]] damage per single arrow.
+
+- slug: fatal-arrow
+  name: Fatal Arrow
+  image: ranger/fatal-arrow.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[1536]] damage to the enemy.
+
+- slug: penetrating-shot
+  name: Penetrating Shot
+  image: ranger/penetrating-shot.png
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 25 consumption
+  skill-descriptions:
+    - Deals [[947]] damage to all enemies in a straight line ahead of you.
+
+- slug: moving-shot
+  name: Moving Shot
+  image: ranger/moving-shot.png
+  cooldown: 10.00
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[635]] damage to the enemy.
+
+- slug: moving-shot-1
+  name: Moving Shot
+  image: ranger/moving-shot.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 10 consumption
+  skill-descriptions:
+    - Deals [[45]] damage to the enemy.
+
+- slug: snipe
+  name: Snipe
+  image: ranger/snipe.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 40 consumption
+  skill-descriptions:
+    - Deals [[342]] damage to the enemy. You can gather power up to level [[3]], and cannot move while gathering power. The further the enemy, the greater the damage.
+
+- slug: arrow-of-destiny
+  name: Arrow of Destiny
+  image: ranger/arrow-of-destiny.png
+  skill-details:
+    - Targeting
+    - Range 20.00m
+    - Concentration 20 consumption
+  skill-descriptions:
+    - Deals [[925]] damage to the enemy. Increases damage taken when the Ranger is not moving or Movement Speed has been reduced.
+
+- slug: binding-arrow
+  name: Binding Arrow
+  image: ranger/binding-arrow.png
+  cooldown: 20.00
+  crowd-control: true
+  skill-details:
+    - Targeting
+    - Range 15.00m
+    - Concentration 15 consumption
+  skill-descriptions:
+    - Deals [[269]] damage to the enemy and inflicts the [[Root]] effect, which makes it unable to move for [[1]] second.
+
+- slug: enhancement
+  name: Enhancement
+  image: ranger/enhancement.png
+  cooldown: 20.00
+  crowd-control: true
+  skill-details:
+    - Non-targeting
+    - Concentration 25 consumption
+  skill-descriptions:
+    - Applies the [[Enhancement]] effect, which increases damage dealt to the enemy by [[5%]] for [[3]] seconds.
