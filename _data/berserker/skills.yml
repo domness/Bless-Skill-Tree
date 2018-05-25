@@ -6,7 +6,7 @@
     - Non-targeting
     - Anger 30 consumption
   skill-descriptions:
-    - Increases Fighting Power in proportion to the number of enemies in combat. Increases Fighting Power by 2% per enemy in combat (up to 30%).
+    - Increases Fighting Power in proportion to the number of enemies in combat. Increases Fighting Power by [[2%]] per enemy in combat (up to 30%).
 
 - slug: forestall
   name: Forestall
@@ -18,7 +18,7 @@
     - Range 6.00m
     - Anger 20 consumption
   skill-descriptions:
-    - Approaches an enemy within a 6m radius, dealing 700 damage and rooting the target for 1 second.
+    - Approaches an enemy within a [[6m]] radius, dealing [[700]] damage and rooting the target for [[1]] second.
 
 - slug: murderous-intent
   name: Murderous Intent
@@ -28,7 +28,7 @@
     - Non-targeting
     - Anger 30 consumption
   skill-descriptions:
-    - Applies [Mark] effect which decreases Physical Defense of all enemies within a 5m radius by 20%.
+    - Applies [[Mark]] effect which decreases Physical Defense of all enemies within a [[5m]] radius by [[20%]].
 
 - slug: dodge-move
   name: Dodge Move
@@ -48,7 +48,7 @@
     - Non-targeting
     - Anger 30 consumption
   skill-descriptions:
-    - Increases Berserker's Fighting Power by 40% for 3 seconds when used at less than 10% Vitality. If Vitality is at 10% or more, the Berserker will simply gain a 5% increase in Fighting Power.
+    - Increases Berserker's Fighting Power by [[40%]] for [[3]] seconds when used at less than [[10%]] Vitality. If Vitality is at [[10%]] or more, the Berserker will simply gain a [[5%]] increase in Fighting Power.
 
 - slug: fighting-spirit
   name: Fighting Spirit
@@ -58,7 +58,7 @@
     - Non-targeting
     - Anger 40 obtain
   skill-descriptions:
-    - Gain 40 Anger.
+    - Gain [[40]] Anger.
 
 - slug: fighters-will
   name: Fighter's Will
@@ -68,8 +68,8 @@
     - Non-targeting
     - Anger 20 consumption
   skill-descriptions:
-    - Increases Berserker's Fighting Power by 10% for 5 seconds.
-    - Decreases all Defense by 10%.
+    - Increases Berserker's Fighting Power by [[10%]] for [[5]] seconds.
+    - Decreases all Defense by [[10%]].
 
 - slug: enraged-warrior
   name: Enraged Warrior
@@ -78,7 +78,7 @@
   skill-details:
     - Non-targeting
   skill-descriptions:
-    - Consumes Anger slowly when used. Increases Parry rate by 30%.
+    - Consumes Anger slowly when used. Increases Parry rate by [[30%]].
 
 - slug: rapid-slash
   name: Rapid Slash
@@ -89,7 +89,7 @@
     - Range 4.00m
     - Anger 5 obtain
   skill-descriptions:
-    - Deals 283 damage to enemies nearby and gains 5 Anger.
+    - Deals [[283]] damage to enemies nearby and gains [[5]] Anger.
 
 - slug: rapid-slash-1
   name: Rapid Slash
@@ -99,7 +99,7 @@
     - Range 4.00m
     - Anger 1 obtain
   skill-descriptions:
-    - Deals 283 damage to enemies nearby and gains 1 Anger.
+    - Deals [[283]] damage to enemies nearby and gains [[1]] Anger.
 
 - slug: cleaving-attack
   name: Cleaving Attack
@@ -109,7 +109,7 @@
     - Range 4.00m
     - Anger 1 obtain
   skill-descriptions:
-    - Deals 287 damage to nearby enemies and gains 1 Anger.
+    - Deals [[287]] damage to nearby enemies and gains [[1]] Anger.
 
 - slug: trick-attack
   name: Trick Attack
@@ -120,8 +120,8 @@
     - Charging Time 0.90 seconds
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 394 damage to nearby enemies and gains 10 Anger. You can gather power up to level 1, and your Movement Speed decreases by 75% while gathering power.
-    - Increases Critical Hit rate by 10% for 5 seconds when attacking with maximum power.
+    - Deals [[394]] damage to nearby enemies and gains [[10]] Anger. You can gather power up to level [[1]], and your Movement Speed decreases by [[75%]] while gathering power.
+    - Increases Critical Hit rate by [[10%]] for [[5]] seconds when attacking with maximum power.
 
 - slug: trick-attack-1
   name: Trick Attack
@@ -133,8 +133,8 @@
     - Charging Time 0.90 seconds
     - Anger 5 obtain
   skill-descriptions:
-    - Deals 394 damage to enemies nearby. You can gather power up to level 1. When you maximize power to the fullest, damage will increase greatly.
-    - While collecting power, Berserker's Movement Speed decreases by 75%.
+    - Deals [[394]] damage to enemies nearby. You can gather power up to level [[1]]. When you maximize power to the fullest, damage will increase greatly.
+    - While collecting power, Berserker's Movement Speed decreases by [[75%]].
     - When you attack the enemy with maximized power, Critical hit rate will increase in proportion to lost Vitality.
 
 - slug: trick-attack-2
@@ -146,8 +146,8 @@
     - Charging Time 0.90 seconds
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 394 damage to enemies nearby. You can gather power up to level 1. When you maximize power to the fullest, damage will increase greatly.
-    - While collecting power, Berserker's Movement Speed decreases by 75%.
+    - Deals [[394]] damage to enemies nearby. You can gather power up to level [[1]]. When you maximize power to the fullest, damage will increase greatly.
+    - While collecting power, Berserker's Movement Speed decreases by [[75%]].
 
 - slug: rapid-attack
   name: Rapid Attack
@@ -157,7 +157,7 @@
     - Range 4.00m
     - Anger 1 obtain
   skill-descriptions:
-    - Deals 425 damage to nearby enemies and gains 1 Anger.
+    - Deals [[425]] damage to nearby enemies and gains [[1]] Anger.
 
 - slug: vengeful-strike
   name: Vengeful Strike
@@ -167,7 +167,7 @@
     - Range 4.50m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1218 damage to nearby enemies and gains 10 Anger. Damage increases in proportion to present Anger.
+    - Deals [[1218]] damage to nearby enemies and gains [[10]] Anger. Damage increases in proportion to present Anger.
 
 - slug: vengeful-strike-1
   name: Vengeful Strike
@@ -177,7 +177,7 @@
     - Range 4.50m
     - Anger 2 obtain
   skill-descriptions:
-    - Deals 1218 damage to nearby enemies and gains 2 Anger.
+    - Deals [[1218]] damage to nearby enemies and gains [[2]] Anger.
 
 - slug: vengeful-strike-2
   name: Vengeful Strike
@@ -188,7 +188,7 @@
     - Range 4.50m
     - Anger 5 obtain
   skill-descriptions:
-    - Deals 1218 damage to the enemy and gains 5 Anger. Damage will increase in proportion to the Parry Rate.
+    - Deals [[1218]] damage to the enemy and gains [[5]] Anger. Damage will increase in proportion to the Parry Rate.
 
 - slug: rhapsody
   name: Rhapsody
@@ -198,7 +198,7 @@
     - Range 4.00m
     - Anger 2 obtain
   skill-descriptions:
-    - Deals 1370 damage to the enemy and gains 2 Anger. The lower Health Points the skill caster has, the more damage the enemy takes.
+    - Deals [[1370]] damage to the enemy and gains [[2]] Anger. The lower Health Points the skill caster has, the more damage the enemy takes.
 
 - slug: rhapsody-1
   name: Rhapsody
@@ -208,8 +208,8 @@
     - Range 4.00m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1370 damage to a nearby enemy and gains 10 Anger. The lower Health Points the skill caster has, the more damage the enemy takes.
-    - Decreases the target's Movement Speed by 30% for 5 seconds.
+    - Deals [[1370]] damage to a nearby enemy and gains [[10]] Anger. The lower Health Points the skill caster has, the more damage the enemy takes.
+    - Decreases the target's Movement Speed by [[30%]] for [[5]] seconds.
 
 - slug: rhapsody-2
   name: Rhapsody
@@ -220,8 +220,8 @@
     - Range 4.00m
     - Anger 5 obtain
   skill-descriptions:
-    - Deals 1116 damage to the enemy. The lower the Berserker's Vitality, the higher the damage.
-    - Stance switching cooldown time decreases by 0.5 seconds per target hit.
+    - Deals [[1116]] damage to the enemy. The lower the Berserker's Vitality, the higher the damage.
+    - Stance switching cooldown time decreases by [[0.5]] seconds per target hit.
 
 - slug: unjust-strike
   name: Unjust Strike
@@ -231,7 +231,7 @@
     - Range 4.50m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1254 damage to nearby enemies and gains 10 Anger. The higher the enemy's Health Points, the more damage you deal.
+    - Deals [[1254]] damage to nearby enemies and gains [[10]] Anger. The higher the enemy's Health Points, the more damage you deal.
 
 - slug: unjust-strike-1
   name: Unjust Strike
@@ -241,7 +241,7 @@
     - Range 4.50m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1254 damage to nearby enemies and charges Anger. Damage increase in proportion to Vitality loss.
+    - Deals [[1254]] damage to nearby enemies and charges Anger. Damage increase in proportion to Vitality loss.
 
 - slug: skull-crusher
   name: Skull Crusher
@@ -254,8 +254,8 @@
     - Charging Time 1.80 seconds
     - Anger 5 obtain
   skill-descriptions:
-    - Deals 1072 damage to enemies nearby and gains 5 Anger. You can gather power up to level 2, and your Movement Speed decreases by 75% while gathering power.
-    - The more you gather power, the more the damage increases. When you gather power to the fullest, a Knock Down effect is inflicted on the target.
+    - Deals [[1072]] damage to enemies nearby and gains [[5]] Anger. You can gather power up to level [[2]], and your Movement Speed decreases by [[75%]] while gathering power.
+    - The more you gather power, the more the damage increases. When you gather power to the fullest, a [[Knock Down]] effect is inflicted on the target.
 
 - slug: skull-crusher-1
   name: Skull Crusher
@@ -267,8 +267,8 @@
     - Charging Time 1.80 seconds
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1072 damage to enemies nearby. You can gather power up to level 2, and your Movement Speed decreases by 75% while gathering power.
-    - When you gather power to the fullest, the Knock Down effect is applied to the target.
+    - Deals [[1072]] damage to enemies nearby. You can gather power up to level [[2]], and your Movement Speed decreases by [[75%]] while gathering power.
+    - When you gather power to the fullest, the [[Knock Down]] effect is applied to the target.
 
 - slug: skull-crusher-2
   name: Skull Crusher
@@ -280,8 +280,8 @@
     - Charging Time 1.80 seconds
     - Anger 15 obtain
   skill-descriptions:
-    - Deals 1072 damage to enemies nearby and gains 15 Anger. You can gather power up to level 2, and your Movement Speed decreases by 75% while gathering power.
-    - The more you gather power, the more the damage increases. When you gather power to the fullest, a Knock Down effect is inflicted on the target.
+    - Deals [[1072]] damage to enemies nearby and gains [[15]] Anger. You can gather power up to level [[2]], and your Movement Speed decreases by [[75%]] while gathering power.
+    - The more you gather power, the more the damage increases. When you gather power to the fullest, a [[Knock Down]] effect is inflicted on the target.
 
 - slug: upper-swing
   name: Upper Swing
@@ -292,7 +292,7 @@
     - Range 4.00m
     - Anger 2 obtain
   skill-descriptions:
-    - Lifts the target with your weapon, dealing 594 damage and gaining 2 Anger.
+    - Lifts the target with your weapon, dealing [[594]] damage and gaining [[2]] Anger.
 
 - slug: upper-swing-1
   name: Upper Swing
@@ -303,8 +303,8 @@
     - Range 4.00m
     - Anger 10 obtain
   skill-descriptions:
-    - Lifts the target with your weapon, dealing 594 damage and floating the target in the air for 1 second. Even if the enemy is not lifted into the air, you can block the enemy's skill casting.
-    - Gain 10 Anger.
+    - Lifts the target with your weapon, dealing [[594]] damage and [[floating]] the target in the air for [[1]] second. Even if the enemy is not lifted into the air, you can block the enemy's skill casting.
+    - Gain [[10]] Anger.
 
 - slug: prompt-decision
   name: Prompt Decision
@@ -314,9 +314,9 @@
     - Range 4.00m
     - Anger 15 obtain
   skill-descriptions:
-    - Attacks the enemy, dealing 850 damage and gaining 15 Anger.
-    - "[Fighting Spirit] skill's cooldown time is reduced by 3 seconds when a Critical Hit is made."
-    - Attacks the enemy and applies [Prompt Decision] effect which increases damage by 10% for 10 seconds.
+    - Attacks the enemy, dealing [[850]] damage and gaining [[15]] Anger.
+    - "[[Fighting Spirit]] skill's cooldown time is reduced by [[3]] seconds when a Critical Hit is made."
+    - Attacks the enemy and applies [[Prompt Decision]] effect which increases damage by [[10%]] for [[10]] seconds.
 
 - slug: prompt-decision-1
   name: Prompt Decision
@@ -326,7 +326,7 @@
     - Range 4.00m
     - Anger 2 obtain
   skill-descriptions:
-    - Attacks the enemy, dealing 850 damage and gaining 2 Anger.
+    - Attacks the enemy, dealing [[850]] damage and gaining [[2]] Anger.
 
 - slug: prompt-decision-2
   name: Prompt Decision
@@ -336,7 +336,7 @@
     - Range 4.00m
     - Anger 15 obtain
   skill-descriptions:
-    - Attacks the enemy, dealing 850 damage and charging Anger.
+    - Attacks the enemy, dealing [[850]] damage and charging Anger.
     - Movement Speed increases immediately after using the skill.
 
 - slug: bloody-retribution
@@ -347,7 +347,7 @@
     - Range 4.00m
     - Anger 1 obtain
   skill-descriptions:
-    - Deals 1018 damage to enemies in front of you and gains 1 Anger.
+    - Deals [[1018]] damage to enemies in front of you and gains [[1]] Anger.
 
 - slug: bloody-retribution-1
   name: Bloody Retribution
@@ -357,7 +357,7 @@
     - Range 4.00m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1018 damage to enemies in front of the caster and gains 10 Anger. Has a 30% chance of inflicting a [Hemorrhage] effect on attacked enemies.
+    - Deals [[1018]] damage to enemies in front of the caster and gains [[10]] Anger. Has a [[30%]] chance of inflicting a [[Hemorrhage]] effect on attacked enemies.
 
 - slug: bloody-retribution-2
   name: Bloody Retribution
@@ -367,7 +367,7 @@
     - Range 4.00m
     - Anger 15 obtain
   skill-descriptions:
-    - Deals 1018 damage to enemies in front of you and charges Anger. Attach [Hemorrhage] effect if current Vitality is less than 50%.
+    - Deals [[1018]] damage to enemies in front of you and charges Anger. Attach [[Hemorrhage]] effect if current Vitality is less than [[50%]].
 
 - slug: skull-cleaver
   name: Skull Cleaver
@@ -378,8 +378,8 @@
     - Charging Time 1.80 seconds
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 688 damage to nearby enemies and gains 10 Anger. You can gather power up to level 2, and your Movement Speed decreases by 75% while gathering power.
-    - The more you gather power, the more damage increases. When you gather maximum power, a [Hemorrhage] effect will be inflicted on the target, dealing damage over time.
+    - Deals [[688]] damage to nearby enemies and gains [[10]] Anger. You can gather power up to level [[2]], and your Movement Speed decreases by [[75%]] while gathering power.
+    - The more you gather power, the more damage increases. When you gather maximum power, a [[Hemorrhage]] effect will be inflicted on the target, dealing damage over time.
 
 - slug: skull-cleaver-1
   name: Skull Cleaver
@@ -390,9 +390,9 @@
     - Charging Time 1.80 seconds
     - Anger 15 obtain
   skill-descriptions:
-    - Deals 688 damage to enemies nearby. You can gather power up to level 2. The more power you gather, the more damage you deal.
-    - While collecting power, the Berserker's Movement Speed decreases by 75%.
-    - When you gather power to the fullest, the [Hemorrhage] effect will be inflicted on the target, dealing damage over time.
+    - Deals [[688]] damage to enemies nearby. You can gather power up to level [[2]]. The more power you gather, the more damage you deal.
+    - While collecting power, the Berserker's Movement Speed decreases by [[75%]].
+    - When you gather power to the fullest, the [[Hemorrhage]] effect will be inflicted on the target, dealing damage over time.
 
 - slug: whirlwind
   name: Whirlwind
@@ -402,7 +402,7 @@
     - Non-targeting
     - Anger 1 obtain each time attacked by enemy
   skill-descriptions:
-    - Spins around two times and deals 229 damage to enemies within a 3.8m radius, and gains 1 Anger. Movement Speed decreases by 50% while spinning.
+    - Spins around [[2]] times and deals [[229]] damage to enemies within a [[3.8m]] radius, and gains [[1]] Anger. Movement Speed decreases by [[50%]] while spinning.
 
 - slug: whirlwind-1
   name: Whirlwind
@@ -411,7 +411,7 @@
     - Non-targeting
     - Anger 2 obtain each time attacked by enemy
   skill-descriptions:
-    - Spins around two times and deals 229 damage to enemies within a 3.8m radius, and gains 1 Anger. Movement Speed decreases by 50% while spinning.
+    - Spins around [[2]] times and deals [[229]] damage to enemies within a [[3.8m]] radius, and gains [[1]] Anger. Movement Speed decreases by [[50%]] while spinning.
 
 - slug: whirlwind-2
   name: Whirlwind
@@ -420,7 +420,7 @@
     - Non-targeting
     - Anger 1 obtain each time attacked by enemy
   skill-descriptions:
-    - Spins around two times and deals 229 damage to enemies within a 3.8m radius, and gains 1 Anger. Movement Speed decreases by 50% while spinning.
+    - Spins around [[2]] times and deals [[229]] damage to enemies within a [[3.8m]] radius, and gains [[1]] Anger. Movement Speed decreases by [[50%]] while spinning.
 
 - slug: whirlwind-3
   name: Whirlwind
@@ -429,8 +429,8 @@
     - Non-targeting
     - Anger 3 obtain each time attacked by enemy
   skill-descriptions:
-    - Spins around two times and deals 229 damage to enemies within a 3.8m radius. While spinning, Parry rate increases by 100% while Movement Speed decreases by 50%.
-    - Can be used up to 4 times in a row.
+    - Spins around [[2]] times and deals [[229]] damage to enemies within a [[3.8m]] radius. While spinning, Parry rate increases by [[100%]] while Movement Speed decreases by [[50%]].
+    - Can be used up to [[4]] times in a row.
 
 - slug: whirlwind-4
   name: Whirlwind
@@ -439,8 +439,8 @@
     - Non-targeting
     - Anger 1 obtain each time attacked by enemy
   skill-descriptions:
-    - Spins around two times and deals 229 damage to enemies within a 3.8m radius. While spinning, Parry rate increases by 100% while Movement Speed decreases by 50%.
-    - Can be used up to 4 times in a row.
+    - Spins around [[2]] times and deals [[229]] damage to enemies within a [[3.8m]] radius. While spinning, Parry rate increases by [[100%]] while Movement Speed decreases by [[50%]].
+    - Can be used up to [[4]] times in a row.
 
 - slug: bloodlust
   name: Bloodlust
@@ -450,7 +450,7 @@
     - Range 4.00m
     - Anger 2 obtain
   skill-descriptions:
-    - Deals 553 damage to the enemy and gains 2 Anger.
+    - Deals [[553]] damage to the enemy and gains [[2]] Anger.
 
 - slug: finishing-strike
   name: Finishing Strike
@@ -460,8 +460,8 @@
     - Range 5.50m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1923 damage to the enemy and gains 10 Anger.
-    - Gain 20 Anger on defeating an enemy.
+    - Deals [[1923]] damage to the enemy and gains [[10]] Anger.
+    - Gain [[20]] Anger on defeating an enemy.
 
 - slug: finishing-strike-1
   name: Finishing Strike
@@ -471,8 +471,8 @@
     - Range 5.50m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1923 damage to nearby enemies and charges Anger.
-    - Critical Hit rate increase in proportion to Vitality loss. (Increases Critical Hit rate by 0.1% for each 1% of lost Vitality)
+    - Deals [[1923]] damage to nearby enemies and charges Anger.
+    - Critical Hit rate increase in proportion to Vitality loss. (Increases Critical Hit rate by [[0.1%]] for each [[1%]] of lost Vitality)
 
 - slug: brutal-smite
   name: Brutal Smite
@@ -483,9 +483,9 @@
     - Range 4.00m
     - Anger 5 obtain
   skill-descriptions:
-    - Deals 641 damage to the enemy and gains 5 Anger.
+    - Deals [[641]] damage to the enemy and gains [[5]] Anger.
     - Blocks skills that the enemy is preparing.
-    - When a Hit is made to a target with the [Stun] effect, damage increases by 10%.
+    - When a Hit is made to a target with the [[Stun]] effect, damage increases by [[10%]].
 
 - slug: decapitate
   name: Decapitate
@@ -496,9 +496,9 @@
     - Charging Time 2.70 seconds
     - Anger 15 obtain
   skill-descriptions:
-    - Deals 1263 damage to nearby enemies and gains 15 Anger. You can gather power up to level 3, but your Movement Speed decreases by 75% while gathering power.
+    - Deals [[1263]] damage to nearby enemies and gains [[15]] Anger. You can gather power up to level [[3]], but your Movement Speed decreases by [[75%]] while gathering power.
     - When you maximize power to the fullest, damage will increase greatly.
-    - Increases Critial Hit rate by 5% for 3 seconds when attacking with maximized power.
+    - Increases Critial Hit rate by [[5%]] for 3 seconds when attacking with maximized power.
 
 - slug: decapitate-1
   name: Decapitate
@@ -510,8 +510,8 @@
     - Charging Time 2.70 seconds
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1029 damage to enemies nearby and charges Anger. You can gather power up to level 3. When you maximize power to the fullest, damage will increase greatly.
-    - While collecting power, the Berserker's Movement Speed decreases by 75%.
+    - Deals [[1029]] damage to enemies nearby and charges Anger. You can gather power up to level [[3]]. When you maximize power to the fullest, damage will increase greatly.
+    - While collecting power, the Berserker's Movement Speed decreases by [[75%]].
     - When a Critical Hit is made, your Fighting Power will increase.
 
 - slug: decapitate-2
@@ -524,8 +524,8 @@
     - Charging Time 2.70 seconds
     - Anger 15 obtain
   skill-descriptions:
-    - Deals 1263 damage to enemies nearby and charges Anger. You can gather power up to level 3. When you maximize power to the fullest, damage will increase greatly.
-    - While collecting power, the Berserker's Movement Speed decreases by 75%.
+    - Deals [[1263]] damage to enemies nearby and charges Anger. You can gather power up to level [[3]]. When you maximize power to the fullest, damage will increase greatly.
+    - While collecting power, the Berserker's Movement Speed decreases by [[75%]].
     - When attacking with maximized power, damage will increase in proportion to lost Vitality.
 
 - slug: pull-in
@@ -538,8 +538,8 @@
     - Range 5.00m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 505 damage to enemies in front of the caster and drags them towards the skill caster.
-    - Gain 10 Anger.
+    - Deals [[505]] damage to enemies in front of the caster and drags them towards the skill caster.
+    - Gain [[10]] Anger.
 
 - slug: pull-in-1
   name: Pull In
@@ -550,8 +550,8 @@
     - Range 5.00m
     - Anger 15 obtain
   skill-descriptions:
-    - Deals 505 damage to enemies ahead of you and drags them towards the skill caster. You have a 15% chance of applying the [Stun] effect, which makes the target unable to move for 1 second.
-    - Gain 15 Anger.
+    - Deals [[505]] damage to enemies ahead of you and drags them towards the skill caster. You have a [[15%]] chance of applying the [[Stun]] effect, which makes the target unable to move for [[1]] second.
+    - Gain [[15]] Anger.
 
 - slug: furious-cry
   name: Furious Cry
@@ -560,7 +560,7 @@
     - Non-targeting
     - Anger 3 obtain
   skill-descriptions:
-    - Physical Attack Power increases by 30% for 3 seconds and you gain 3 Anger.
+    - Physical Attack Power increases by [[30%]] for [[3]] seconds and you gain [[3]] Anger.
 
 - slug: furious-cry-1
   name: Furious Cry
@@ -569,7 +569,7 @@
     - Non-targeting
     - Anger 3 obtain
   skill-descriptions:
-    - Physical Attack Power increases by 50% for 3 seconds and you gain 3 Anger.
+    - Physical Attack Power increases by [[50%]] for [[3]] seconds and you gain [[3]] Anger.
 
 - slug: furious-cry-2
   name: Furious Cry
@@ -578,7 +578,7 @@
     - Non-targeting
     - Anger 3 obtain
   skill-descriptions:
-    - Charges Anger and increase Fighting Power by 2% for 2 seconds.
+    - Charges Anger and increase Fighting Power by [[2%]] for [[2]] seconds.
 
 - slug: furious-strike
   name: Furious Strike
@@ -588,8 +588,8 @@
     - Range 5.00m
     - Anger 10 obtain
   skill-descriptions:
-    - Spins within a large radius and hits the enemy, dealing 1220 damage and gaining 10 Anger.
-    - When the Vitality of the skill caster is less than 30%, Physical Attack Power increases by 20% for 3 seconds.
+    - Spins within a large radius and hits the enemy, dealing [[1220]] damage and gaining [[10]] Anger.
+    - When the Vitality of the skill caster is less than [[30%]], Physical Attack Power increases by [[20%]] for [[3]] seconds.
 
 - slug: furious-strike-1
   name: Furious Strike
@@ -599,7 +599,7 @@
     - Range 5.00m
     - Anger 2 obtain
   skill-descriptions:
-    - Spins within a large radius and hits the enemy with your weapon, dealing 1220 damage and charging Anger.
+    - Spins within a large radius and hits the enemy with your weapon, dealing [[1220]] damage and charging Anger.
 
 - slug: charge-stance
   name: Charge Stance
@@ -608,7 +608,7 @@
     - Non-targeting
     - Anger 3 obtain
   skill-descriptions:
-    - Movement Speed increases by 30% for 3 seconds and you gain 3 Anger.
+    - Movement Speed increases by [[30%]] for [[3]] seconds and you gain [[3]] Anger.
 
 - slug: charge-stance-1
   name: Charge Stance
@@ -617,7 +617,7 @@
     - Non-targeting
     - Anger 30 obtain
   skill-descriptions:
-    - Charges Anger after using the skill, and increases both Fighting Power and Critical Hit rate by 30% for 3 seconds.
+    - Charges Anger after using the skill, and increases both Fighting Power and Critical Hit rate by [[30%]] for [[3]] seconds.
 
 - slug: counter
   name: Counter
@@ -627,9 +627,9 @@
     - Range 4.00m
     - Anger 6 obtain
   skill-descriptions:
-    - Inflicts ?? damage to nearby enemies and lightly push them out. Can not Evade, Parry or Block this skill.
+    - Inflicts [[??]] damage to nearby enemies and lightly push them out. Can not Evade, Parry or Block this skill.
     - Can only be used after a successful parry.
-    - Additionally, applies [Restrain] to an enemy for 1 second.
+    - Additionally, applies [[Restrain]] to an enemy for [[1]] second.
 
 - slug: rumbling-ground
   name: Rumbling Ground
@@ -641,7 +641,7 @@
     - Range 6.00m
     - Anger 15 obtain
   skill-descriptions:
-    - Hits the ground hard once, dealing 2390 damage to enemies nearby and floating them in the air for 1 second.
+    - Hits the ground hard once, dealing [[2390]] damage to enemies nearby and [[floating]] them in the air for [[1]] second.
 
 - slug: bitter-strike
   name: Bitter Strike
@@ -651,8 +651,8 @@
     - Range 4.50m
     - Anger 10 obtain
   skill-descriptions:
-    - Deals 1494 damage to enemies nearby and charges Anger.
-    - Healing effects given to the damaged target will decrease by 25%. This effect will remain for 10 seconds.
+    - Deals [[1494]] damage to enemies nearby and charges Anger.
+    - Healing effects given to the damaged target will decrease by [[25%]]. This effect will remain for [[10]] seconds.
 
 - slug: assault
   name: Assault
@@ -664,7 +664,7 @@
     - Range 17.00m
     - Anger 5 obtain
   skill-descriptions:
-    - Flies at the enemy, dealing 762 damage. The enemy is also stunned for 0.5 seconds.
+    - Flies at the enemy, dealing [[762]] damage. The enemy is also stunned for [[0.5]] seconds.
 
 - slug: assault-1
   name: Assault
@@ -676,7 +676,7 @@
     - Range 17.00m
     - Anger 5 obtain
   skill-descriptions:
-    - Flies at the enemy, dealing 621 damage. You also stun the enemy for 1 second.
+    - Flies at the enemy, dealing [[621]] damage. You also [[stun]] the enemy for [[1]] second.
     - Damage will increase depending on the distance you've jumped.
 
 - slug: trample
@@ -686,5 +686,5 @@
     - Targeting
     - Range 4.00m
   skill-descriptions:
-    - Deals ?? damage to an enemy.
+    - Deals [[??]] damage to an enemy.
     - Can only be used against knocked down enemies.
